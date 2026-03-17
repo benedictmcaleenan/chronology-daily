@@ -1,5 +1,101 @@
 [
   {
+    "puzzleDate": "2026-03-17",
+    "puzzleNumber": 1,
+    "events": [
+      {
+        "id": "1",
+        "eventText": "Julius Caesar is stabbed to death",
+        "year": -44,
+        "description": "23 wounds on the Ides of March",
+        "category": "Politics",
+        "era": "Ancient",
+        "geography": "Europe"
+      },
+      {
+        "id": "2",
+        "eventText": "Vesuvius buries Pompeii in ash",
+        "year": 79,
+        "description": "Preserved the city so well bread was found in ovens",
+        "category": "Disaster",
+        "era": "Ancient",
+        "geography": "Europe"
+      },
+      {
+        "id": "3",
+        "eventText": "Genghis Khan is proclaimed Great Khan",
+        "year": 1206,
+        "description": "United the Mongol tribes into the largest land empire",
+        "category": "Politics",
+        "era": "Medieval",
+        "geography": "Central Asia"
+      },
+      {
+        "id": "4",
+        "eventText": "Gutenberg prints the first Bible",
+        "year": 1455,
+        "description": "Movable type launched a revolution in knowledge",
+        "category": "Technology",
+        "era": "Medieval",
+        "geography": "Europe"
+      },
+      {
+        "id": "5",
+        "eventText": "Isaac Newton publishes Principia",
+        "year": 1687,
+        "description": "Laid the foundations of classical mechanics",
+        "category": "Science",
+        "era": "Early Modern",
+        "geography": "Europe"
+      },
+      {
+        "id": "6",
+        "eventText": "Storming of the Bastille in Paris",
+        "year": 1789,
+        "description": "The event that ignited the French Revolution",
+        "category": "Politics",
+        "era": "Modern",
+        "geography": "Europe"
+      },
+      {
+        "id": "7",
+        "eventText": "The Wright Brothers fly at Kitty Hawk",
+        "year": 1903,
+        "description": "The first powered flight lasted just 12 seconds",
+        "category": "Technology",
+        "era": "Modern",
+        "geography": "North America"
+      },
+      {
+        "id": "8",
+        "eventText": "Neil Armstrong walks on the Moon",
+        "year": 1969,
+        "description": "The mission computer had less power than a calculator",
+        "category": "Exploration",
+        "era": "Contemporary",
+        "geography": "Global"
+      },
+      {
+        "id": "9",
+        "eventText": "The Berlin Wall is torn down",
+        "year": 1989,
+        "description": "East Germans flooded through after a confused press conference",
+        "category": "Politics",
+        "era": "Contemporary",
+        "geography": "Europe"
+      },
+      {
+        "id": "10",
+        "eventText": "ChatGPT launches to the public",
+        "year": 2022,
+        "description": "Reached 100 million users faster than any app in history",
+        "category": "Technology",
+        "era": "Contemporary",
+        "geography": "North America"
+      }
+    ]
+  },
+  {
     "puzzleDate": "2026-04-01",
     "puzzleNumber": 1,
     "events": [
