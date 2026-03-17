@@ -30,7 +30,10 @@ export function todayDateString(): string {
 export async function fetchTodaysPuzzle(): Promise<PuzzleData | null> {
   const snap = await getDoc(doc(db, "puzzles", todayDateString()));
   if (!snap.exists()) return null;
-  return snap.data() as PuzzleData;
+  const data = snap.data() as PuzzleData;
+  // Ensure event IDs are always strings — guards against numeric IDs in source JSON
+  data.events = data.events.map((e) => ({ ...e, id: String(e.id) }));
+  return data;
 }
 
 export async function saveResult(data: Omit<GameResult, "completedAt">): Promise<void> {
