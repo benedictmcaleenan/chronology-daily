@@ -11,6 +11,8 @@ const withPWA = require("next-pwa")({
   },
 });
 
-const nextConfig: NextConfig = {};
+const nextConfig: NextConfig = {
+  turbopack: {},
+};
 
 export default withPWA(nextConfig);
