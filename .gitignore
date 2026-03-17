@@ -42,3 +42,10 @@ next-env.d.ts
 
 # Firebase service account (never commit this)
 serviceAccountKey.json
+
+# next-pwa generated service worker files (built at deploy time)
+/public/sw.js
+/public/sw.js.map
+/public/workbox-*.js
+/public/workbox-*.js.map
+/public/fallback-*.js
