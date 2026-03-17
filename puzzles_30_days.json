@@ -4,102 +4,6 @@
     "puzzleNumber": 1,
     "events": [
       {
-        "id": "1",
-        "eventText": "Julius Caesar is stabbed to death",
-        "year": -44,
-        "description": "23 wounds on the Ides of March",
-        "category": "Politics",
-        "era": "Ancient",
-        "geography": "Europe"
-      },
-      {
-        "id": "2",
-        "eventText": "Vesuvius buries Pompeii in ash",
-        "year": 79,
-        "description": "Preserved the city so well bread was found in ovens",
-        "category": "Disaster",
-        "era": "Ancient",
-        "geography": "Europe"
-      },
-      {
-        "id": "3",
-        "eventText": "Genghis Khan is proclaimed Great Khan",
-        "year": 1206,
-        "description": "United the Mongol tribes into the largest land empire",
-        "category": "Politics",
-        "era": "Medieval",
-        "geography": "Central Asia"
-      },
-      {
-        "id": "4",
-        "eventText": "Gutenberg prints the first Bible",
-        "year": 1455,
-        "description": "Movable type launched a revolution in knowledge",
-        "category": "Technology",
-        "era": "Medieval",
-        "geography": "Europe"
-      },
-      {
-        "id": "5",
-        "eventText": "Isaac Newton publishes Principia",
-        "year": 1687,
-        "description": "Laid the foundations of classical mechanics",
-        "category": "Science",
-        "era": "Early Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": "6",
-        "eventText": "Storming of the Bastille in Paris",
-        "year": 1789,
-        "description": "The event that ignited the French Revolution",
-        "category": "Politics",
-        "era": "Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": "7",
-        "eventText": "The Wright Brothers fly at Kitty Hawk",
-        "year": 1903,
-        "description": "The first powered flight lasted just 12 seconds",
-        "category": "Technology",
-        "era": "Modern",
-        "geography": "North America"
-      },
-      {
-        "id": "8",
-        "eventText": "Neil Armstrong walks on the Moon",
-        "year": 1969,
-        "description": "The mission computer had less power than a calculator",
-        "category": "Exploration",
-        "era": "Contemporary",
-        "geography": "Global"
-      },
-      {
-        "id": "9",
-        "eventText": "The Berlin Wall is torn down",
-        "year": 1989,
-        "description": "East Germans flooded through after a confused press conference",
-        "category": "Politics",
-        "era": "Contemporary",
-        "geography": "Europe"
-      },
-      {
-        "id": "10",
-        "eventText": "ChatGPT launches to the public",
-        "year": 2022,
-        "description": "Reached 100 million users faster than any app in history",
-        "category": "Technology",
-        "era": "Contemporary",
-        "geography": "North America"
-      }
-    ]
-  },
-  {
-    "puzzleDate": "2026-04-01",
-    "puzzleNumber": 1,
-    "events": [
-      {
         "id": 1,
         "eventText": "Julius Caesar is stabbed to death",
         "year": -44,
@@ -192,7 +96,7 @@
     ]
   },
   {
-    "puzzleDate": "2026-04-02",
+    "puzzleDate": "2026-03-18",
     "puzzleNumber": 2,
     "events": [
       {
@@ -288,7 +192,7 @@
     ]
   },
   {
-    "puzzleDate": "2026-04-03",
+    "puzzleDate": "2026-03-19",
     "puzzleNumber": 3,
     "events": [
       {
@@ -384,7 +288,7 @@
     ]
   },
   {
-    "puzzleDate": "2026-04-04",
+    "puzzleDate": "2026-03-20",
     "puzzleNumber": 4,
     "events": [
       {
@@ -480,7 +384,7 @@
     ]
   },
   {
-    "puzzleDate": "2026-04-05",
+    "puzzleDate": "2026-03-21",
     "puzzleNumber": 5,
     "events": [
       {
@@ -576,7 +480,7 @@
     ]
   },
   {
-    "puzzleDate": "2026-04-06",
+    "puzzleDate": "2026-03-22",
     "puzzleNumber": 6,
     "events": [
       {
@@ -672,7 +576,7 @@
     ]
   },
   {
-    "puzzleDate": "2026-04-07",
+    "puzzleDate": "2026-03-23",
     "puzzleNumber": 7,
     "events": [
       {
@@ -768,7 +672,7 @@
     ]
   },
   {
-    "puzzleDate": "2026-04-08",
+    "puzzleDate": "2026-03-24",
     "puzzleNumber": 8,
     "events": [
       {
@@ -864,7 +768,7 @@
     ]
   },
   {
-    "puzzleDate": "2026-04-09",
+    "puzzleDate": "2026-03-25",
     "puzzleNumber": 9,
     "events": [
       {
@@ -960,7 +864,7 @@
     ]
   },
   {
-    "puzzleDate": "2026-04-10",
+    "puzzleDate": "2026-03-26",
     "puzzleNumber": 10,
     "events": [
       {
@@ -1056,7 +960,7 @@
     ]
   },
   {
-    "puzzleDate": "2026-04-11",
+    "puzzleDate": "2026-03-27",
     "puzzleNumber": 11,
     "events": [
       {
@@ -1152,7 +1056,7 @@
     ]
   },
   {
-    "puzzleDate": "2026-04-12",
+    "puzzleDate": "2026-03-28",
     "puzzleNumber": 12,
     "events": [
       {
@@ -1248,7 +1152,7 @@
     ]
   },
   {
-    "puzzleDate": "2026-04-13",
+    "puzzleDate": "2026-03-29",
     "puzzleNumber": 13,
     "events": [
       {
@@ -1344,7 +1248,7 @@
     ]
   },
   {
-    "puzzleDate": "2026-04-14",
+    "puzzleDate": "2026-03-30",
     "puzzleNumber": 14,
     "events": [
       {
@@ -1440,7 +1344,7 @@
     ]
   },
   {
-    "puzzleDate": "2026-04-15",
+    "puzzleDate": "2026-03-31",
     "puzzleNumber": 15,
     "events": [
       {
@@ -1536,7 +1440,7 @@
     ]
   },
   {
-    "puzzleDate": "2026-04-16",
+    "puzzleDate": "2026-04-01",
     "puzzleNumber": 16,
     "events": [
       {
@@ -1632,7 +1536,7 @@
     ]
   },
   {
-    "puzzleDate": "2026-04-17",
+    "puzzleDate": "2026-04-02",
     "puzzleNumber": 17,
     "events": [
       {
@@ -1728,7 +1632,7 @@
     ]
   },
   {
-    "puzzleDate": "2026-04-18",
+    "puzzleDate": "2026-04-03",
     "puzzleNumber": 18,
     "events": [
       {
@@ -1824,7 +1728,7 @@
     ]
   },
   {
-    "puzzleDate": "2026-04-19",
+    "puzzleDate": "2026-04-04",
     "puzzleNumber": 19,
     "events": [
       {
@@ -1920,7 +1824,7 @@
     ]
   },
   {
-    "puzzleDate": "2026-04-20",
+    "puzzleDate": "2026-04-05",
     "puzzleNumber": 20,
     "events": [
       {
@@ -2016,7 +1920,7 @@
     ]
   },
   {
-    "puzzleDate": "2026-04-21",
+    "puzzleDate": "2026-04-06",
     "puzzleNumber": 21,
     "events": [
       {
@@ -2112,7 +2016,7 @@
     ]
   },
   {
-    "puzzleDate": "2026-04-22",
+    "puzzleDate": "2026-04-07",
     "puzzleNumber": 22,
     "events": [
       {
@@ -2208,7 +2112,7 @@
     ]
   },
   {
-    "puzzleDate": "2026-04-23",
+    "puzzleDate": "2026-04-08",
     "puzzleNumber": 23,
     "events": [
       {
@@ -2304,7 +2208,7 @@
     ]
   },
   {
-    "puzzleDate": "2026-04-24",
+    "puzzleDate": "2026-04-09",
     "puzzleNumber": 24,
     "events": [
       {
@@ -2400,7 +2304,7 @@
     ]
   },
   {
-    "puzzleDate": "2026-04-25",
+    "puzzleDate": "2026-04-10",
     "puzzleNumber": 25,
     "events": [
       {
@@ -2496,7 +2400,7 @@
     ]
   },
   {
-    "puzzleDate": "2026-04-26",
+    "puzzleDate": "2026-04-11",
     "puzzleNumber": 26,
     "events": [
       {
@@ -2592,7 +2496,7 @@
     ]
   },
   {
-    "puzzleDate": "2026-04-27",
+    "puzzleDate": "2026-04-12",
     "puzzleNumber": 27,
     "events": [
       {
@@ -2688,7 +2592,7 @@
     ]
   },
   {
-    "puzzleDate": "2026-04-28",
+    "puzzleDate": "2026-04-13",
     "puzzleNumber": 28,
     "events": [
       {
@@ -2784,7 +2688,7 @@
     ]
   },
   {
-    "puzzleDate": "2026-04-29",
+    "puzzleDate": "2026-04-14",
     "puzzleNumber": 29,
     "events": [
       {
@@ -2880,7 +2784,7 @@
     ]
   },
   {
-    "puzzleDate": "2026-04-30",
+    "puzzleDate": "2026-04-15",
     "puzzleNumber": 30,
     "events": [
       {
