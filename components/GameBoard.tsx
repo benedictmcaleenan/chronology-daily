@@ -44,7 +44,7 @@ function GripIcon() {
 
 export default function GameBoard({ events, onSubmit }: GameBoardProps) {
   const [timeline, setTimeline] = useState<HistoricalEvent[]>(() =>
-    events.slice(0, 2)
+    [...events.slice(0, 2)].sort((a, b) => a.year - b.year)
   );
   const [nextIndex, setNextIndex] = useState(2);
 
