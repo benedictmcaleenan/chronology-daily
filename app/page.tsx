@@ -37,17 +37,14 @@ export default function Home() {
   const [positions, setPositions] = useState<boolean[] | null>(null);
   const [userId, setUserId] = useState<string | null>(null);
 
-  // Record when the page loaded — used to calculate timeToComplete
   const gameStartTime = useRef<number>(Date.now());
 
   useEffect(() => {
     async function init() {
       try {
-        // 1. Ensure anonymous auth — get uid
         const uid = await ensureAnonymousAuth();
         setUserId(uid);
 
-        // 2. Fetch today's puzzle
         const puzzleData = await fetchTodaysPuzzle();
         if (!puzzleData) {
           setFetchError("No puzzle available for today. Check back tomorrow!");
@@ -55,7 +52,6 @@ export default function Home() {
         }
         setPuzzle(puzzleData);
 
-        // 3. Check if this user already played today
         try {
           const existing = await fetchTodaysResult(uid, puzzleData.puzzleDate);
           if (existing) {
@@ -75,7 +71,6 @@ export default function Home() {
     init();
   }, []);
 
-  // Shuffle once when puzzle loads (stable for the session)
   const shuffledEvents = useMemo(
     () => (puzzle ? shuffleArray(puzzle.events) : []),
     [puzzle]
@@ -95,7 +90,6 @@ export default function Home() {
     setPositions(newPositions);
     setPhase("results");
 
-    // Save to Firestore (non-blocking)
     saveResult({
       puzzleDate: puzzle.puzzleDate,
       puzzleNumber: puzzle.puzzleNumber,
@@ -106,28 +100,31 @@ export default function Home() {
     }).catch(console.error);
   }
 
-  const subtitle = puzzle
+  const headerLine2 = puzzle
     ? phase === "playing"
       ? "Arrange 10 events from oldest to newest"
       : `Puzzle #${puzzle.puzzleNumber} · ${formatDate(puzzle.puzzleDate)}`
-    : "";
+    : "A new puzzle every day";
 
   return (
-    <main className="min-h-screen bg-gray-50">
-      <div className="max-w-lg mx-auto px-4 pt-6 pb-4">
-        {/* Header */}
-        <header className="text-center mb-6">
-          <h1 className="text-2xl font-black tracking-tight text-gray-900">
+    <div className="min-h-screen bg-slate-50 flex flex-col">
+      {/* Dark header — full width */}
+      <header className="bg-slate-900 text-white">
+        <div className="max-w-lg mx-auto px-4 py-4 text-center">
+          <h1 className="text-2xl font-black tracking-tight leading-none">
             Chronology Daily
           </h1>
-          <p className="text-gray-500 text-sm mt-1">{subtitle}</p>
-        </header>
+          <p className="text-slate-400 text-sm mt-1">{headerLine2}</p>
+        </div>
+      </header>
 
+      {/* Main content */}
+      <main className="flex-1 max-w-lg mx-auto w-full px-4 py-5">
         {/* Loading */}
         {loading && (
           <div className="flex flex-col items-center justify-center py-24 gap-3">
-            <div className="w-8 h-8 border-4 border-indigo-100 border-t-indigo-500 rounded-full animate-spin" />
-            <p className="text-sm text-gray-400">Loading today's puzzle…</p>
+            <div className="w-9 h-9 border-4 border-slate-200 border-t-slate-600 rounded-full animate-spin" />
+            <p className="text-sm text-slate-400">Loading today&apos;s puzzle…</p>
           </div>
         )}
 
@@ -135,7 +132,7 @@ export default function Home() {
         {!loading && fetchError && (
           <div className="text-center py-20">
             <p className="text-5xl mb-4">📅</p>
-            <p className="text-gray-700 font-medium">{fetchError}</p>
+            <p className="text-slate-700 font-medium">{fetchError}</p>
           </div>
         )}
 
@@ -150,9 +147,17 @@ export default function Home() {
             correctOrder={puzzle.events}
             positions={positions}
             puzzleNumber={puzzle.puzzleNumber}
+            puzzleDate={puzzle.puzzleDate}
           />
         )}
-      </div>
-    </main>
+      </main>
+
+      {/* Footer */}
+      {!loading && (
+        <footer className="text-center py-4 text-slate-400 text-xs border-t border-slate-100">
+          A new puzzle every day
+        </footer>
+      )}
+    </div>
   );
 }
