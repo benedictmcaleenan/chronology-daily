@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { ensureAnonymousAuth } from "@/lib/firebase";
 import {
   fetchTodaysPuzzle,
@@ -10,6 +10,8 @@ import {
 } from "@/lib/puzzleService";
 import GameBoard, { HistoricalEvent } from "@/components/GameBoard";
 import ResultsView from "@/components/ResultsView";
+
+// ── Helpers ──────────────────────────────────────────────────────────────────
 
 function shuffleArray<T>(array: T[]): T[] {
   const arr = [...array];
@@ -29,6 +31,48 @@ function formatDate(dateStr: string): string {
   });
 }
 
+// ── localStorage progress ─────────────────────────────────────────────────────
+
+const PROGRESS_PREFIX = "chronology_progress_";
+
+interface SavedProgress {
+  shuffledIds: string[];
+  timelineIds: string[];
+  nextIndex: number;
+  gameStartTime: number;
+}
+
+function progressKey(date: string) {
+  return `${PROGRESS_PREFIX}${date}`;
+}
+
+function loadProgress(date: string): SavedProgress | null {
+  try {
+    const raw = localStorage.getItem(progressKey(date));
+    return raw ? (JSON.parse(raw) as SavedProgress) : null;
+  } catch {
+    return null;
+  }
+}
+
+function deleteProgress(date: string) {
+  try {
+    localStorage.removeItem(progressKey(date));
+  } catch { /* ignore */ }
+}
+
+function cleanOldProgress(currentDate: string) {
+  try {
+    for (const key of Object.keys(localStorage)) {
+      if (key.startsWith(PROGRESS_PREFIX) && key !== progressKey(currentDate)) {
+        localStorage.removeItem(key);
+      }
+    }
+  } catch { /* localStorage may be unavailable */ }
+}
+
+// ── Component ─────────────────────────────────────────────────────────────────
+
 export default function Home() {
   const [puzzle, setPuzzle] = useState<PuzzleData | null>(null);
   const [loading, setLoading] = useState(true);
@@ -36,6 +80,12 @@ export default function Home() {
   const [phase, setPhase] = useState<"playing" | "results">("playing");
   const [positions, setPositions] = useState<boolean[] | null>(null);
   const [userId, setUserId] = useState<string | null>(null);
+
+  // Shuffled event order — either restored from localStorage or freshly shuffled
+  const [shuffledEvents, setShuffledEvents] = useState<HistoricalEvent[]>([]);
+  // Restored mid-game state (undefined = start fresh)
+  const [initialTimeline, setInitialTimeline] = useState<HistoricalEvent[] | undefined>(undefined);
+  const [initialNextIndex, setInitialNextIndex] = useState<number | undefined>(undefined);
 
   const gameStartTime = useRef<number>(Date.now());
 
@@ -52,15 +102,47 @@ export default function Home() {
         }
         setPuzzle(puzzleData);
 
+        // Clean up localStorage entries for previous dates
+        cleanOldProgress(puzzleData.puzzleDate);
+
+        // Check if already completed today
         try {
           const existing = await fetchTodaysResult(uid, puzzleData.puzzleDate);
           if (existing) {
             setPositions(existing.positions);
             setPhase("results");
+            return;
           }
         } catch {
-          // Can't verify prior result — let them play
+          // Can't verify — let them play
         }
+
+        // Check for in-progress save
+        const saved = loadProgress(puzzleData.puzzleDate);
+        if (saved && saved.shuffledIds.length === puzzleData.events.length) {
+          const byId = Object.fromEntries(puzzleData.events.map((e) => [e.id, e]));
+          const restoredShuffled = saved.shuffledIds
+            .map((id) => byId[id])
+            .filter(Boolean) as HistoricalEvent[];
+          const restoredTimeline = saved.timelineIds
+            .map((id) => byId[id])
+            .filter(Boolean) as HistoricalEvent[];
+
+          // Only restore if all IDs resolved (guards against stale saves after a puzzle update)
+          if (
+            restoredShuffled.length === puzzleData.events.length &&
+            restoredTimeline.length > 0
+          ) {
+            setShuffledEvents(restoredShuffled);
+            setInitialTimeline(restoredTimeline);
+            setInitialNextIndex(saved.nextIndex);
+            gameStartTime.current = saved.gameStartTime;
+            return;
+          }
+        }
+
+        // Fresh game
+        setShuffledEvents(shuffleArray(puzzleData.events));
       } catch {
         setFetchError("Failed to load. Please refresh.");
       } finally {
@@ -71,10 +153,20 @@ export default function Home() {
     init();
   }, []);
 
-  const shuffledEvents = useMemo(
-    () => (puzzle ? shuffleArray(puzzle.events) : []),
-    [puzzle]
-  );
+  function handleProgress(timeline: HistoricalEvent[], nextIndex: number) {
+    if (!puzzle || shuffledEvents.length === 0) return;
+    try {
+      localStorage.setItem(
+        progressKey(puzzle.puzzleDate),
+        JSON.stringify({
+          shuffledIds: shuffledEvents.map((e) => e.id),
+          timelineIds: timeline.map((e) => e.id),
+          nextIndex,
+          gameStartTime: gameStartTime.current,
+        } satisfies SavedProgress)
+      );
+    } catch { /* localStorage full or unavailable — fail silently */ }
+  }
 
   async function handleSubmit(orderedEvents: HistoricalEvent[]) {
     if (!puzzle || !userId) return;
@@ -89,6 +181,9 @@ export default function Home() {
 
     setPositions(newPositions);
     setPhase("results");
+
+    // Progress is no longer needed once the game is complete
+    deleteProgress(puzzle.puzzleDate);
 
     saveResult({
       puzzleDate: puzzle.puzzleDate,
@@ -108,7 +203,6 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-slate-50 flex flex-col">
-      {/* Dark header — full width */}
       <header className="bg-slate-900 text-white">
         <div className="max-w-lg mx-auto px-4 py-4 text-center">
           <h1 className="text-2xl font-black tracking-tight leading-none">
@@ -118,9 +212,7 @@ export default function Home() {
         </div>
       </header>
 
-      {/* Main content */}
       <main className="flex-1 max-w-lg mx-auto w-full px-4 py-5">
-        {/* Loading */}
         {loading && (
           <div className="flex flex-col items-center justify-center py-24 gap-3">
             <div className="w-9 h-9 border-4 border-slate-200 border-t-slate-600 rounded-full animate-spin" />
@@ -128,7 +220,6 @@ export default function Home() {
           </div>
         )}
 
-        {/* Error */}
         {!loading && fetchError && (
           <div className="text-center py-20">
             <p className="text-5xl mb-4">📅</p>
@@ -136,12 +227,16 @@ export default function Home() {
           </div>
         )}
 
-        {/* Game */}
-        {!loading && puzzle && phase === "playing" && (
-          <GameBoard events={shuffledEvents} onSubmit={handleSubmit} />
+        {!loading && puzzle && phase === "playing" && shuffledEvents.length > 0 && (
+          <GameBoard
+            events={shuffledEvents}
+            onSubmit={handleSubmit}
+            onProgress={handleProgress}
+            initialTimeline={initialTimeline}
+            initialNextIndex={initialNextIndex}
+          />
         )}
 
-        {/* Results */}
         {!loading && puzzle && phase === "results" && positions && (
           <ResultsView
             correctOrder={puzzle.events}
@@ -152,7 +247,6 @@ export default function Home() {
         )}
       </main>
 
-      {/* Footer */}
       {!loading && (
         <footer className="text-center py-4 text-slate-400 text-xs border-t border-slate-100">
           A new puzzle every day

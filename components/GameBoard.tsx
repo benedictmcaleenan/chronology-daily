@@ -21,14 +21,22 @@ export interface HistoricalEvent {
 interface GameBoardProps {
   events: HistoricalEvent[]; // shuffled array, length 10
   onSubmit: (orderedEvents: HistoricalEvent[]) => void;
+  onProgress: (timeline: HistoricalEvent[], nextIndex: number) => void;
+  initialTimeline?: HistoricalEvent[];
+  initialNextIndex?: number;
 }
 
-
-export default function GameBoard({ events, onSubmit }: GameBoardProps) {
-  const [timeline, setTimeline] = useState<HistoricalEvent[]>(() =>
-    [events[0]]
+export default function GameBoard({
+  events,
+  onSubmit,
+  onProgress,
+  initialTimeline,
+  initialNextIndex,
+}: GameBoardProps) {
+  const [timeline, setTimeline] = useState<HistoricalEvent[]>(
+    () => initialTimeline ?? [events[0]]
   );
-  const [nextIndex, setNextIndex] = useState(1);
+  const [nextIndex, setNextIndex] = useState(initialNextIndex ?? 1);
 
   const incoming = nextIndex < events.length ? events[nextIndex] : null;
   const isDone = nextIndex >= events.length;
@@ -46,6 +54,7 @@ export default function GameBoard({ events, onSubmit }: GameBoardProps) {
       const [moved] = next.splice(source.index, 1);
       next.splice(destination.index, 0, moved);
       setTimeline(next);
+      onProgress(next, nextIndex);
       return;
     }
 
@@ -58,6 +67,7 @@ export default function GameBoard({ events, onSubmit }: GameBoardProps) {
       next.splice(destination.index, 0, incoming);
       setTimeline(next);
       setNextIndex((i) => i + 1);
+      onProgress(next, nextIndex + 1);
       return;
     }
   }
