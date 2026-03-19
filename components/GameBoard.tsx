@@ -23,30 +23,12 @@ interface GameBoardProps {
   onSubmit: (orderedEvents: HistoricalEvent[]) => void;
 }
 
-function GripIcon() {
-  return (
-    <svg
-      width="16"
-      height="16"
-      viewBox="0 0 16 16"
-      fill="currentColor"
-      aria-hidden="true"
-    >
-      <circle cx="5" cy="3.5" r="1.4" />
-      <circle cx="11" cy="3.5" r="1.4" />
-      <circle cx="5" cy="8" r="1.4" />
-      <circle cx="11" cy="8" r="1.4" />
-      <circle cx="5" cy="12.5" r="1.4" />
-      <circle cx="11" cy="12.5" r="1.4" />
-    </svg>
-  );
-}
 
 export default function GameBoard({ events, onSubmit }: GameBoardProps) {
   const [timeline, setTimeline] = useState<HistoricalEvent[]>(() =>
-    [...events.slice(0, 2)].sort((a, b) => a.year - b.year)
+    [events[0]]
   );
-  const [nextIndex, setNextIndex] = useState(2);
+  const [nextIndex, setNextIndex] = useState(1);
 
   const incoming = nextIndex < events.length ? events[nextIndex] : null;
   const isDone = nextIndex >= events.length;
@@ -137,8 +119,9 @@ export default function GameBoard({ events, onSubmit }: GameBoardProps) {
                     <div
                       ref={provided.innerRef}
                       {...provided.draggableProps}
+                      {...provided.dragHandleProps}
                       style={provided.draggableProps.style}
-                      className={`flex items-center gap-3 px-4 py-3 rounded-xl border bg-white select-none transition-shadow ${
+                      className={`flex items-center gap-3 px-4 py-3 rounded-xl border bg-white select-none transition-shadow cursor-grab active:cursor-grabbing touch-none ${
                         snapshot.isDragging
                           ? "border-slate-400 shadow-xl rotate-1"
                           : "border-slate-200 shadow-sm"
@@ -150,13 +133,6 @@ export default function GameBoard({ events, onSubmit }: GameBoardProps) {
                       <p className="flex-1 text-sm font-medium text-slate-800 leading-snug">
                         {event.eventText}
                       </p>
-                      <div
-                        {...provided.dragHandleProps}
-                        className="flex-shrink-0 text-slate-300 hover:text-slate-500 transition-colors cursor-grab active:cursor-grabbing p-1 touch-none"
-                        aria-label="Drag to reorder"
-                      >
-                        <GripIcon />
-                      </div>
                     </div>
                   )}
                 </Draggable>
