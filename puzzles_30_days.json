@@ -4,34 +4,25 @@
     "puzzleNumber": 1,
     "events": [
       {
-        "id": 1,
-        "eventText": "Julius Caesar is stabbed to death",
+        "id": "1",
+        "eventText": "First ancient Olympic Games held in Greece",
+        "year": -776,
+        "description": "Only event was a 192m footrace called the stadion",
+        "category": "Sport",
+        "era": "Ancient",
+        "geography": "Europe"
+      },
+      {
+        "id": "2",
+        "eventText": "Julius Caesar is assassinated in Rome",
         "year": -44,
-        "description": "23 wounds on the Ides of March",
+        "description": "Stabbed 23 times on the Ides of March",
         "category": "Politics",
         "era": "Ancient",
         "geography": "Europe"
       },
       {
-        "id": 2,
-        "eventText": "Vesuvius buries Pompeii in ash",
-        "year": 79,
-        "description": "Preserved the city so well bread was found in ovens",
-        "category": "Disaster",
-        "era": "Ancient",
-        "geography": "Europe"
-      },
-      {
-        "id": 3,
-        "eventText": "Genghis Khan is proclaimed Great Khan",
-        "year": 1206,
-        "description": "United the Mongol tribes into the largest land empire",
-        "category": "Politics",
-        "era": "Medieval",
-        "geography": "Central Asia"
-      },
-      {
-        "id": 4,
+        "id": "3",
         "eventText": "Gutenberg prints the first Bible",
         "year": 1455,
         "description": "Movable type launched a revolution in knowledge",
@@ -40,34 +31,52 @@
         "geography": "Europe"
       },
       {
-        "id": 5,
-        "eventText": "Isaac Newton publishes Principia",
+        "id": "4",
+        "eventText": "Magellan's crew completes first circumnavigation",
+        "year": 1522,
+        "description": "Magellan himself was killed in the Philippines",
+        "category": "Exploration",
+        "era": "Early Modern",
+        "geography": "Global"
+      },
+      {
+        "id": "5",
+        "eventText": "Isaac Newton publishes Principia Mathematica",
         "year": 1687,
-        "description": "Laid the foundations of classical mechanics",
+        "description": "Laid the foundation for classical mechanics",
         "category": "Science",
         "era": "Early Modern",
         "geography": "Europe"
       },
       {
-        "id": 6,
-        "eventText": "Storming of the Bastille in Paris",
+        "id": "6",
+        "eventText": "The Bastille is stormed in Paris",
         "year": 1789,
-        "description": "The event that ignited the French Revolution",
+        "description": "Became the defining symbol of the French Revolution",
         "category": "Politics",
         "era": "Modern",
         "geography": "Europe"
       },
       {
-        "id": 7,
-        "eventText": "The Wright Brothers fly at Kitty Hawk",
-        "year": 1903,
-        "description": "The first powered flight lasted just 12 seconds",
-        "category": "Technology",
+        "id": "7",
+        "eventText": "Darwin publishes On the Origin of Species",
+        "year": 1859,
+        "description": "Sold out its first print run in a single day",
+        "category": "Science",
         "era": "Modern",
-        "geography": "North America"
+        "geography": "Europe"
       },
       {
-        "id": 8,
+        "id": "8",
+        "eventText": "The Titanic sinks on its maiden voyage",
+        "year": 1912,
+        "description": "Over 1,500 died in the freezing North Atlantic",
+        "category": "Disaster",
+        "era": "Modern",
+        "geography": "Global"
+      },
+      {
+        "id": "9",
         "eventText": "Neil Armstrong walks on the Moon",
         "year": 1969,
         "description": "The mission computer had less power than a calculator",
@@ -76,22 +85,13 @@
         "geography": "Global"
       },
       {
-        "id": 9,
-        "eventText": "The Berlin Wall is torn down",
+        "id": "10",
+        "eventText": "The Berlin Wall falls",
         "year": 1989,
         "description": "East Germans flooded through after a confused press conference",
         "category": "Politics",
         "era": "Contemporary",
         "geography": "Europe"
-      },
-      {
-        "id": 10,
-        "eventText": "ChatGPT launches to the public",
-        "year": 2022,
-        "description": "Reached 100 million users faster than any app in history",
-        "category": "Technology",
-        "era": "Contemporary",
-        "geography": "North America"
       }
     ]
   },
@@ -100,131 +100,35 @@
     "puzzleNumber": 2,
     "events": [
       {
-        "id": 1,
+        "id": "1",
         "eventText": "Alhazen completes the Book of Optics",
         "year": 1021,
-        "description": "Founded experimental science through work with light",
+        "description": "Founded the scientific method through experiments with light",
         "category": "Science",
         "era": "Medieval",
         "geography": "Middle East"
       },
       {
-        "id": 2,
-        "eventText": "Copernicus publishes his sun-centred model",
-        "year": 1543,
-        "description": "Published on his deathbed to avoid controversy",
-        "category": "Science",
-        "era": "Early Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 3,
-        "eventText": "Galileo first observes Jupiter's moons",
-        "year": 1610,
-        "description": "Proved not everything orbits the Earth",
-        "category": "Science",
-        "era": "Early Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 4,
-        "eventText": "Edward Jenner tests the smallpox vaccine",
-        "year": 1796,
-        "description": "Used cowpox to create immunity in a young boy",
-        "category": "Science",
-        "era": "Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 5,
-        "eventText": "Darwin publishes On the Origin of Species",
-        "year": 1859,
-        "description": "Sold out its entire first print run in one day",
-        "category": "Science",
-        "era": "Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 6,
-        "eventText": "Marie Curie isolates radium",
-        "year": 1898,
-        "description": "Her notebooks are still too radioactive to handle",
-        "category": "Science",
-        "era": "Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 7,
-        "eventText": "Alexander Fleming discovers penicillin",
-        "year": 1928,
-        "description": "Found by accident when mould contaminated a dish",
-        "category": "Science",
-        "era": "Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 8,
-        "eventText": "Watson and Crick describe DNA's structure",
-        "year": 1953,
-        "description": "Built on crucial X-ray work by Rosalind Franklin",
-        "category": "Science",
-        "era": "Contemporary",
-        "geography": "Europe"
-      },
-      {
-        "id": 9,
-        "eventText": "Dolly the sheep is born via cloning",
-        "year": 1996,
-        "description": "Named after Dolly Parton",
-        "category": "Science",
-        "era": "Contemporary",
-        "geography": "Europe"
-      },
-      {
-        "id": 10,
-        "eventText": "CRISPR gene editing is demonstrated",
-        "year": 2012,
-        "description": "Allowed precise editing of DNA for the first time",
-        "category": "Science",
-        "era": "Contemporary",
-        "geography": "North America"
-      }
-    ]
-  },
-  {
-    "puzzleDate": "2026-03-19",
-    "puzzleNumber": 3,
-    "events": [
-      {
-        "id": 1,
-        "eventText": "Greeks defeat Persia at Marathon",
-        "year": -490,
-        "description": "A runner allegedly died delivering news of victory",
-        "category": "War",
-        "era": "Ancient",
-        "geography": "Europe"
-      },
-      {
-        "id": 2,
-        "eventText": "Hannibal crosses the Alps with elephants",
-        "year": -218,
-        "description": "Lost nearly half his army on the mountain crossing",
-        "category": "War",
-        "era": "Ancient",
-        "geography": "Europe"
-      },
-      {
-        "id": 3,
-        "eventText": "Harold II is killed at Hastings",
-        "year": 1066,
-        "description": "Reportedly struck by an arrow to the eye",
+        "id": "2",
+        "eventText": "Constantinople falls to the Ottomans",
+        "year": 1453,
+        "description": "Ended over 1,000 years of the Byzantine Empire",
         "category": "War",
         "era": "Medieval",
+        "geography": "Middle East"
+      },
+      {
+        "id": "3",
+        "eventText": "Martin Luther nails the 95 Theses to a church door",
+        "year": 1517,
+        "description": "Sparked the Protestant Reformation across Europe",
+        "category": "Religion",
+        "era": "Early Modern",
         "geography": "Europe"
       },
       {
-        "id": 4,
-        "eventText": "The Spanish Armada is scattered",
+        "id": "4",
+        "eventText": "The Spanish Armada is defeated",
         "year": 1588,
         "description": "Storms did as much damage as the English fleet",
         "category": "War",
@@ -232,200 +136,8 @@
         "geography": "Europe"
       },
       {
-        "id": 5,
-        "eventText": "Napoleon is defeated at Waterloo",
-        "year": 1815,
-        "description": "His final battle lasted less than a single day",
-        "category": "War",
-        "era": "Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 6,
-        "eventText": "Pickett's Charge fails at Gettysburg",
-        "year": 1863,
-        "description": "The turning point of the American Civil War",
-        "category": "War",
-        "era": "Modern",
-        "geography": "North America"
-      },
-      {
-        "id": 7,
-        "eventText": "The Somme offensive begins",
-        "year": 1916,
-        "description": "Nearly 20,000 British soldiers died on the first day",
-        "category": "War",
-        "era": "Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 8,
-        "eventText": "Allied forces land on Normandy beaches",
-        "year": 1944,
-        "description": "Over 150,000 troops crossed the English Channel",
-        "category": "War",
-        "era": "Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 9,
-        "eventText": "US helicopters evacuate Saigon",
-        "year": 1975,
-        "description": "Evacuees airlifted from the embassy roof",
-        "category": "War",
-        "era": "Contemporary",
-        "geography": "Southeast Asia"
-      },
-      {
-        "id": 10,
-        "eventText": "Coalition forces invade Iraq",
-        "year": 2003,
-        "description": "Baghdad fell within three weeks of the invasion",
-        "category": "War",
-        "era": "Contemporary",
-        "geography": "Middle East"
-      }
-    ]
-  },
-  {
-    "puzzleDate": "2026-03-20",
-    "puzzleNumber": 4,
-    "events": [
-      {
-        "id": 1,
-        "eventText": "Leif Erikson lands in North America",
-        "year": 1000,
-        "description": "Beat Columbus by nearly 500 years",
-        "category": "Exploration",
-        "era": "Medieval",
-        "geography": "North America"
-      },
-      {
-        "id": 2,
-        "eventText": "Marco Polo arrives at Kublai Khan's court",
-        "year": 1275,
-        "description": "Spent 17 years in the Mongol emperor's service",
-        "category": "Exploration",
-        "era": "Medieval",
-        "geography": "East Asia"
-      },
-      {
-        "id": 3,
-        "eventText": "Columbus reaches the Caribbean",
-        "year": 1492,
-        "description": "Believed he had reached Asia until his death",
-        "category": "Exploration",
-        "era": "Early Modern",
-        "geography": "North America"
-      },
-      {
-        "id": 4,
-        "eventText": "Magellan is killed in the Philippines",
-        "year": 1521,
-        "description": "His crew completed the first circumnavigation without him",
-        "category": "Exploration",
-        "era": "Early Modern",
-        "geography": "Southeast Asia"
-      },
-      {
-        "id": 5,
-        "eventText": "Captain Cook reaches Botany Bay",
-        "year": 1770,
-        "description": "Aboriginal Australians had lived there for 65,000 years",
-        "category": "Exploration",
-        "era": "Modern",
-        "geography": "Oceania"
-      },
-      {
-        "id": 6,
-        "eventText": "Amundsen reaches the South Pole",
-        "year": 1911,
-        "description": "Beat Robert Scott by 34 days",
-        "category": "Exploration",
-        "era": "Modern",
-        "geography": "Global"
-      },
-      {
-        "id": 7,
-        "eventText": "Hillary and Tenzing summit Everest",
-        "year": 1953,
-        "description": "News reached London on the morning of the coronation",
-        "category": "Exploration",
-        "era": "Contemporary",
-        "geography": "South Asia"
-      },
-      {
-        "id": 8,
-        "eventText": "Yuri Gagarin orbits the Earth",
-        "year": 1961,
-        "description": "The entire flight lasted just 108 minutes",
-        "category": "Exploration",
-        "era": "Contemporary",
-        "geography": "Europe"
-      },
-      {
-        "id": 9,
-        "eventText": "Apollo 11 lands on the Moon",
-        "year": 1969,
-        "description": "Armstrong and Aldrin walked for just 2.5 hours",
-        "category": "Exploration",
-        "era": "Contemporary",
-        "geography": "North America"
-      },
-      {
-        "id": 10,
-        "eventText": "Voyager 1 enters interstellar space",
-        "year": 2012,
-        "description": "Still transmitting from over 24 billion km away",
-        "category": "Exploration",
-        "era": "Contemporary",
-        "geography": "Global"
-      }
-    ]
-  },
-  {
-    "puzzleDate": "2026-03-21",
-    "puzzleNumber": 5,
-    "events": [
-      {
-        "id": 1,
-        "eventText": "Construction of the Parthenon begins",
-        "year": -447,
-        "description": "Built without mortar — precision-cut marble held it together",
-        "category": "Culture",
-        "era": "Ancient",
-        "geography": "Europe"
-      },
-      {
-        "id": 2,
-        "eventText": "Work begins on Angkor Wat",
-        "year": 1122,
-        "description": "Became the largest religious monument ever built",
-        "category": "Culture",
-        "era": "Medieval",
-        "geography": "Southeast Asia"
-      },
-      {
-        "id": 3,
-        "eventText": "Dante completes The Divine Comedy",
-        "year": 1320,
-        "description": "Wrote in Italian instead of Latin, shocking the literary world",
-        "category": "Culture",
-        "era": "Medieval",
-        "geography": "Europe"
-      },
-      {
-        "id": 4,
-        "eventText": "Leonardo begins painting the Mona Lisa",
-        "year": 1503,
-        "description": "Carried it with him for years, endlessly refining it",
-        "category": "Culture",
-        "era": "Early Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 5,
-        "eventText": "Shakespeare's Hamlet premieres in London",
+        "id": "5",
+        "eventText": "Shakespeare writes Hamlet",
         "year": 1601,
         "description": "The longest of his plays at over 4,000 lines",
         "category": "Culture",
@@ -433,43 +145,43 @@
         "geography": "Europe"
       },
       {
-        "id": 6,
-        "eventText": "Beethoven premieres his Ninth Symphony",
-        "year": 1824,
-        "description": "Conducted while almost completely deaf",
-        "category": "Culture",
-        "era": "Modern",
+        "id": "6",
+        "eventText": "Galileo observes Jupiter's moons",
+        "year": 1610,
+        "description": "Proved not everything orbits the Earth",
+        "category": "Science",
+        "era": "Early Modern",
         "geography": "Europe"
       },
       {
-        "id": 7,
-        "eventText": "Lumiere brothers screen the first film",
-        "year": 1895,
-        "description": "Audiences reportedly fled from an oncoming train",
-        "category": "Culture",
-        "era": "Modern",
+        "id": "7",
+        "eventText": "The King James Bible is published",
+        "year": 1611,
+        "description": "Took 47 scholars seven years to complete",
+        "category": "Religion",
+        "era": "Early Modern",
         "geography": "Europe"
       },
       {
-        "id": 8,
-        "eventText": "Picasso paints Guernica",
-        "year": 1937,
-        "description": "Responding to the bombing of a Basque town",
+        "id": "8",
+        "eventText": "The Taj Mahal is completed in Agra",
+        "year": 1653,
+        "description": "Built by 20,000 workers as a memorial to a beloved wife",
         "category": "Culture",
-        "era": "Modern",
-        "geography": "Europe"
+        "era": "Early Modern",
+        "geography": "South Asia"
       },
       {
-        "id": 9,
-        "eventText": "Tim Berners-Lee launches the first website",
-        "year": 1991,
-        "description": "It explained what the World Wide Web was",
+        "id": "9",
+        "eventText": "Alexander Graham Bell patents the telephone",
+        "year": 1876,
+        "description": "Beat a rival application by just two hours",
         "category": "Technology",
-        "era": "Contemporary",
-        "geography": "Europe"
+        "era": "Modern",
+        "geography": "North America"
       },
       {
-        "id": 10,
+        "id": "10",
         "eventText": "Spotify launches in Sweden",
         "year": 2008,
         "description": "Now has over 600 million users worldwide",
@@ -480,285 +192,381 @@
     ]
   },
   {
-    "puzzleDate": "2026-03-22",
-    "puzzleNumber": 6,
+    "puzzleDate": "2026-03-19",
+    "puzzleNumber": 3,
     "events": [
       {
-        "id": 1,
-        "eventText": "Cyrus the Great captures Babylon",
-        "year": -539,
-        "description": "Created the first charter of human rights",
+        "id": "1",
+        "eventText": "Black Death arrives in Sicily via trading ships",
+        "year": 1347,
+        "description": "Killed roughly a third of Europe's population within 5 years",
+        "category": "Disaster",
+        "era": "Medieval",
+        "geography": "Europe"
+      },
+      {
+        "id": "2",
+        "eventText": "Haitian slaves defeat Napoleon's army",
+        "year": 1803,
+        "description": "Led to the only successful large-scale slave revolt",
+        "category": "War",
+        "era": "Modern",
+        "geography": "North America"
+      },
+      {
+        "id": "3",
+        "eventText": "The US Declaration of Independence is signed",
+        "year": 1776,
+        "description": "Most delegates actually signed it on 2 August",
         "category": "Politics",
+        "era": "Modern",
+        "geography": "North America"
+      },
+      {
+        "id": "4",
+        "eventText": "France adopts the metric system",
+        "year": 1799,
+        "description": "Replaced hundreds of local measurement systems",
+        "category": "Science",
+        "era": "Modern",
+        "geography": "Europe"
+      },
+      {
+        "id": "5",
+        "eventText": "Edward Jenner tests the smallpox vaccine",
+        "year": 1796,
+        "description": "Used cowpox pus from a milkmaid's hand",
+        "category": "Science",
+        "era": "Modern",
+        "geography": "Europe"
+      },
+      {
+        "id": "6",
+        "eventText": "Napoleon is defeated at Waterloo",
+        "year": 1815,
+        "description": "His final battle lasted less than a day",
+        "category": "War",
+        "era": "Modern",
+        "geography": "Europe"
+      },
+      {
+        "id": "7",
+        "eventText": "Samuel Morse sends the first telegraph message",
+        "year": 1844,
+        "description": "Sent from Washington to Baltimore",
+        "category": "Technology",
+        "era": "Modern",
+        "geography": "North America"
+      },
+      {
+        "id": "8",
+        "eventText": "Japan attacks Pearl Harbor",
+        "year": 1941,
+        "description": "Brought the United States into World War II",
+        "category": "War",
+        "era": "Modern",
+        "geography": "East Asia"
+      },
+      {
+        "id": "9",
+        "eventText": "The WHO declares smallpox eradicated",
+        "year": 1980,
+        "description": "The only human disease ever completely wiped out",
+        "category": "Science",
+        "era": "Contemporary",
+        "geography": "Global"
+      },
+      {
+        "id": "10",
+        "eventText": "Lehman Brothers collapses",
+        "year": 2008,
+        "description": "Largest bankruptcy in US history at the time",
+        "category": "Economics",
+        "era": "Contemporary",
+        "geography": "North America"
+      }
+    ]
+  },
+  {
+    "puzzleDate": "2026-03-20",
+    "puzzleNumber": 4,
+    "events": [
+      {
+        "id": "1",
+        "eventText": "The first coins are minted in Lydia",
+        "year": -600,
+        "description": "Made from a gold-silver alloy called electrum",
+        "category": "Economics",
         "era": "Ancient",
         "geography": "Middle East"
       },
       {
-        "id": 2,
-        "eventText": "Alexander the Great enters Egypt",
-        "year": -332,
-        "description": "Founded the city of Alexandria at age 24",
+        "id": "2",
+        "eventText": "Siddhartha Gautama is born in Lumbini",
+        "year": -563,
+        "description": "Founder of Buddhism, raised as a prince in Nepal",
+        "category": "Religion",
+        "era": "Ancient",
+        "geography": "South Asia"
+      },
+      {
+        "id": "3",
+        "eventText": "Athenian democracy is established by Cleisthenes",
+        "year": -508,
+        "description": "Citizens voted directly on laws — no representatives",
+        "category": "Politics",
+        "era": "Ancient",
+        "geography": "Europe"
+      },
+      {
+        "id": "4",
+        "eventText": "Battle of Marathon is fought",
+        "year": -490,
+        "description": "A Greek runner allegedly died delivering news of the victory",
         "category": "War",
+        "era": "Ancient",
+        "geography": "Europe"
+      },
+      {
+        "id": "5",
+        "eventText": "The Parthenon is completed in Athens",
+        "year": -432,
+        "description": "Built without mortar — precision-cut marble held it together",
+        "category": "Culture",
+        "era": "Ancient",
+        "geography": "Europe"
+      },
+      {
+        "id": "6",
+        "eventText": "Alexander the Great founds Alexandria",
+        "year": -331,
+        "description": "Named at least 20 cities after himself",
+        "category": "Politics",
         "era": "Ancient",
         "geography": "Africa"
       },
       {
-        "id": 3,
+        "id": "7",
+        "eventText": "Vesuvius erupts and buries Pompeii",
+        "year": 79,
+        "description": "Preserved the city so well that bread was found in ovens",
+        "category": "Disaster",
+        "era": "Ancient",
+        "geography": "Europe"
+      },
+      {
+        "id": "8",
         "eventText": "Charlemagne is crowned Holy Roman Emperor",
         "year": 800,
-        "description": "United most of Western Europe since the fall of Rome",
+        "description": "United most of Western Europe for the first time since Rome",
         "category": "Politics",
         "era": "Medieval",
         "geography": "Europe"
       },
       {
-        "id": 4,
-        "eventText": "The Aztecs found Tenochtitlan",
-        "year": 1325,
-        "description": "Built on a lake island where Mexico City now stands",
+        "id": "9",
+        "eventText": "Rosa Parks refuses to give up her bus seat",
+        "year": 1955,
+        "description": "Sparked the 381-day Montgomery bus boycott",
         "category": "Politics",
-        "era": "Medieval",
+        "era": "Contemporary",
         "geography": "North America"
       },
       {
-        "id": 5,
-        "eventText": "Constantinople falls to Ottoman forces",
-        "year": 1453,
-        "description": "Ended over 1,000 years of the Byzantine Empire",
-        "category": "War",
+        "id": "10",
+        "eventText": "The first mRNA COVID-19 vaccine is administered",
+        "year": 2020,
+        "description": "Developed in under a year — a record for any vaccine",
+        "category": "Science",
+        "era": "Contemporary",
+        "geography": "Global"
+      }
+    ]
+  },
+  {
+    "puzzleDate": "2026-03-21",
+    "puzzleNumber": 5,
+    "events": [
+      {
+        "id": "1",
+        "eventText": "The Colosseum opens in Rome",
+        "year": 80,
+        "description": "Could seat 50,000 and had a retractable awning",
+        "category": "Culture",
+        "era": "Ancient",
+        "geography": "Europe"
+      },
+      {
+        "id": "2",
+        "eventText": "Genghis Khan is proclaimed ruler of all Mongols",
+        "year": 1206,
+        "description": "Went on to build the largest contiguous land empire",
+        "category": "Politics",
         "era": "Medieval",
+        "geography": "Central Asia"
+      },
+      {
+        "id": "3",
+        "eventText": "The Eiffel Tower opens for the Paris World Fair",
+        "year": 1889,
+        "description": "Originally planned to be dismantled after 20 years",
+        "category": "Culture",
+        "era": "Modern",
+        "geography": "Europe"
+      },
+      {
+        "id": "4",
+        "eventText": "Wright Brothers fly at Kitty Hawk",
+        "year": 1903,
+        "description": "The first powered flight lasted just 12 seconds",
+        "category": "Technology",
+        "era": "Modern",
+        "geography": "North America"
+      },
+      {
+        "id": "5",
+        "eventText": "The Battle of the Somme begins",
+        "year": 1916,
+        "description": "Nearly 20,000 British soldiers died on the first day alone",
+        "category": "War",
+        "era": "Modern",
+        "geography": "Europe"
+      },
+      {
+        "id": "6",
+        "eventText": "The Wall Street Crash triggers panic selling",
+        "year": 1929,
+        "description": "The Dow didn't recover its pre-crash high until 1954",
+        "category": "Economics",
+        "era": "Modern",
+        "geography": "North America"
+      },
+      {
+        "id": "7",
+        "eventText": "Alexander Fleming discovers penicillin",
+        "year": 1928,
+        "description": "Found by accident when mould contaminated a petri dish",
+        "category": "Science",
+        "era": "Modern",
+        "geography": "Europe"
+      },
+      {
+        "id": "8",
+        "eventText": "D-Day landings at Normandy",
+        "year": 1944,
+        "description": "Over 150,000 Allied troops crossed the English Channel",
+        "category": "War",
+        "era": "Modern",
+        "geography": "Europe"
+      },
+      {
+        "id": "9",
+        "eventText": "Martin Luther King delivers the I Have a Dream speech",
+        "year": 1963,
+        "description": "The most famous part was improvised on the spot",
+        "category": "Politics",
+        "era": "Contemporary",
+        "geography": "North America"
+      },
+      {
+        "id": "10",
+        "eventText": "Nelson Mandela is elected President of South Africa",
+        "year": 1994,
+        "description": "Voted in the country's first fully democratic election",
+        "category": "Politics",
+        "era": "Contemporary",
+        "geography": "Africa"
+      }
+    ]
+  },
+  {
+    "puzzleDate": "2026-03-22",
+    "puzzleNumber": 6,
+    "events": [
+      {
+        "id": "1",
+        "eventText": "The Magna Carta is sealed at Runnymede",
+        "year": 1215,
+        "description": "Forced King John to accept limits on royal power",
+        "category": "Politics",
+        "era": "Medieval",
+        "geography": "Europe"
+      },
+      {
+        "id": "2",
+        "eventText": "Columbus reaches the Caribbean",
+        "year": 1492,
+        "description": "Believed he had reached Asia until his death",
+        "category": "Exploration",
+        "era": "Early Modern",
+        "geography": "North America"
+      },
+      {
+        "id": "3",
+        "eventText": "Napoleon crowns himself Emperor of France",
+        "year": 1804,
+        "description": "Took the crown from the Pope and placed it on his own head",
+        "category": "Politics",
+        "era": "Modern",
+        "geography": "Europe"
+      },
+      {
+        "id": "4",
+        "eventText": "The Suez Canal opens to shipping",
+        "year": 1869,
+        "description": "Cut the London-to-Mumbai sea route by 7,000 km",
+        "category": "Technology",
+        "era": "Modern",
         "geography": "Middle East"
       },
       {
-        "id": 6,
-        "eventText": "Babur wins the Battle of Panipat",
-        "year": 1526,
-        "description": "Founded the Mughal Empire in India",
-        "category": "War",
-        "era": "Early Modern",
-        "geography": "South Asia"
-      },
-      {
-        "id": 7,
-        "eventText": "The East India Company receives its charter",
-        "year": 1600,
-        "description": "Became the most powerful corporation in history",
-        "category": "Economics",
-        "era": "Early Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 8,
-        "eventText": "Napoleon crowns himself Emperor",
-        "year": 1804,
-        "description": "Took the crown from the Pope and placed it himself",
-        "category": "Politics",
+        "id": "5",
+        "eventText": "Marie Curie isolates radium",
+        "year": 1902,
+        "description": "Her notebooks are still too radioactive to handle",
+        "category": "Science",
         "era": "Modern",
         "geography": "Europe"
       },
       {
-        "id": 9,
-        "eventText": "Queen Victoria is proclaimed Empress of India",
-        "year": 1876,
-        "description": "The British Empire reached its greatest extent",
-        "category": "Politics",
-        "era": "Modern",
-        "geography": "South Asia"
-      },
-      {
-        "id": 10,
-        "eventText": "Gorbachev resigns as the USSR dissolves",
-        "year": 1991,
-        "description": "Stepped down on Christmas Day",
-        "category": "Politics",
-        "era": "Contemporary",
-        "geography": "Europe"
-      }
-    ]
-  },
-  {
-    "puzzleDate": "2026-03-23",
-    "puzzleNumber": 7,
-    "events": [
-      {
-        "id": 1,
-        "eventText": "Cai Lun presents papermaking to the Emperor",
-        "year": 105,
-        "description": "Replaced bamboo strips and silk for writing",
-        "category": "Technology",
-        "era": "Ancient",
-        "geography": "East Asia"
-      },
-      {
-        "id": 2,
-        "eventText": "Chinese alchemists first record gunpowder",
-        "year": 850,
-        "description": "Created while searching for an elixir of immortality",
-        "category": "Technology",
-        "era": "Medieval",
-        "geography": "East Asia"
-      },
-      {
-        "id": 3,
-        "eventText": "Gutenberg builds his printing press",
-        "year": 1440,
-        "description": "Reduced the cost of books by roughly 80%",
-        "category": "Technology",
-        "era": "Medieval",
-        "geography": "Europe"
-      },
-      {
-        "id": 4,
-        "eventText": "James Watt patents his steam engine",
-        "year": 1769,
-        "description": "Kick-started the Industrial Revolution",
-        "category": "Technology",
-        "era": "Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 5,
-        "eventText": "Alexander Graham Bell patents the telephone",
-        "year": 1876,
-        "description": "Beat a rival application by just two hours",
-        "category": "Technology",
-        "era": "Modern",
-        "geography": "North America"
-      },
-      {
-        "id": 6,
-        "eventText": "ENIAC, the first electronic computer, runs",
-        "year": 1945,
-        "description": "Weighed 30 tonnes and filled an entire room",
-        "category": "Technology",
-        "era": "Modern",
-        "geography": "North America"
-      },
-      {
-        "id": 7,
-        "eventText": "The first mobile phone call is made",
-        "year": 1973,
-        "description": "Motorola's Martin Cooper called his rival to gloat",
-        "category": "Technology",
-        "era": "Contemporary",
-        "geography": "North America"
-      },
-      {
-        "id": 8,
-        "eventText": "The World Wide Web goes public",
-        "year": 1991,
-        "description": "Built by Tim Berners-Lee at CERN in Switzerland",
-        "category": "Technology",
-        "era": "Contemporary",
-        "geography": "Europe"
-      },
-      {
-        "id": 9,
-        "eventText": "The iPhone goes on sale",
-        "year": 2007,
-        "description": "Steve Jobs introduced it as three products in one",
-        "category": "Technology",
-        "era": "Contemporary",
-        "geography": "North America"
-      },
-      {
-        "id": 10,
-        "eventText": "SpaceX lands a rocket booster upright",
-        "year": 2015,
-        "description": "Made reusable rockets a reality",
-        "category": "Technology",
-        "era": "Contemporary",
-        "geography": "North America"
-      }
-    ]
-  },
-  {
-    "puzzleDate": "2026-03-24",
-    "puzzleNumber": 8,
-    "events": [
-      {
-        "id": 1,
-        "eventText": "Spartacus leads a slave revolt from Capua",
-        "year": -73,
-        "description": "Up to 120,000 escaped slaves fought the Roman army",
-        "category": "War",
-        "era": "Ancient",
-        "geography": "Europe"
-      },
-      {
-        "id": 2,
-        "eventText": "King John seals the Magna Carta",
-        "year": 1215,
-        "description": "Forced to accept limits on royal power",
-        "category": "Politics",
-        "era": "Medieval",
-        "geography": "Europe"
-      },
-      {
-        "id": 3,
-        "eventText": "Martin Luther posts the 95 Theses",
-        "year": 1517,
-        "description": "Sparked the Protestant Reformation across Europe",
-        "category": "Politics",
-        "era": "Early Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 4,
-        "eventText": "The US Declaration of Independence is signed",
-        "year": 1776,
-        "description": "Most delegates signed on 2 August, not 4 July",
-        "category": "Politics",
-        "era": "Modern",
-        "geography": "North America"
-      },
-      {
-        "id": 5,
-        "eventText": "Haiti declares independence",
-        "year": 1804,
-        "description": "The only successful large-scale slave revolt in history",
-        "category": "Politics",
-        "era": "Modern",
-        "geography": "North America"
-      },
-      {
-        "id": 6,
-        "eventText": "Marx and Engels publish The Communist Manifesto",
-        "year": 1848,
-        "description": "Originally just a 23-page pamphlet",
-        "category": "Politics",
-        "era": "Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 7,
-        "eventText": "Tsar Nicholas II abdicates in a railway car",
+        "id": "6",
+        "eventText": "The Russian Revolution — Tsar Nicholas II abdicates",
         "year": 1917,
-        "description": "Ended 300 years of Romanov rule in Russia",
+        "description": "Abdicated in a railway carriage near Pskov",
         "category": "Politics",
         "era": "Modern",
         "geography": "Europe"
       },
       {
-        "id": 8,
-        "eventText": "India gains independence at midnight",
-        "year": 1947,
-        "description": "Midnight transfer to avoid a bad astrological date",
-        "category": "Politics",
-        "era": "Contemporary",
-        "geography": "South Asia"
-      },
-      {
-        "id": 9,
-        "eventText": "Fidel Castro enters Havana",
-        "year": 1959,
-        "description": "He was just 32 years old",
-        "category": "Politics",
-        "era": "Contemporary",
+        "id": "7",
+        "eventText": "Amelia Earhart flies solo across the Atlantic",
+        "year": 1932,
+        "description": "Completed the crossing in under 15 hours",
+        "category": "Exploration",
+        "era": "Modern",
         "geography": "North America"
       },
       {
-        "id": 10,
-        "eventText": "A Tunisian vendor's protest sparks the Arab Spring",
+        "id": "8",
+        "eventText": "Picasso paints Guernica",
+        "year": 1937,
+        "description": "Created in response to the bombing of a Basque town",
+        "category": "Culture",
+        "era": "Modern",
+        "geography": "Europe"
+      },
+      {
+        "id": "9",
+        "eventText": "Watson and Crick describe DNA's double helix",
+        "year": 1953,
+        "description": "Built on crucial X-ray work by Rosalind Franklin",
+        "category": "Science",
+        "era": "Contemporary",
+        "geography": "Europe"
+      },
+      {
+        "id": "10",
+        "eventText": "Bouazizi's protest sparks the Arab Spring",
         "year": 2010,
         "description": "Triggered uprisings across the Middle East",
         "category": "Politics",
@@ -768,39 +576,213 @@
     ]
   },
   {
-    "puzzleDate": "2026-03-25",
-    "puzzleNumber": 9,
+    "puzzleDate": "2026-03-23",
+    "puzzleNumber": 7,
     "events": [
       {
-        "id": 1,
-        "eventText": "Siddhartha Gautama is born in Lumbini",
-        "year": -563,
-        "description": "Founded what became one of the world's major religions",
-        "category": "Religion",
-        "era": "Ancient",
-        "geography": "South Asia"
-      },
-      {
-        "id": 2,
-        "eventText": "Confucius begins teaching in the state of Lu",
-        "year": -500,
-        "description": "His ideas shaped East Asian culture for 2,500 years",
-        "category": "Culture",
-        "era": "Ancient",
-        "geography": "East Asia"
-      },
-      {
-        "id": 3,
-        "eventText": "Jesus of Nazareth is crucified in Jerusalem",
-        "year": 33,
-        "description": "The event that launched the world's largest religion",
-        "category": "Religion",
+        "id": "1",
+        "eventText": "Hammurabi's Code is inscribed in Babylon",
+        "year": -1754,
+        "description": "One of the earliest written legal codes with 282 laws",
+        "category": "Politics",
         "era": "Ancient",
         "geography": "Middle East"
       },
       {
-        "id": 4,
-        "eventText": "Muhammad's followers migrate to Medina",
+        "id": "2",
+        "eventText": "Cai Lun presents paper to the Chinese emperor",
+        "year": 105,
+        "description": "Replaced bamboo strips and silk as a writing surface",
+        "category": "Technology",
+        "era": "Ancient",
+        "geography": "East Asia"
+      },
+      {
+        "id": "3",
+        "eventText": "The Printing Revolution begins in Europe",
+        "year": 1450,
+        "description": "Within 50 years, 20 million volumes had been printed",
+        "category": "Technology",
+        "era": "Medieval",
+        "geography": "Europe"
+      },
+      {
+        "id": "4",
+        "eventText": "Robert Hooke publishes Micrographia",
+        "year": 1665,
+        "description": "First detailed illustrations of life under a microscope",
+        "category": "Science",
+        "era": "Early Modern",
+        "geography": "Europe"
+      },
+      {
+        "id": "5",
+        "eventText": "Captain Cook lands at Botany Bay",
+        "year": 1770,
+        "description": "Aboriginal Australians had lived there for 65,000 years",
+        "category": "Exploration",
+        "era": "Modern",
+        "geography": "Oceania"
+      },
+      {
+        "id": "6",
+        "eventText": "Louis Pasteur demonstrates pasteurisation",
+        "year": 1862,
+        "description": "Originally designed to save the French wine industry",
+        "category": "Science",
+        "era": "Modern",
+        "geography": "Europe"
+      },
+      {
+        "id": "7",
+        "eventText": "Thomas Edison opens the first power station",
+        "year": 1882,
+        "description": "Lit up a square mile of lower Manhattan",
+        "category": "Technology",
+        "era": "Modern",
+        "geography": "North America"
+      },
+      {
+        "id": "8",
+        "eventText": "The Panama Canal opens to shipping",
+        "year": 1914,
+        "description": "Cut the New York-to-San Francisco journey by 12,000 km",
+        "category": "Technology",
+        "era": "Modern",
+        "geography": "North America"
+      },
+      {
+        "id": "9",
+        "eventText": "Yuri Gagarin orbits the Earth",
+        "year": 1961,
+        "description": "His entire flight lasted just 108 minutes",
+        "category": "Exploration",
+        "era": "Contemporary",
+        "geography": "Europe"
+      },
+      {
+        "id": "10",
+        "eventText": "Tim Berners-Lee launches the first website",
+        "year": 1991,
+        "description": "The page explained what the World Wide Web was for",
+        "category": "Technology",
+        "era": "Contemporary",
+        "geography": "Europe"
+      }
+    ]
+  },
+  {
+    "puzzleDate": "2026-03-24",
+    "puzzleNumber": 8,
+    "events": [
+      {
+        "id": "1",
+        "eventText": "Marco Polo arrives at Kublai Khan's court",
+        "year": 1275,
+        "description": "Spent 17 years in the Mongol Empire",
+        "category": "Exploration",
+        "era": "Medieval",
+        "geography": "East Asia"
+      },
+      {
+        "id": "2",
+        "eventText": "Cortés captures Tenochtitlan from the Aztecs",
+        "year": 1521,
+        "description": "Smallpox killed far more Aztecs than Spanish weapons",
+        "category": "War",
+        "era": "Early Modern",
+        "geography": "North America"
+      },
+      {
+        "id": "3",
+        "eventText": "Beethoven premieres his Ninth Symphony",
+        "year": 1824,
+        "description": "Conducted while almost completely deaf",
+        "category": "Culture",
+        "era": "Modern",
+        "geography": "Europe"
+      },
+      {
+        "id": "4",
+        "eventText": "Britain's Slavery Abolition Act takes effect",
+        "year": 1834,
+        "description": "Freed over 800,000 enslaved people",
+        "category": "Politics",
+        "era": "Modern",
+        "geography": "Europe"
+      },
+      {
+        "id": "5",
+        "eventText": "The Irish potato blight is first reported",
+        "year": 1845,
+        "description": "Ireland's population has still never recovered",
+        "category": "Disaster",
+        "era": "Modern",
+        "geography": "Europe"
+      },
+      {
+        "id": "6",
+        "eventText": "Karl Benz patents the first petrol automobile",
+        "year": 1886,
+        "description": "Had three wheels and a top speed of 16 km/h",
+        "category": "Technology",
+        "era": "Modern",
+        "geography": "Europe"
+      },
+      {
+        "id": "7",
+        "eventText": "Gregor Mendel publishes his laws of inheritance",
+        "year": 1866,
+        "description": "Experimented with 28,000 pea plants in a monastery garden",
+        "category": "Science",
+        "era": "Modern",
+        "geography": "Europe"
+      },
+      {
+        "eventText": "The Statue of Liberty is unveiled in New York",
+        "year": 1885,
+        "description": "Arrived from France in 350 pieces packed in 214 crates",
+        "category": "Culture",
+        "era": "Modern",
+        "geography": "North America",
+        "id": "8"
+      },
+      {
+        "id": "9",
+        "eventText": "The Soviet Union launches Sputnik",
+        "year": 1957,
+        "description": "Its beeps could be picked up by amateur radio worldwide",
+        "category": "Technology",
+        "era": "Contemporary",
+        "geography": "Europe"
+      },
+      {
+        "id": "10",
+        "eventText": "The WHO declares COVID-19 a global pandemic",
+        "year": 2020,
+        "description": "Led to the fastest vaccine development in history",
+        "category": "Disaster",
+        "era": "Contemporary",
+        "geography": "Global"
+      }
+    ]
+  },
+  {
+    "puzzleDate": "2026-03-25",
+    "puzzleNumber": 9,
+    "events": [
+      {
+        "id": "1",
+        "eventText": "The Library of Alexandria is founded",
+        "year": -283,
+        "description": "Aimed to contain a copy of every book in the world",
+        "category": "Culture",
+        "era": "Ancient",
+        "geography": "Africa"
+      },
+      {
+        "id": "2",
+        "eventText": "Muhammad arrives in Medina (the Hijra)",
         "year": 622,
         "description": "Year one of the Islamic calendar",
         "category": "Religion",
@@ -808,44 +790,44 @@
         "geography": "Middle East"
       },
       {
-        "id": 5,
-        "eventText": "Thomas Aquinas completes Summa Theologica",
-        "year": 1274,
-        "description": "Reconciled Christian faith with Aristotelian reason",
-        "category": "Culture",
-        "era": "Medieval",
-        "geography": "Europe"
-      },
-      {
-        "id": 6,
-        "eventText": "The King James Bible is first printed",
-        "year": 1611,
-        "description": "Took 47 scholars seven years to complete",
-        "category": "Culture",
+        "id": "3",
+        "eventText": "The East India Company receives its royal charter",
+        "year": 1600,
+        "description": "Became the most powerful corporation in history",
+        "category": "Economics",
         "era": "Early Modern",
         "geography": "Europe"
       },
       {
-        "id": 7,
-        "eventText": "Voltaire publishes Candide",
-        "year": 1759,
-        "description": "A savage satire on optimism, banned across Europe",
+        "id": "4",
+        "eventText": "Lumière brothers screen the first film",
+        "year": 1895,
+        "description": "Audiences reportedly fled from an oncoming train",
         "category": "Culture",
         "era": "Modern",
         "geography": "Europe"
       },
       {
-        "id": 8,
-        "eventText": "Karl Marx publishes Das Kapital, Volume I",
-        "year": 1867,
-        "description": "Spent most of his research time in the British Museum",
+        "id": "5",
+        "eventText": "The Republic of China is proclaimed",
+        "year": 1912,
+        "description": "Ended 2,000 years of imperial rule",
         "category": "Politics",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "East Asia"
       },
       {
-        "id": 9,
-        "eventText": "Gandhi begins the Salt March",
+        "id": "6",
+        "eventText": "Spanish Flu hits Camp Funston in Kansas",
+        "year": 1918,
+        "description": "The pandemic went on to kill 50-100 million worldwide",
+        "category": "Disaster",
+        "era": "Modern",
+        "geography": "North America"
+      },
+      {
+        "id": "7",
+        "eventText": "Gandhi sets off on the Salt March",
         "year": 1930,
         "description": "Walked 390 km to protest the British salt monopoly",
         "category": "Politics",
@@ -853,11 +835,29 @@
         "geography": "South Asia"
       },
       {
-        "id": 10,
-        "eventText": "Martin Luther King delivers his Dream speech",
-        "year": 1963,
-        "description": "The most famous part was improvised on the spot",
+        "id": "8",
+        "eventText": "Mao Zedong proclaims the People's Republic of China",
+        "year": 1949,
+        "description": "Declared from the Gate of Heavenly Peace in Beijing",
         "category": "Politics",
+        "era": "Contemporary",
+        "geography": "East Asia"
+      },
+      {
+        "id": "9",
+        "eventText": "The Beatles appear on The Ed Sullivan Show",
+        "year": 1964,
+        "description": "Watched by 73 million Americans — a record at the time",
+        "category": "Culture",
+        "era": "Contemporary",
+        "geography": "North America"
+      },
+      {
+        "id": "10",
+        "eventText": "Facebook launches from a Harvard dorm room",
+        "year": 2004,
+        "description": "Had one million users within its first year",
+        "category": "Technology",
         "era": "Contemporary",
         "geography": "North America"
       }
@@ -868,94 +868,94 @@
     "puzzleNumber": 10,
     "events": [
       {
-        "id": 1,
-        "eventText": "The Great Fire of London breaks out",
-        "year": 1666,
-        "description": "Destroyed 13,200 houses but officially killed only six",
-        "category": "Disaster",
+        "id": "1",
+        "eventText": "Cyrus the Great conquers Babylon",
+        "year": -539,
+        "description": "Created the first charter of human rights",
+        "category": "Politics",
+        "era": "Ancient",
+        "geography": "Middle East"
+      },
+      {
+        "id": "2",
+        "eventText": "Leif Erikson lands in North America",
+        "year": 1000,
+        "description": "Beat Columbus by nearly 500 years",
+        "category": "Exploration",
+        "era": "Medieval",
+        "geography": "North America"
+      },
+      {
+        "id": "3",
+        "eventText": "The Aztec capital Tenochtitlan is founded",
+        "year": 1325,
+        "description": "Built on a lake island where Mexico City now stands",
+        "category": "Culture",
+        "era": "Medieval",
+        "geography": "North America"
+      },
+      {
+        "id": "4",
+        "eventText": "Vasco da Gama reaches India by sea",
+        "year": 1498,
+        "description": "Opened the spice trade route around Africa",
+        "category": "Exploration",
+        "era": "Early Modern",
+        "geography": "South Asia"
+      },
+      {
+        "id": "5",
+        "eventText": "The Treaty of Westphalia is signed",
+        "year": 1648,
+        "description": "Established the modern concept of state sovereignty",
+        "category": "Politics",
         "era": "Early Modern",
         "geography": "Europe"
       },
       {
-        "id": 2,
-        "eventText": "A massive earthquake destroys Lisbon",
-        "year": 1755,
-        "description": "Shook European philosophy — Voltaire wrote about it",
-        "category": "Disaster",
-        "era": "Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 3,
-        "eventText": "The Irish potato blight first appears",
-        "year": 1845,
-        "description": "Ireland's population has still never recovered",
-        "category": "Disaster",
-        "era": "Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 4,
-        "eventText": "The Titanic strikes an iceberg and sinks",
-        "year": 1912,
-        "description": "Only enough lifeboats for a third of those on board",
-        "category": "Disaster",
-        "era": "Modern",
-        "geography": "Global"
-      },
-      {
-        "id": 5,
-        "eventText": "Spanish Flu is first reported at a Kansas base",
-        "year": 1918,
-        "description": "Infected a third of the world's population",
-        "category": "Disaster",
+        "id": "6",
+        "eventText": "The US Constitution is ratified",
+        "year": 1788,
+        "description": "Oldest written national constitution still in use",
+        "category": "Politics",
         "era": "Modern",
         "geography": "North America"
       },
       {
-        "id": 6,
-        "eventText": "The atomic bomb is dropped on Hiroshima",
-        "year": 1945,
-        "description": "The bomber crew saw the flash from 600 km away",
+        "id": "7",
+        "eventText": "Simón Bolívar liberates Venezuela from Spain",
+        "year": 1821,
+        "description": "Known as El Libertador across South America",
         "category": "War",
         "era": "Modern",
-        "geography": "East Asia"
+        "geography": "South America"
       },
       {
-        "id": 7,
-        "eventText": "Reactor 4 at Chernobyl explodes",
-        "year": 1986,
-        "description": "Created an exclusion zone that still exists today",
-        "category": "Disaster",
-        "era": "Contemporary",
-        "geography": "Europe"
+        "id": "8",
+        "eventText": "The Berlin Conference partitions Africa",
+        "year": 1884,
+        "description": "Not a single African leader was invited",
+        "category": "Politics",
+        "era": "Modern",
+        "geography": "Africa"
       },
       {
-        "id": 8,
-        "eventText": "A tsunami devastates the Indian Ocean coast",
-        "year": 2004,
-        "description": "Waves reached 30 metres and hit 14 countries",
-        "category": "Disaster",
+        "id": "9",
+        "eventText": "Indian independence is declared at midnight",
+        "year": 1947,
+        "description": "Midnight transfer of power to avoid an astrologically bad date",
+        "category": "Politics",
         "era": "Contemporary",
         "geography": "South Asia"
       },
       {
-        "id": 9,
-        "eventText": "The Deepwater Horizon oil rig explodes",
-        "year": 2010,
-        "description": "Spilled 4.9 million barrels into the Gulf of Mexico",
+        "id": "10",
+        "eventText": "The September 11 attacks strike New York",
+        "year": 2001,
+        "description": "Nearly 3,000 people killed in the deadliest terror attack in history",
         "category": "Disaster",
         "era": "Contemporary",
         "geography": "North America"
-      },
-      {
-        "id": 10,
-        "eventText": "COVID-19 is declared a global pandemic",
-        "year": 2020,
-        "description": "Led to the fastest vaccine development in history",
-        "category": "Disaster",
-        "era": "Contemporary",
-        "geography": "Global"
       }
     ]
   },
@@ -964,94 +964,94 @@
     "puzzleNumber": 11,
     "events": [
       {
-        "id": 1,
-        "eventText": "The first coins are minted in Lydia",
-        "year": -600,
-        "description": "Made from a gold-silver alloy called electrum",
-        "category": "Economics",
+        "id": "1",
+        "eventText": "The Han Dynasty is established in China",
+        "year": -206,
+        "description": "Gave its name to China's largest ethnic group",
+        "category": "Politics",
         "era": "Ancient",
-        "geography": "Middle East"
+        "geography": "East Asia"
       },
       {
-        "id": 2,
-        "eventText": "The Medici Bank opens in Florence",
-        "year": 1397,
-        "description": "Financed the Renaissance through banking innovation",
-        "category": "Economics",
+        "id": "2",
+        "eventText": "Dante completes The Divine Comedy",
+        "year": 1320,
+        "description": "Wrote in Italian instead of Latin, shocking the literary world",
+        "category": "Culture",
         "era": "Medieval",
         "geography": "Europe"
       },
       {
-        "id": 3,
+        "id": "3",
+        "eventText": "Leonardo da Vinci begins the Mona Lisa",
+        "year": 1503,
+        "description": "Carried it with him for years, endlessly refining it",
+        "category": "Culture",
+        "era": "Early Modern",
+        "geography": "Europe"
+      },
+      {
+        "id": "4",
+        "eventText": "Copernicus publishes De revolutionibus",
+        "year": 1543,
+        "description": "Published on his deathbed to avoid controversy",
+        "category": "Science",
+        "era": "Early Modern",
+        "geography": "Europe"
+      },
+      {
+        "id": "5",
         "eventText": "The Dutch East India Company issues shares",
         "year": 1602,
-        "description": "The first company to offer public stock ownership",
+        "description": "The first company to sell public stock",
         "category": "Economics",
         "era": "Early Modern",
         "geography": "Europe"
       },
       {
-        "id": 4,
-        "eventText": "The South Sea Bubble bursts",
-        "year": 1720,
-        "description": "Even Isaac Newton lost a fortune in the crash",
-        "category": "Economics",
-        "era": "Early Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 5,
-        "eventText": "Adam Smith publishes The Wealth of Nations",
-        "year": 1776,
-        "description": "Published the same year as American independence",
-        "category": "Economics",
+        "id": "6",
+        "eventText": "Voltaire publishes Candide",
+        "year": 1759,
+        "description": "A savage satire on optimism, banned across Europe",
+        "category": "Culture",
         "era": "Modern",
         "geography": "Europe"
       },
       {
-        "id": 6,
-        "eventText": "The Wall Street Crash begins",
-        "year": 1929,
-        "description": "The Dow didn't recover its pre-crash high until 1954",
-        "category": "Economics",
+        "id": "7",
+        "eventText": "James Watt patents his improved steam engine",
+        "year": 1769,
+        "description": "Made steam power efficient enough for factories",
+        "category": "Technology",
         "era": "Modern",
-        "geography": "North America"
+        "geography": "Europe"
       },
       {
-        "id": 7,
-        "eventText": "The Bretton Woods Agreement is signed",
-        "year": 1944,
-        "description": "44 nations pegged their currencies to the US dollar",
-        "category": "Economics",
+        "id": "8",
+        "eventText": "Napoleonic Code is enacted",
+        "year": 1804,
+        "description": "Influenced legal systems across Europe and Latin America",
+        "category": "Politics",
         "era": "Modern",
+        "geography": "Europe"
+      },
+      {
+        "id": "9",
+        "eventText": "Reactor 4 at Chernobyl explodes",
+        "year": 1986,
+        "description": "Created a 2,600 km² exclusion zone that still exists",
+        "category": "Disaster",
+        "era": "Contemporary",
+        "geography": "Europe"
+      },
+      {
+        "id": "10",
+        "eventText": "ChatGPT launches and triggers the AI boom",
+        "year": 2022,
+        "description": "Reached 100 million users faster than any app in history",
+        "category": "Technology",
+        "era": "Contemporary",
         "geography": "North America"
-      },
-      {
-        "id": 8,
-        "eventText": "Deng Xiaoping launches China's economic reforms",
-        "year": 1978,
-        "description": "Lifted more people out of poverty than any policy ever",
-        "category": "Economics",
-        "era": "Contemporary",
-        "geography": "East Asia"
-      },
-      {
-        "id": 9,
-        "eventText": "Lehman Brothers collapses",
-        "year": 2008,
-        "description": "The largest bankruptcy in US history",
-        "category": "Economics",
-        "era": "Contemporary",
-        "geography": "North America"
-      },
-      {
-        "id": 10,
-        "eventText": "Bitcoin's genesis block is mined",
-        "year": 2009,
-        "description": "Created by the pseudonymous Satoshi Nakamoto",
-        "category": "Economics",
-        "era": "Contemporary",
-        "geography": "Global"
       }
     ]
   },
@@ -1060,91 +1060,91 @@
     "puzzleNumber": 12,
     "events": [
       {
-        "id": 1,
-        "eventText": "Andreas Vesalius publishes modern anatomy",
-        "year": 1543,
-        "description": "Corrected errors Galen had made studying animals",
+        "id": "1",
+        "eventText": "Emperor Qin Shi Huang unifies China",
+        "year": -221,
+        "description": "Ordered construction of the first Great Wall sections",
+        "category": "Politics",
+        "era": "Ancient",
+        "geography": "East Asia"
+      },
+      {
+        "id": "2",
+        "eventText": "The Kingdom of Aksum adopts Christianity",
+        "year": 330,
+        "description": "One of the first states in the world to do so",
+        "category": "Religion",
+        "era": "Ancient",
+        "geography": "Africa"
+      },
+      {
+        "id": "3",
+        "eventText": "The Mughal emperor Babur captures Delhi",
+        "year": 1526,
+        "description": "A descendant of both Genghis Khan and Tamerlane",
+        "category": "War",
+        "era": "Early Modern",
+        "geography": "South Asia"
+      },
+      {
+        "id": "4",
+        "eventText": "Galileo demonstrates his telescope in Venice",
+        "year": 1609,
+        "description": "Could magnify objects roughly 8 times",
+        "category": "Technology",
+        "era": "Early Modern",
+        "geography": "Europe"
+      },
+      {
+        "id": "5",
+        "eventText": "William Harvey describes blood circulation",
+        "year": 1628,
+        "description": "Proved blood is pumped by the heart in a closed loop",
         "category": "Science",
         "era": "Early Modern",
         "geography": "Europe"
       },
       {
-        "id": 2,
-        "eventText": "James Lind tests citrus against scurvy",
-        "year": 1747,
-        "description": "The Navy didn't adopt his advice for 42 years",
+        "id": "6",
+        "eventText": "William Herschel discovers Uranus",
+        "year": 1781,
+        "description": "Initially thought it was a comet",
         "category": "Science",
         "era": "Modern",
         "geography": "Europe"
       },
       {
-        "id": 3,
-        "eventText": "Ether is first used in surgery at Mass General",
-        "year": 1846,
-        "description": "A dentist demonstrated it to a stunned audience",
-        "category": "Science",
+        "id": "7",
+        "eventText": "Queen Victoria is proclaimed Empress of India",
+        "year": 1876,
+        "description": "The British Empire then covered a quarter of the globe",
+        "category": "Politics",
+        "era": "Modern",
+        "geography": "Europe"
+      },
+      {
+        "id": "8",
+        "eventText": "ENIAC, the first electronic computer, is switched on",
+        "year": 1945,
+        "description": "Weighed 30 tonnes and filled an entire room",
+        "category": "Technology",
         "era": "Modern",
         "geography": "North America"
       },
       {
-        "id": 4,
-        "eventText": "Louis Pasteur demonstrates pasteurisation",
-        "year": 1862,
-        "description": "Originally designed to save the French wine industry",
+        "id": "9",
+        "eventText": "Dolly the sheep is born via cloning",
+        "year": 1996,
+        "description": "Named after Dolly Parton",
         "category": "Science",
-        "era": "Modern",
+        "era": "Contemporary",
         "geography": "Europe"
       },
       {
-        "id": 5,
-        "eventText": "Robert Koch identifies the TB bacterium",
-        "year": 1882,
-        "description": "TB was killing one in seven Europeans at the time",
-        "category": "Science",
-        "era": "Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 6,
-        "eventText": "Karl Landsteiner discovers blood groups",
-        "year": 1901,
-        "description": "Made safe blood transfusions possible",
-        "category": "Science",
-        "era": "Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 7,
-        "eventText": "The first successful kidney transplant",
-        "year": 1954,
-        "description": "Between identical twins at a Boston hospital",
-        "category": "Science",
-        "era": "Contemporary",
-        "geography": "North America"
-      },
-      {
-        "id": 8,
-        "eventText": "The WHO declares smallpox eradicated",
-        "year": 1980,
-        "description": "The only human disease ever completely wiped out",
-        "category": "Science",
-        "era": "Contemporary",
-        "geography": "Global"
-      },
-      {
-        "id": 9,
-        "eventText": "The first antiretroviral for HIV is approved",
-        "year": 1987,
-        "description": "AZT changed HIV from a death sentence to treatable",
-        "category": "Science",
-        "era": "Contemporary",
-        "geography": "North America"
-      },
-      {
-        "id": 10,
-        "eventText": "The first mRNA COVID vaccine is administered",
-        "year": 2020,
-        "description": "Developed in under a year — a record for any vaccine",
+        "id": "10",
+        "eventText": "The Higgs boson is detected at CERN",
+        "year": 2012,
+        "description": "Confirmed a theory proposed nearly 50 years earlier",
         "category": "Science",
         "era": "Contemporary",
         "geography": "Europe"
@@ -1156,94 +1156,94 @@
     "puzzleNumber": 13,
     "events": [
       {
-        "id": 1,
-        "eventText": "Cyrus the Great issues the Cyrus Cylinder",
-        "year": -539,
-        "description": "Sometimes called the first declaration of human rights",
-        "category": "Politics",
+        "id": "1",
+        "eventText": "Hannibal crosses the Alps with war elephants",
+        "year": -218,
+        "description": "Lost nearly half his army to the mountain crossing",
+        "category": "War",
         "era": "Ancient",
-        "geography": "Middle East"
+        "geography": "Europe"
       },
       {
-        "id": 2,
-        "eventText": "King John seals the Magna Carta",
-        "year": 1215,
-        "description": "No free man shall be imprisoned except by lawful judgment",
-        "category": "Politics",
+        "id": "2",
+        "eventText": "Chinese alchemists first record a gunpowder formula",
+        "year": 850,
+        "description": "Created while searching for an elixir of immortality",
+        "category": "Technology",
+        "era": "Medieval",
+        "geography": "East Asia"
+      },
+      {
+        "id": "3",
+        "eventText": "William the Conqueror wins at Hastings",
+        "year": 1066,
+        "description": "Harold II reportedly killed by an arrow to the eye",
+        "category": "War",
         "era": "Medieval",
         "geography": "Europe"
       },
       {
-        "id": 3,
-        "eventText": "The English Bill of Rights is enacted",
-        "year": 1689,
-        "description": "Banned cruel punishment and established parliamentary power",
-        "category": "Politics",
+        "id": "4",
+        "eventText": "The Medici Bank opens in Florence",
+        "year": 1397,
+        "description": "Financed the Renaissance through banking innovation",
+        "category": "Economics",
+        "era": "Medieval",
+        "geography": "Europe"
+      },
+      {
+        "id": "5",
+        "eventText": "Vesalius publishes his anatomy textbook",
+        "year": 1543,
+        "description": "Corrected centuries of anatomical errors from Galen",
+        "category": "Science",
         "era": "Early Modern",
         "geography": "Europe"
       },
       {
-        "id": 4,
-        "eventText": "France adopts the Rights of Man declaration",
-        "year": 1789,
-        "description": "Declared that men are born and remain free and equal",
-        "category": "Politics",
+        "id": "6",
+        "eventText": "The Great Fire of London breaks out",
+        "year": 1666,
+        "description": "Destroyed 13,200 houses but officially killed only six",
+        "category": "Disaster",
+        "era": "Early Modern",
+        "geography": "Europe"
+      },
+      {
+        "id": "7",
+        "eventText": "The Battle of Gettysburg is fought",
+        "year": 1863,
+        "description": "Turning point of the American Civil War with 50,000 casualties",
+        "category": "War",
+        "era": "Modern",
+        "geography": "North America"
+      },
+      {
+        "id": "8",
+        "eventText": "Marconi transmits a radio signal across the Atlantic",
+        "year": 1901,
+        "description": "Sent the letter S in Morse code from Cornwall to Newfoundland",
+        "category": "Technology",
         "era": "Modern",
         "geography": "Europe"
       },
       {
-        "id": 5,
-        "eventText": "Britain abolishes slavery across its Empire",
-        "year": 1833,
-        "description": "Campaigned for decades by Wilberforce and others",
-        "category": "Politics",
-        "era": "Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 6,
-        "eventText": "New Zealand gives women the right to vote",
-        "year": 1893,
-        "description": "Led by Kate Sheppard's petition of 32,000 signatures",
-        "category": "Politics",
-        "era": "Modern",
-        "geography": "Oceania"
-      },
-      {
-        "id": 7,
-        "eventText": "The UN adopts the Universal Declaration of Human Rights",
-        "year": 1948,
-        "description": "Drafted by a committee chaired by Eleanor Roosevelt",
-        "category": "Politics",
-        "era": "Contemporary",
-        "geography": "Global"
-      },
-      {
-        "id": 8,
-        "eventText": "Rosa Parks refuses to give up her bus seat",
-        "year": 1955,
-        "description": "Sparked the 381-day Montgomery bus boycott",
+        "id": "9",
+        "eventText": "The Cuban Missile Crisis brings the world to the brink",
+        "year": 1962,
+        "description": "For 13 days, nuclear war seemed imminent",
         "category": "Politics",
         "era": "Contemporary",
         "geography": "North America"
       },
       {
-        "id": 9,
-        "eventText": "The US Civil Rights Act becomes law",
-        "year": 1964,
-        "description": "Outlawed discrimination by race, colour, religion, or sex",
-        "category": "Politics",
+        "id": "10",
+        "eventText": "Steve Jobs unveils the iPhone",
+        "year": 2007,
+        "description": "Introduced it as three products in one",
+        "category": "Technology",
         "era": "Contemporary",
         "geography": "North America"
-      },
-      {
-        "id": 10,
-        "eventText": "Nelson Mandela is elected President",
-        "year": 1994,
-        "description": "South Africa's first fully democratic election",
-        "category": "Politics",
-        "era": "Contemporary",
-        "geography": "Africa"
       }
     ]
   },
@@ -1252,92 +1252,92 @@
     "puzzleNumber": 14,
     "events": [
       {
-        "id": 1,
-        "eventText": "The Colosseum opens in Rome",
-        "year": 80,
-        "description": "Could seat 50,000 and had a retractable shade awning",
-        "category": "Culture",
-        "era": "Ancient",
-        "geography": "Europe"
-      },
-      {
-        "id": 2,
-        "eventText": "Hagia Sophia is consecrated in Constantinople",
-        "year": 537,
-        "description": "Its dome remained the world's largest for 1,000 years",
+        "id": "1",
+        "eventText": "Construction of Angkor Wat begins",
+        "year": 1122,
+        "description": "Largest religious monument ever built",
         "category": "Culture",
         "era": "Medieval",
-        "geography": "Middle East"
+        "geography": "Southeast Asia"
       },
       {
-        "id": 3,
-        "eventText": "The Leaning Tower of Pisa starts to tilt",
-        "year": 1178,
-        "description": "Soft ground caused it to lean during construction",
-        "category": "Culture",
+        "id": "2",
+        "eventText": "Mansa Musa arrives in Cairo on his pilgrimage",
+        "year": 1324,
+        "description": "Gave away so much gold he crashed Egypt's economy for a decade",
+        "category": "Economics",
         "era": "Medieval",
-        "geography": "Europe"
+        "geography": "Africa"
       },
       {
-        "id": 4,
-        "eventText": "The Taj Mahal is completed in Agra",
-        "year": 1653,
-        "description": "20,000 workers built it as a memorial to a wife",
-        "category": "Culture",
+        "id": "3",
+        "eventText": "The Mayflower lands at Plymouth",
+        "year": 1620,
+        "description": "Only about half the passengers survived the first winter",
+        "category": "Exploration",
         "era": "Early Modern",
-        "geography": "South Asia"
-      },
-      {
-        "id": 5,
-        "eventText": "The Eiffel Tower opens for the Paris World Fair",
-        "year": 1889,
-        "description": "Originally planned to be dismantled after 20 years",
-        "category": "Culture",
-        "era": "Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 6,
-        "eventText": "The Panama Canal opens to shipping",
-        "year": 1914,
-        "description": "Cut the New York-to-San Francisco route by 12,000 km",
-        "category": "Technology",
-        "era": "Modern",
-        "geography": "South America"
-      },
-      {
-        "id": 7,
-        "eventText": "The Empire State Building is completed",
-        "year": 1931,
-        "description": "Built in just 410 days during the Great Depression",
-        "category": "Culture",
-        "era": "Modern",
         "geography": "North America"
       },
       {
-        "id": 8,
-        "eventText": "The Sydney Opera House officially opens",
-        "year": 1973,
-        "description": "Took 16 years to build — 10 years over schedule",
-        "category": "Culture",
-        "era": "Contemporary",
-        "geography": "Oceania"
+        "id": "4",
+        "eventText": "A massive earthquake destroys Lisbon",
+        "year": 1755,
+        "description": "Triggered a tsunami and fires that levelled the city",
+        "category": "Disaster",
+        "era": "Modern",
+        "geography": "Europe"
       },
       {
-        "id": 9,
-        "eventText": "The Channel Tunnel opens",
-        "year": 1994,
-        "description": "31 miles of tunnel under the English Channel",
-        "category": "Technology",
+        "id": "5",
+        "eventText": "The US drops an atomic bomb on Hiroshima",
+        "year": 1945,
+        "description": "The bomber crew saw the flash from 600 km away",
+        "category": "War",
+        "era": "Modern",
+        "geography": "East Asia"
+      },
+      {
+        "id": "6",
+        "eventText": "George Orwell publishes Nineteen Eighty-Four",
+        "year": 1949,
+        "description": "Coined terms like Big Brother and thoughtcrime",
+        "category": "Culture",
         "era": "Contemporary",
         "geography": "Europe"
       },
       {
-        "id": 10,
-        "eventText": "The Burj Khalifa opens in Dubai",
-        "year": 2010,
-        "description": "At 828m, nearly twice the height of the Empire State",
-        "category": "Culture",
+        "id": "7",
+        "eventText": "The Partition of India creates Pakistan",
+        "year": 1947,
+        "description": "Triggered one of the largest mass migrations in history",
+        "category": "Politics",
+        "era": "Contemporary",
+        "geography": "South Asia"
+      },
+      {
+        "id": "8",
+        "eventText": "The NHS opens in Britain",
+        "year": 1948,
+        "description": "Free healthcare for all, funded by taxation",
+        "category": "Politics",
+        "era": "Contemporary",
+        "geography": "Europe"
+      },
+      {
+        "id": "9",
+        "eventText": "Fidel Castro enters Havana",
+        "year": 1959,
+        "description": "Was just 32 years old when he seized power",
+        "category": "Politics",
+        "era": "Contemporary",
+        "geography": "North America"
+      },
+      {
+        "id": "10",
+        "eventText": "Argentina wins the 2022 World Cup in Qatar",
+        "year": 2022,
+        "description": "Messi's last World Cup, decided on penalties",
+        "category": "Sport",
         "era": "Contemporary",
         "geography": "Middle East"
       }
@@ -1348,94 +1348,94 @@
     "puzzleNumber": 15,
     "events": [
       {
-        "id": 1,
-        "eventText": "Chinese astronomers record a daytime supernova",
-        "year": 1054,
-        "description": "The remnant is now the Crab Nebula",
+        "id": "1",
+        "eventText": "Confucius begins teaching in the state of Lu",
+        "year": -500,
+        "description": "His ideas shaped East Asian culture for 2,500 years",
+        "category": "Culture",
+        "era": "Ancient",
+        "geography": "East Asia"
+      },
+      {
+        "id": "2",
+        "eventText": "Jesus of Nazareth is crucified in Jerusalem",
+        "year": 33,
+        "description": "Launched what became the world's largest religion",
+        "category": "Religion",
+        "era": "Ancient",
+        "geography": "Middle East"
+      },
+      {
+        "id": "3",
+        "eventText": "The House of Wisdom is founded in Baghdad",
+        "year": 825,
+        "description": "Translated and preserved Greek, Persian, and Indian texts",
         "category": "Science",
+        "era": "Medieval",
+        "geography": "Middle East"
+      },
+      {
+        "id": "4",
+        "eventText": "Admiral Zheng He departs on his first great voyage",
+        "year": 1405,
+        "description": "His fleet of 300 ships dwarfed anything in Europe",
+        "category": "Exploration",
         "era": "Medieval",
         "geography": "East Asia"
       },
       {
-        "id": 2,
-        "eventText": "Galileo builds his first telescope",
-        "year": 1609,
-        "description": "Could magnify objects roughly 8 times",
-        "category": "Science",
+        "id": "5",
+        "eventText": "The South Sea Bubble bursts",
+        "year": 1720,
+        "description": "Even Isaac Newton lost a fortune in the crash",
+        "category": "Economics",
         "era": "Early Modern",
         "geography": "Europe"
       },
       {
-        "id": 3,
-        "eventText": "William Herschel discovers Uranus",
-        "year": 1781,
-        "description": "Initially thought it was a comet",
+        "id": "6",
+        "eventText": "Mozart composes his first symphony aged eight",
+        "year": 1764,
+        "description": "Went on to write over 600 works before dying at 35",
+        "category": "Culture",
+        "era": "Modern",
+        "geography": "Europe"
+      },
+      {
+        "id": "7",
+        "eventText": "France adopts the Declaration of the Rights of Man",
+        "year": 1789,
+        "description": "Declared that men are born and remain free and equal",
+        "category": "Politics",
+        "era": "Modern",
+        "geography": "Europe"
+      },
+      {
+        "id": "8",
+        "eventText": "Florence Nightingale arrives at Scutari hospital",
+        "year": 1854,
+        "description": "Reduced the death rate from 42% to 2%",
         "category": "Science",
         "era": "Modern",
         "geography": "Europe"
       },
       {
-        "id": 4,
-        "eventText": "Robert Goddard launches the first liquid rocket",
-        "year": 1926,
-        "description": "It flew for just 2.5 seconds",
-        "category": "Technology",
+        "id": "9",
+        "eventText": "The first modern Olympic Games open in Athens",
+        "year": 1896,
+        "description": "Just 241 athletes from 14 nations competed",
+        "category": "Sport",
         "era": "Modern",
-        "geography": "North America"
-      },
-      {
-        "id": 5,
-        "eventText": "Sputnik begins orbiting the Earth",
-        "year": 1957,
-        "description": "Its beeps could be heard by amateur radio worldwide",
-        "category": "Technology",
-        "era": "Contemporary",
         "geography": "Europe"
       },
       {
-        "id": 6,
-        "eventText": "Yuri Gagarin becomes the first person in space",
-        "year": 1961,
-        "description": "His flight lasted exactly 108 minutes",
-        "category": "Exploration",
-        "era": "Contemporary",
-        "geography": "Europe"
-      },
-      {
-        "id": 7,
-        "eventText": "Apollo 11 astronauts land on the Moon",
-        "year": 1969,
-        "description": "Armstrong and Aldrin walked for just 2.5 hours",
-        "category": "Exploration",
-        "era": "Contemporary",
-        "geography": "North America"
-      },
-      {
-        "id": 8,
-        "eventText": "The Hubble Space Telescope is deployed",
-        "year": 1990,
-        "description": "Its main mirror was initially ground to the wrong shape",
-        "category": "Science",
-        "era": "Contemporary",
-        "geography": "Global"
-      },
-      {
-        "id": 9,
-        "eventText": "The ISS receives its first resident crew",
-        "year": 2000,
-        "description": "Has been continuously occupied for over 25 years",
-        "category": "Exploration",
-        "era": "Contemporary",
-        "geography": "Global"
-      },
-      {
-        "id": 10,
+        "id": "10",
         "eventText": "Perseverance rover lands on Mars",
         "year": 2021,
         "description": "Carried a helicopter that flew on another planet",
         "category": "Exploration",
         "era": "Contemporary",
-        "geography": "North America"
+        "geography": "Global"
       }
     ]
   },
@@ -1444,131 +1444,26 @@
     "puzzleNumber": 16,
     "events": [
       {
-        "id": 1,
-        "eventText": "Rice cultivation begins in the Yangtze valley",
-        "year": -5000,
-        "description": "Now feeds more than half the world's population",
-        "category": "Science",
-        "era": "Ancient",
-        "geography": "East Asia"
-      },
-      {
-        "id": 2,
-        "eventText": "Romans build the Appian Aqueduct",
-        "year": -312,
-        "description": "Enabled farming far from natural water sources",
-        "category": "Technology",
-        "era": "Ancient",
-        "geography": "Europe"
-      },
-      {
-        "id": 3,
-        "eventText": "Coffee beans are first brewed in Ethiopia",
-        "year": 850,
-        "description": "A goatherd noticed his goats dancing after eating berries",
-        "category": "Culture",
-        "era": "Medieval",
-        "geography": "Africa"
-      },
-      {
-        "id": 4,
-        "eventText": "Columbus brings the first crops back to Europe",
-        "year": 1493,
-        "description": "Tomatoes, potatoes, and chocolate crossed the Atlantic",
-        "category": "Exploration",
-        "era": "Early Modern",
-        "geography": "Global"
-      },
-      {
-        "id": 5,
-        "eventText": "Frederick the Great orders Prussians to grow potatoes",
-        "year": 1756,
-        "description": "Potatoes became a European staple within decades",
-        "category": "Economics",
-        "era": "Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 6,
-        "eventText": "Nicolas Appert invents canned food",
-        "year": 1810,
-        "description": "Developed to feed Napoleon's army on campaigns",
-        "category": "Technology",
-        "era": "Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 7,
-        "eventText": "Mendel publishes his laws of inheritance",
-        "year": 1866,
-        "description": "Studied 28,000 pea plants in a monastery garden",
-        "category": "Science",
-        "era": "Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 8,
-        "eventText": "Norman Borlaug releases high-yield wheat",
-        "year": 1968,
-        "description": "His Green Revolution saved an estimated billion lives",
-        "category": "Science",
-        "era": "Contemporary",
-        "geography": "South Asia"
-      },
-      {
-        "id": 9,
-        "eventText": "The first genetically modified crop is planted",
-        "year": 1994,
-        "description": "The Flavr Savr tomato arrived in US supermarkets",
-        "category": "Science",
-        "era": "Contemporary",
-        "geography": "North America"
-      },
-      {
-        "id": 10,
-        "eventText": "The first lab-grown burger is eaten publicly",
-        "year": 2013,
-        "description": "Cost 215,000 pounds to produce a single patty",
-        "category": "Science",
-        "era": "Contemporary",
-        "geography": "Europe"
-      }
-    ]
-  },
-  {
-    "puzzleDate": "2026-04-02",
-    "puzzleNumber": 17,
-    "events": [
-      {
-        "id": 1,
-        "eventText": "The Phoenician alphabet is created",
-        "year": -1050,
-        "description": "Ancestor of nearly every alphabet used today",
-        "category": "Culture",
-        "era": "Ancient",
-        "geography": "Middle East"
-      },
-      {
-        "id": 2,
+        "id": "1",
         "eventText": "The Rosetta Stone is carved in Egypt",
         "year": -196,
-        "description": "Its three scripts later unlocked hieroglyphs",
+        "description": "Written in three scripts, it became the key to hieroglyphs",
         "category": "Culture",
         "era": "Ancient",
         "geography": "Africa"
       },
       {
-        "id": 3,
-        "eventText": "Paper reaches Samarkand via Chinese prisoners",
+        "id": "2",
+        "eventText": "Paper-making arrives in Samarkand from China",
         "year": 751,
-        "description": "Captured papermakers taught the technique",
+        "description": "Captured Chinese craftsmen taught the technique",
         "category": "Technology",
         "era": "Medieval",
         "geography": "Central Asia"
       },
       {
-        "id": 4,
-        "eventText": "The first printed newspaper appears in Germany",
+        "id": "3",
+        "eventText": "The first printed newspaper is published in Strasbourg",
         "year": 1605,
         "description": "Called Relation, it covered news from across Europe",
         "category": "Culture",
@@ -1576,94 +1471,16 @@
         "geography": "Europe"
       },
       {
-        "id": 5,
-        "eventText": "Samuel Morse sends the first telegraph message",
-        "year": 1844,
-        "description": "What hath God wrought — Washington to Baltimore",
-        "category": "Technology",
-        "era": "Modern",
-        "geography": "North America"
-      },
-      {
-        "id": 6,
-        "eventText": "Marconi sends a radio signal across the Atlantic",
-        "year": 1901,
-        "description": "Morse code from Cornwall to Newfoundland",
+        "id": "4",
+        "eventText": "The Liverpool-Manchester Railway opens",
+        "year": 1830,
+        "description": "A politician was killed by a train at the opening ceremony",
         "category": "Technology",
         "era": "Modern",
         "geography": "Europe"
       },
       {
-        "id": 7,
-        "eventText": "The BBC begins regular TV broadcasts",
-        "year": 1936,
-        "description": "Launched from Alexandra Palace in London",
-        "category": "Technology",
-        "era": "Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 8,
-        "eventText": "The first email is sent between two computers",
-        "year": 1971,
-        "description": "The machines were sitting side by side",
-        "category": "Technology",
-        "era": "Contemporary",
-        "geography": "North America"
-      },
-      {
-        "id": 9,
-        "eventText": "Facebook launches from a Harvard dorm room",
-        "year": 2004,
-        "description": "Had one million users within its first year",
-        "category": "Technology",
-        "era": "Contemporary",
-        "geography": "North America"
-      },
-      {
-        "id": 10,
-        "eventText": "Twitter sends its first ever tweet",
-        "year": 2006,
-        "description": "Jack Dorsey posted: just setting up my twttr",
-        "category": "Technology",
-        "era": "Contemporary",
-        "geography": "North America"
-      }
-    ]
-  },
-  {
-    "puzzleDate": "2026-04-03",
-    "puzzleNumber": 18,
-    "events": [
-      {
-        "id": 1,
-        "eventText": "Greek tragedy debuts at the Dionysia festival",
-        "year": -534,
-        "description": "Actors wore masks so distant audiences could read emotions",
-        "category": "Culture",
-        "era": "Ancient",
-        "geography": "Europe"
-      },
-      {
-        "id": 2,
-        "eventText": "The first opera, Dafne, premieres in Florence",
-        "year": 1598,
-        "description": "Most of the original music has since been lost",
-        "category": "Culture",
-        "era": "Early Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 3,
-        "eventText": "Mozart composes his first symphony aged eight",
-        "year": 1764,
-        "description": "Wrote over 600 works before dying at 35",
-        "category": "Culture",
-        "era": "Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 4,
+        "id": "5",
         "eventText": "Thomas Edison patents the phonograph",
         "year": 1877,
         "description": "The first recording was Mary Had a Little Lamb",
@@ -1672,56 +1489,239 @@
         "geography": "North America"
       },
       {
-        "id": 5,
-        "eventText": "Robert Johnson records his blues sessions",
+        "id": "6",
+        "eventText": "Wilhelm Röntgen takes the first X-ray image",
+        "year": 1895,
+        "description": "X-rayed his wife's hand — she said she had seen her death",
+        "category": "Science",
+        "era": "Modern",
+        "geography": "Europe"
+      },
+      {
+        "id": "7",
+        "eventText": "The BBC launches the first regular TV broadcasts",
         "year": 1936,
-        "description": "Only 29 songs but influenced all of rock music",
+        "description": "Transmitted from Alexandra Palace in London",
+        "category": "Technology",
+        "era": "Modern",
+        "geography": "Europe"
+      },
+      {
+        "id": "8",
+        "eventText": "Martin Cooper makes the first mobile phone call",
+        "year": 1973,
+        "description": "Called his rival at Bell Labs to gloat",
+        "category": "Technology",
+        "era": "Contemporary",
+        "geography": "North America"
+      },
+      {
+        "id": "9",
+        "eventText": "The first text message is sent in the UK",
+        "year": 1992,
+        "description": "Neil Papworth texted Merry Christmas from a computer",
+        "category": "Technology",
+        "era": "Contemporary",
+        "geography": "Europe"
+      },
+      {
+        "id": "10",
+        "eventText": "Bitcoin is launched by Satoshi Nakamoto",
+        "year": 2009,
+        "description": "The first decentralised cryptocurrency",
+        "category": "Technology",
+        "era": "Contemporary",
+        "geography": "Global"
+      }
+    ]
+  },
+  {
+    "puzzleDate": "2026-04-02",
+    "puzzleNumber": 17,
+    "events": [
+      {
+        "id": "1",
+        "eventText": "Cyrus the Great issues the Cyrus Cylinder",
+        "year": -539,
+        "description": "Sometimes called the first declaration of human rights",
+        "category": "Politics",
+        "era": "Ancient",
+        "geography": "Middle East"
+      },
+      {
+        "id": "2",
+        "eventText": "The Twelve Tables of Roman law are published",
+        "year": -450,
+        "description": "Displayed publicly so all citizens could read them",
+        "category": "Politics",
+        "era": "Ancient",
+        "geography": "Europe"
+      },
+      {
+        "id": "3",
+        "eventText": "Hagia Sophia is completed in Constantinople",
+        "year": 537,
+        "description": "Its dome was the world's largest for nearly 1,000 years",
+        "category": "Culture",
+        "era": "Medieval",
+        "geography": "Middle East"
+      },
+      {
+        "id": "4",
+        "eventText": "The English Bill of Rights is enacted",
+        "year": 1689,
+        "description": "Established parliamentary supremacy over the crown",
+        "category": "Politics",
+        "era": "Early Modern",
+        "geography": "Europe"
+      },
+      {
+        "id": "5",
+        "eventText": "New Zealand grants women the right to vote",
+        "year": 1893,
+        "description": "First country to do so, after a 32,000-signature petition",
+        "category": "Politics",
+        "era": "Modern",
+        "geography": "Oceania"
+      },
+      {
+        "id": "6",
+        "eventText": "The Empire State Building is completed",
+        "year": 1931,
+        "description": "Built in just 410 days during the Great Depression",
         "category": "Culture",
         "era": "Modern",
         "geography": "North America"
       },
       {
-        "id": 6,
-        "eventText": "The Beatles appear on The Ed Sullivan Show",
-        "year": 1964,
-        "description": "Watched by 73 million Americans — a record",
-        "category": "Culture",
-        "era": "Contemporary",
-        "geography": "North America"
-      },
-      {
-        "id": 7,
-        "eventText": "Live Aid broadcasts to 1.9 billion people",
-        "year": 1985,
-        "description": "Performed simultaneously in London and Philadelphia",
-        "category": "Culture",
+        "id": "7",
+        "eventText": "The UN adopts the Universal Declaration of Human Rights",
+        "year": 1948,
+        "description": "Drafted by a committee chaired by Eleanor Roosevelt",
+        "category": "Politics",
         "era": "Contemporary",
         "geography": "Global"
       },
       {
-        "id": 8,
-        "eventText": "Napster launches and disrupts the music industry",
-        "year": 1999,
-        "description": "Peaked at 80 million users before being shut down",
-        "category": "Technology",
+        "id": "8",
+        "eventText": "The US Civil Rights Act is signed into law",
+        "year": 1964,
+        "description": "Outlawed discrimination based on race, colour, religion, or sex",
+        "category": "Politics",
         "era": "Contemporary",
         "geography": "North America"
       },
       {
-        "id": 9,
-        "eventText": "YouTube uploads its first ever video",
-        "year": 2005,
-        "description": "Me at the zoo — 19 seconds at the San Diego Zoo",
-        "category": "Technology",
+        "id": "9",
+        "eventText": "Ireland legalises same-sex marriage by vote",
+        "year": 2015,
+        "description": "First country to do so by popular vote",
+        "category": "Politics",
         "era": "Contemporary",
-        "geography": "North America"
+        "geography": "Europe"
       },
       {
-        "id": 10,
-        "eventText": "BTS tops the US charts with Dynamite",
-        "year": 2020,
-        "description": "First K-pop act to debut at number one on Billboard",
+        "id": "10",
+        "eventText": "The Paris Climate Agreement is signed",
+        "year": 2016,
+        "description": "196 nations agreed to limit global warming",
+        "category": "Politics",
+        "era": "Contemporary",
+        "geography": "Global"
+      }
+    ]
+  },
+  {
+    "puzzleDate": "2026-04-03",
+    "puzzleNumber": 18,
+    "events": [
+      {
+        "id": "1",
+        "eventText": "The Plague of Athens breaks out",
+        "year": -430,
+        "description": "Killed up to a quarter of the Athenian army",
+        "category": "Disaster",
+        "era": "Ancient",
+        "geography": "Europe"
+      },
+      {
+        "eventText": "The Pantheon is completed in Rome",
+        "year": 125,
+        "description": "Its unreinforced concrete dome remains the world's largest",
         "category": "Culture",
+        "era": "Ancient",
+        "geography": "Europe",
+        "id": "2"
+      },
+      {
+        "id": "3",
+        "eventText": "Gutenberg builds his printing press",
+        "year": 1440,
+        "description": "Reduced the cost of books by roughly 80%",
+        "category": "Technology",
+        "era": "Medieval",
+        "geography": "Europe"
+      },
+      {
+        "id": "4",
+        "eventText": "James Lind proves citrus prevents scurvy",
+        "year": 1747,
+        "description": "The Royal Navy didn't adopt his advice for 42 years",
+        "category": "Science",
+        "era": "Modern",
+        "geography": "Europe"
+      },
+      {
+        "id": "5",
+        "eventText": "First hot air balloon flight in Paris",
+        "year": 1783,
+        "description": "The passengers were a sheep, a duck, and a rooster",
+        "category": "Technology",
+        "era": "Modern",
+        "geography": "Europe"
+      },
+      {
+        "id": "6",
+        "eventText": "Robert Goddard launches the first liquid-fuelled rocket",
+        "year": 1926,
+        "description": "The rocket flew for just 2.5 seconds",
+        "category": "Technology",
+        "era": "Modern",
+        "geography": "North America"
+      },
+      {
+        "id": "7",
+        "eventText": "Turing's team cracks the Enigma code",
+        "year": 1941,
+        "description": "Estimated to have shortened the war by two years",
+        "category": "Technology",
+        "era": "Modern",
+        "geography": "Europe"
+      },
+      {
+        "id": "8",
+        "eventText": "Apollo 11 lands on the Moon",
+        "year": 1969,
+        "description": "Armstrong and Aldrin spent 2.5 hours on the surface",
+        "category": "Exploration",
+        "era": "Contemporary",
+        "geography": "Global"
+      },
+      {
+        "id": "9",
+        "eventText": "A tsunami devastates the Indian Ocean coast",
+        "year": 2004,
+        "description": "Waves reached 30 metres high and hit 14 countries",
+        "category": "Disaster",
+        "era": "Contemporary",
+        "geography": "South Asia"
+      },
+      {
+        "id": "10",
+        "eventText": "The Fukushima Daiichi reactor melts down",
+        "year": 2011,
+        "description": "Triggered by a magnitude 9.0 earthquake and tsunami",
+        "category": "Disaster",
         "era": "Contemporary",
         "geography": "East Asia"
       }
@@ -1732,94 +1732,94 @@
     "puzzleNumber": 19,
     "events": [
       {
-        "id": 1,
-        "eventText": "Cleopatra VII becomes Queen of Egypt",
+        "id": "1",
+        "eventText": "Cleopatra becomes co-ruler of Egypt",
         "year": -51,
-        "description": "Spoke nine languages; first Ptolemy to learn Egyptian",
+        "description": "Spoke nine languages and was first Ptolemy to learn Egyptian",
         "category": "Politics",
         "era": "Ancient",
         "geography": "Africa"
       },
       {
-        "id": 2,
+        "id": "2",
         "eventText": "Wu Zetian declares herself Empress of China",
         "year": 690,
-        "description": "The only woman to hold the title Empress regnant",
+        "description": "Only woman to hold the title of Empress regnant",
         "category": "Politics",
         "era": "Medieval",
         "geography": "East Asia"
       },
       {
-        "id": 3,
-        "eventText": "Joan of Arc lifts the siege of Orleans",
+        "id": "3",
+        "eventText": "Joan of Arc lifts the Siege of Orléans",
         "year": 1429,
-        "description": "She was just 17 years old",
+        "description": "Was just 17 years old when she turned the tide of the war",
         "category": "War",
         "era": "Medieval",
         "geography": "Europe"
       },
       {
-        "id": 4,
-        "eventText": "Mary Wollstonecraft publishes Rights of Woman",
-        "year": 1792,
-        "description": "Argued women were not inferior, just less educated",
+        "id": "4",
+        "eventText": "The Meiji Emperor takes the throne in Japan",
+        "year": 1868,
+        "description": "Transformed Japan from feudal state to industrial power",
         "category": "Politics",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "East Asia"
       },
       {
-        "id": 5,
-        "eventText": "Florence Nightingale arrives at Scutari",
-        "year": 1854,
-        "description": "Reduced the death rate from 42% to 2%",
-        "category": "Science",
-        "era": "Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 6,
+        "id": "5",
         "eventText": "Marie Curie wins her first Nobel Prize",
         "year": 1903,
-        "description": "First woman to win, later the first person to win two",
+        "description": "First woman to win a Nobel, and later first person to win two",
         "category": "Science",
         "era": "Modern",
         "geography": "Europe"
       },
       {
-        "id": 7,
-        "eventText": "Amelia Earhart flies solo across the Atlantic",
-        "year": 1932,
-        "description": "Completed the crossing in under 15 hours",
-        "category": "Exploration",
-        "era": "Modern",
-        "geography": "North America"
-      },
-      {
-        "id": 8,
-        "eventText": "Rosa Parks is arrested on a Montgomery bus",
-        "year": 1955,
-        "description": "Sparked the 381-day Montgomery bus boycott",
-        "category": "Politics",
-        "era": "Contemporary",
-        "geography": "North America"
-      },
-      {
-        "id": 9,
-        "eventText": "Valentina Tereshkova orbits Earth",
+        "id": "6",
+        "eventText": "Valentina Tereshkova orbits the Earth",
         "year": 1963,
-        "description": "First woman in space — orbited 48 times in 3 days",
+        "description": "First woman in space, completing 48 orbits in 3 days",
         "category": "Exploration",
         "era": "Contemporary",
         "geography": "Europe"
       },
       {
-        "id": 10,
+        "id": "7",
+        "eventText": "OPEC announces an oil embargo",
+        "year": 1973,
+        "description": "Quadrupled oil prices and caused a global energy crisis",
+        "category": "Economics",
+        "era": "Contemporary",
+        "geography": "Middle East"
+      },
+      {
+        "id": "8",
+        "eventText": "Nelson Mandela is released from prison",
+        "year": 1990,
+        "description": "Served 27 years, mostly on Robben Island",
+        "category": "Politics",
+        "era": "Contemporary",
+        "geography": "Africa"
+      },
+      {
+        "id": "9",
         "eventText": "Malala Yousafzai wins the Nobel Peace Prize",
         "year": 2014,
         "description": "At 17, the youngest Nobel laureate in history",
         "category": "Politics",
         "era": "Contemporary",
         "geography": "South Asia"
+      },
+      {
+        "id": "10",
+        "eventText": "BTS tops the US Billboard 200 chart",
+        "year": 2018,
+        "description": "Sang primarily in Korean",
+        "category": "Culture",
+        "era": "Contemporary",
+        "geography": "East Asia"
       }
     ]
   },
@@ -1828,199 +1828,16 @@
     "puzzleNumber": 20,
     "events": [
       {
-        "id": 1,
-        "eventText": "Sun Tzu completes The Art of War",
+        "id": "1",
+        "eventText": "Sun Tzu writes The Art of War",
         "year": -500,
-        "description": "Still studied at military academies worldwide",
+        "description": "Still studied at military academies and business schools",
         "category": "War",
         "era": "Ancient",
         "geography": "East Asia"
       },
       {
-        "id": 2,
-        "eventText": "Emperor Qin unifies China",
-        "year": -221,
-        "description": "Standardised weights, measures, and writing",
-        "category": "Politics",
-        "era": "Ancient",
-        "geography": "East Asia"
-      },
-      {
-        "id": 3,
-        "eventText": "The Tang Dynasty is proclaimed in China",
-        "year": 618,
-        "description": "Ushered in a golden age of poetry, art, and trade",
-        "category": "Politics",
-        "era": "Medieval",
-        "geography": "East Asia"
-      },
-      {
-        "id": 4,
-        "eventText": "A Mongol invasion fleet sinks off Japan",
-        "year": 1281,
-        "description": "A typhoon — later called kamikaze — destroyed it",
-        "category": "War",
-        "era": "Medieval",
-        "geography": "East Asia"
-      },
-      {
-        "id": 5,
-        "eventText": "Zheng He launches his first treasure voyage",
-        "year": 1405,
-        "description": "His ships were five times the size of Columbus's",
-        "category": "Exploration",
-        "era": "Medieval",
-        "geography": "East Asia"
-      },
-      {
-        "id": 6,
-        "eventText": "Perry's ships arrive in Tokyo Bay",
-        "year": 1853,
-        "description": "Forced Japan open to trade after 200 years of isolation",
-        "category": "Politics",
-        "era": "Modern",
-        "geography": "East Asia"
-      },
-      {
-        "id": 7,
-        "eventText": "The Meiji Emperor takes power in Japan",
-        "year": 1868,
-        "description": "Transformed Japan from feudal state to industrial power",
-        "category": "Politics",
-        "era": "Modern",
-        "geography": "East Asia"
-      },
-      {
-        "id": 8,
-        "eventText": "Mao proclaims the People's Republic of China",
-        "year": 1949,
-        "description": "Declared from the Gate of Heavenly Peace in Beijing",
-        "category": "Politics",
-        "era": "Contemporary",
-        "geography": "East Asia"
-      },
-      {
-        "id": 9,
-        "eventText": "Tiananmen Square protests are suppressed",
-        "year": 1989,
-        "description": "The iconic Tank Man photo was seen worldwide",
-        "category": "Politics",
-        "era": "Contemporary",
-        "geography": "East Asia"
-      },
-      {
-        "id": 10,
-        "eventText": "Tokyo hosts the delayed 2020 Olympics",
-        "year": 2021,
-        "description": "Held without spectators due to the pandemic",
-        "category": "Sport",
-        "era": "Contemporary",
-        "geography": "East Asia"
-      }
-    ]
-  },
-  {
-    "puzzleDate": "2026-04-06",
-    "puzzleNumber": 21,
-    "events": [
-      {
-        "id": 1,
-        "eventText": "The Olmecs erect colossal stone heads",
-        "year": -1200,
-        "description": "Some weigh up to 50 tonnes",
-        "category": "Culture",
-        "era": "Ancient",
-        "geography": "North America"
-      },
-      {
-        "id": 2,
-        "eventText": "Tenochtitlan falls to Hernan Cortes",
-        "year": 1521,
-        "description": "Smallpox killed far more Aztecs than Spanish weapons",
-        "category": "War",
-        "era": "Early Modern",
-        "geography": "North America"
-      },
-      {
-        "id": 3,
-        "eventText": "The Mayflower lands at Plymouth Rock",
-        "year": 1620,
-        "description": "Only about half the passengers survived the first winter",
-        "category": "Exploration",
-        "era": "Early Modern",
-        "geography": "North America"
-      },
-      {
-        "id": 4,
-        "eventText": "The US Constitution is ratified",
-        "year": 1788,
-        "description": "The oldest written national constitution still in use",
-        "category": "Politics",
-        "era": "Modern",
-        "geography": "North America"
-      },
-      {
-        "id": 5,
-        "eventText": "Bolivar wins the Battle of Boyaca",
-        "year": 1819,
-        "description": "Secured independence for what became Colombia",
-        "category": "War",
-        "era": "Modern",
-        "geography": "South America"
-      },
-      {
-        "id": 6,
-        "eventText": "Brazil abolishes slavery",
-        "year": 1888,
-        "description": "The last country in the Western Hemisphere to do so",
-        "category": "Politics",
-        "era": "Modern",
-        "geography": "South America"
-      },
-      {
-        "id": 7,
-        "eventText": "The Panama Canal opens to shipping",
-        "year": 1914,
-        "description": "Over 25,000 workers died during its construction",
-        "category": "Technology",
-        "era": "Modern",
-        "geography": "South America"
-      },
-      {
-        "id": 8,
-        "eventText": "The Cuban Missile Crisis peaks",
-        "year": 1962,
-        "description": "For 13 days, nuclear war seemed imminent",
-        "category": "Politics",
-        "era": "Contemporary",
-        "geography": "North America"
-      },
-      {
-        "id": 9,
-        "eventText": "Pinochet seizes power in a Chilean coup",
-        "year": 1973,
-        "description": "President Allende died during the assault on the palace",
-        "category": "Politics",
-        "era": "Contemporary",
-        "geography": "South America"
-      },
-      {
-        "id": 10,
-        "eventText": "Barack Obama is inaugurated as US President",
-        "year": 2009,
-        "description": "The first Black president of the United States",
-        "category": "Politics",
-        "era": "Contemporary",
-        "geography": "North America"
-      }
-    ]
-  },
-  {
-    "puzzleDate": "2026-04-07",
-    "puzzleNumber": 22,
-    "events": [
-      {
-        "id": 1,
+        "id": "2",
         "eventText": "The Kingdom of Kush conquers Egypt",
         "year": -750,
         "description": "Nubian pharaohs ruled Egypt for nearly a century",
@@ -2029,79 +1846,166 @@
         "geography": "Africa"
       },
       {
-        "id": 2,
-        "eventText": "The Library of Alexandria is founded",
-        "year": -283,
-        "description": "Aimed to contain a copy of every book in the world",
+        "id": "3",
+        "eventText": "Coffee is first brewed in Ethiopia",
+        "year": 850,
+        "description": "Legend says a goatherd noticed his goats dancing after eating berries",
         "category": "Culture",
-        "era": "Ancient",
-        "geography": "Africa"
-      },
-      {
-        "id": 3,
-        "eventText": "The Kingdom of Aksum adopts Christianity",
-        "year": 330,
-        "description": "One of the first states in the world to do so",
-        "category": "Religion",
-        "era": "Ancient",
-        "geography": "Africa"
-      },
-      {
-        "id": 4,
-        "eventText": "Mansa Musa arrives in Cairo on his hajj",
-        "year": 1324,
-        "description": "Gave away so much gold he crashed Egypt's economy",
-        "category": "Economics",
         "era": "Medieval",
         "geography": "Africa"
       },
       {
-        "id": 5,
-        "eventText": "Great Zimbabwe reaches its peak population",
+        "id": "4",
+        "eventText": "Great Zimbabwe is at the height of its power",
         "year": 1350,
-        "description": "Stone walls without mortar housed 18,000 people",
+        "description": "Stone walls without mortar housed up to 18,000 people",
         "category": "Culture",
         "era": "Medieval",
         "geography": "Africa"
       },
       {
-        "id": 6,
-        "eventText": "The Zulu Kingdom rises under Shaka",
-        "year": 1816,
-        "description": "Revolutionised warfare with the short stabbing spear",
+        "eventText": "Niépce captures the first photograph",
+        "year": 1826,
+        "description": "Required an eight-hour exposure to capture",
+        "category": "Technology",
+        "era": "Modern",
+        "geography": "Europe",
+        "id": "5"
+      },
+      {
+        "id": "6",
+        "eventText": "Bretton Woods Agreement is signed",
+        "year": 1944,
+        "description": "44 nations pegged their currencies to the US dollar",
+        "category": "Economics",
+        "era": "Modern",
+        "geography": "Global"
+      },
+      {
+        "id": "7",
+        "eventText": "Japan surrenders, ending World War II",
+        "year": 1945,
+        "description": "Emperor Hirohito broadcast the surrender by radio",
         "category": "War",
         "era": "Modern",
-        "geography": "Africa"
+        "geography": "East Asia"
       },
       {
-        "id": 7,
-        "eventText": "The Berlin Conference partitions Africa",
-        "year": 1884,
-        "description": "Not a single African leader was invited",
-        "category": "Politics",
-        "era": "Modern",
-        "geography": "Africa"
-      },
-      {
-        "id": 8,
+        "id": "8",
         "eventText": "Ghana gains independence from Britain",
         "year": 1957,
-        "description": "Kwame Nkrumah inspired movements across the continent",
+        "description": "Led by Kwame Nkrumah, it inspired movements across Africa",
         "category": "Politics",
         "era": "Contemporary",
         "geography": "Africa"
       },
       {
-        "id": 9,
-        "eventText": "The Rwandan genocide begins",
-        "year": 1994,
-        "description": "Approximately 800,000 people killed in 100 days",
+        "id": "9",
+        "eventText": "Tiananmen Square protests are suppressed",
+        "year": 1989,
+        "description": "The iconic Tank Man photo was seen worldwide",
+        "category": "Politics",
+        "era": "Contemporary",
+        "geography": "East Asia"
+      },
+      {
+        "id": "10",
+        "eventText": "Barack Obama is inaugurated as US President",
+        "year": 2009,
+        "description": "First African American to hold the office",
+        "category": "Politics",
+        "era": "Contemporary",
+        "geography": "North America"
+      }
+    ]
+  },
+  {
+    "puzzleDate": "2026-04-06",
+    "puzzleNumber": 21,
+    "events": [
+      {
+        "id": "1",
+        "eventText": "The Epic of Gilgamesh is written in Mesopotamia",
+        "year": -2100,
+        "description": "The oldest known work of literature",
+        "category": "Culture",
+        "era": "Ancient",
+        "geography": "Middle East"
+      },
+      {
+        "id": "2",
+        "eventText": "The Tang Dynasty is established in China",
+        "year": 618,
+        "description": "Poetry, art, and Silk Road trade flourished",
+        "category": "Politics",
+        "era": "Medieval",
+        "geography": "East Asia"
+      },
+      {
+        "id": "3",
+        "eventText": "Crusaders capture Jerusalem",
+        "year": 1099,
+        "description": "The First Crusade ended with a brutal sack of the city",
         "category": "War",
+        "era": "Medieval",
+        "geography": "Middle East"
+      },
+      {
+        "id": "4",
+        "eventText": "Deng Xiaoping launches Chinese economic reforms",
+        "year": 1978,
+        "description": "Lifted more people out of poverty than any policy in history",
+        "category": "Economics",
+        "era": "Contemporary",
+        "geography": "East Asia"
+      },
+      {
+        "id": "5",
+        "eventText": "Concorde makes its first commercial flight",
+        "year": 1976,
+        "description": "Crossed the Atlantic in under 3.5 hours",
+        "category": "Technology",
+        "era": "Contemporary",
+        "geography": "Europe"
+      },
+      {
+        "id": "6",
+        "eventText": "Margaret Thatcher becomes UK Prime Minister",
+        "year": 1979,
+        "description": "First woman to hold the office, served 11 years",
+        "category": "Politics",
+        "era": "Contemporary",
+        "geography": "Europe"
+      },
+      {
+        "id": "7",
+        "eventText": "Saigon falls to North Vietnamese forces",
+        "year": 1975,
+        "description": "Helicopters evacuated people from the US Embassy roof",
+        "category": "War",
+        "era": "Contemporary",
+        "geography": "Southeast Asia"
+      },
+      {
+        "id": "8",
+        "eventText": "Ali defeats Foreman in the Rumble in the Jungle",
+        "year": 1974,
+        "description": "Used the rope-a-dope strategy in Kinshasa",
+        "category": "Sport",
         "era": "Contemporary",
         "geography": "Africa"
       },
       {
-        "id": 10,
+        "id": "9",
+        "eventText": "The first cases of HIV/AIDS are clinically identified",
+        "year": 1981,
+        "description": "Has since killed over 40 million people globally",
+        "category": "Disaster",
+        "era": "Contemporary",
+        "geography": "North America"
+      },
+      {
+        "id": "10",
         "eventText": "The African Union is established",
         "year": 2002,
         "description": "Replaced the Organisation of African Unity",
@@ -2112,98 +2016,194 @@
     ]
   },
   {
-    "puzzleDate": "2026-04-08",
-    "puzzleNumber": 23,
+    "puzzleDate": "2026-04-07",
+    "puzzleNumber": 22,
     "events": [
       {
-        "id": 1,
-        "eventText": "Romans complete the Appian Way",
-        "year": -312,
-        "description": "Sections of the original road are still walkable",
-        "category": "Technology",
+        "id": "1",
+        "eventText": "The Nabataeans carve Petra from sandstone cliffs",
+        "year": -300,
+        "description": "A city hidden in a desert canyon in modern Jordan",
+        "category": "Culture",
         "era": "Ancient",
-        "geography": "Europe"
+        "geography": "Middle East"
       },
       {
-        "id": 2,
-        "eventText": "Viking longships cross the North Atlantic",
-        "year": 1000,
-        "description": "Could sail in water just one metre deep",
-        "category": "Technology",
+        "id": "2",
+        "eventText": "The Plague of Justinian strikes Constantinople",
+        "year": 541,
+        "description": "First known pandemic of bubonic plague",
+        "category": "Disaster",
         "era": "Medieval",
         "geography": "Europe"
       },
       {
-        "id": 3,
-        "eventText": "A sheep, duck, and rooster fly in a balloon",
-        "year": 1783,
-        "description": "The first hot air balloon passengers in Paris",
-        "category": "Technology",
+        "id": "3",
+        "eventText": "Walsingham uncovers the Babington Plot",
+        "year": 1586,
+        "description": "Intercepted coded letters leading to Mary Queen of Scots' execution",
+        "category": "Politics",
+        "era": "Early Modern",
+        "geography": "Europe"
+      },
+      {
+        "id": "4",
+        "eventText": "The first opera, Dafne, is performed in Florence",
+        "year": 1598,
+        "description": "Most of the music has since been lost",
+        "category": "Culture",
+        "era": "Early Modern",
+        "geography": "Europe"
+      },
+      {
+        "id": "5",
+        "eventText": "Frederick the Great orders Prussians to grow potatoes",
+        "year": 1756,
+        "description": "Had to post guards on royal potato fields to create demand",
+        "category": "Politics",
         "era": "Modern",
         "geography": "Europe"
       },
       {
-        "id": 4,
-        "eventText": "The Liverpool-Manchester railway opens",
-        "year": 1830,
-        "description": "A politician was killed by a train at the ceremony",
-        "category": "Technology",
+        "id": "6",
+        "eventText": "Wollstonecraft publishes Rights of Woman",
+        "year": 1792,
+        "description": "Argued women were not naturally inferior, just less educated",
+        "category": "Politics",
         "era": "Modern",
         "geography": "Europe"
       },
       {
-        "id": 5,
-        "eventText": "Karl Benz patents the first automobile",
-        "year": 1886,
-        "description": "Had three wheels and a top speed of 16 km/h",
-        "category": "Technology",
+        "id": "7",
+        "eventText": "The Zulu Kingdom is established under Shaka",
+        "year": 1816,
+        "description": "Revolutionised warfare with the short stabbing spear",
+        "category": "War",
         "era": "Modern",
+        "geography": "Africa"
+      },
+      {
+        "id": "8",
+        "eventText": "Brazil abolishes slavery",
+        "year": 1888,
+        "description": "Freed over 700,000 enslaved people — last in the Western Hemisphere",
+        "category": "Politics",
+        "era": "Modern",
+        "geography": "South America"
+      },
+      {
+        "id": "9",
+        "eventText": "Roger Bannister runs the first sub-four-minute mile",
+        "year": 1954,
+        "description": "His record lasted just 46 days before being broken",
+        "category": "Sport",
+        "era": "Contemporary",
         "geography": "Europe"
       },
       {
-        "id": 6,
-        "eventText": "The Wright Brothers fly at Kitty Hawk",
-        "year": 1903,
-        "description": "Covered less distance than a 747's wingspan",
-        "category": "Technology",
-        "era": "Modern",
-        "geography": "North America"
+        "id": "10",
+        "eventText": "Usain Bolt sets the 100m world record at 9.58s",
+        "year": 2009,
+        "description": "A record that still stands",
+        "category": "Sport",
+        "era": "Contemporary",
+        "geography": "Europe"
+      }
+    ]
+  },
+  {
+    "puzzleDate": "2026-04-08",
+    "puzzleNumber": 23,
+    "events": [
+      {
+        "id": "1",
+        "eventText": "The Inca Empire reaches its peak",
+        "year": 1493,
+        "description": "Connected by 40,000 km of roads without using the wheel",
+        "category": "Politics",
+        "era": "Early Modern",
+        "geography": "South America"
       },
       {
-        "id": 7,
-        "eventText": "Alcock and Brown fly non-stop across the Atlantic",
+        "eventText": "Alcock and Brown fly nonstop across the Atlantic",
         "year": 1919,
-        "description": "Crash-landed in an Irish bog",
+        "description": "They crash-landed in an Irish bog",
         "category": "Technology",
+        "era": "Modern",
+        "geography": "Europe",
+        "id": "2"
+      },
+      {
+        "id": "3",
+        "eventText": "The first football World Cup is held in Uruguay",
+        "year": 1930,
+        "description": "Only 13 teams entered — several Europeans refused to travel",
+        "category": "Sport",
+        "era": "Modern",
+        "geography": "South America"
+      },
+      {
+        "id": "4",
+        "eventText": "Jesse Owens wins four golds at the Berlin Olympics",
+        "year": 1936,
+        "description": "Defied Hitler's vision of Aryan supremacy",
+        "category": "Sport",
         "era": "Modern",
         "geography": "Europe"
       },
       {
-        "id": 8,
-        "eventText": "Concorde makes its first commercial flight",
-        "year": 1976,
-        "description": "Crossed the Atlantic in under 3.5 hours",
-        "category": "Technology",
-        "era": "Contemporary",
-        "geography": "Europe"
-      },
-      {
-        "id": 9,
-        "eventText": "Eurostar begins service through the Channel Tunnel",
-        "year": 1994,
-        "description": "London to Paris in just over 3 hours",
-        "category": "Technology",
-        "era": "Contemporary",
-        "geography": "Europe"
-      },
-      {
-        "id": 10,
-        "eventText": "SpaceX Falcon 9 lands a booster upright",
-        "year": 2015,
-        "description": "Made reusable orbital rockets a reality",
-        "category": "Technology",
-        "era": "Contemporary",
+        "id": "5",
+        "eventText": "The Hindenburg airship catches fire",
+        "year": 1937,
+        "description": "Crashed in 37 seconds, ending the era of passenger airships",
+        "category": "Disaster",
+        "era": "Modern",
         "geography": "North America"
+      },
+      {
+        "id": "6",
+        "eventText": "The Chicago Pile-1 reactor achieves a chain reaction",
+        "year": 1942,
+        "description": "Built under the stands of a university football stadium",
+        "category": "Science",
+        "era": "Modern",
+        "geography": "North America"
+      },
+      {
+        "id": "7",
+        "eventText": "The Battle of Stalingrad ends",
+        "year": 1943,
+        "description": "The deadliest battle in history with 2 million casualties",
+        "category": "War",
+        "era": "Modern",
+        "geography": "Europe"
+      },
+      {
+        "id": "8",
+        "eventText": "The Korean War begins",
+        "year": 1950,
+        "description": "The peninsula remains divided to this day",
+        "category": "War",
+        "era": "Contemporary",
+        "geography": "East Asia"
+      },
+      {
+        "id": "9",
+        "eventText": "The Hubble Space Telescope is launched",
+        "year": 1990,
+        "description": "Its main mirror was initially ground to the wrong shape",
+        "category": "Science",
+        "era": "Contemporary",
+        "geography": "Global"
+      },
+      {
+        "id": "10",
+        "eventText": "Chile's miners are rescued after 69 days underground",
+        "year": 2010,
+        "description": "All 33 miners survived the longest underground entrapment",
+        "category": "Disaster",
+        "era": "Contemporary",
+        "geography": "South America"
       }
     ]
   },
@@ -2212,487 +2212,43 @@
     "puzzleNumber": 24,
     "events": [
       {
-        "id": 1,
-        "eventText": "Hammurabi's Code is carved in Babylon",
-        "year": -1754,
-        "description": "One of the earliest written legal codes: 282 laws",
-        "category": "Politics",
-        "era": "Ancient",
-        "geography": "Middle East"
-      },
-      {
-        "id": 2,
-        "eventText": "Athens introduces democratic voting",
-        "year": -508,
-        "description": "Citizens voted directly on laws — no representatives",
-        "category": "Politics",
+        "id": "1",
+        "eventText": "Rome defeats Carthage in the Punic Wars",
+        "year": -146,
+        "description": "Carthage was razed to the ground",
+        "category": "War",
         "era": "Ancient",
         "geography": "Europe"
       },
       {
-        "id": 3,
-        "eventText": "The Roman Twelve Tables are displayed publicly",
-        "year": -450,
-        "description": "So all citizens could read the law for themselves",
-        "category": "Politics",
+        "id": "2",
+        "eventText": "Rome defeats Hannibal at the Battle of Zama",
+        "year": -202,
+        "description": "Ended the Second Punic War and Carthage's threat to Rome",
+        "category": "War",
         "era": "Ancient",
-        "geography": "Europe"
-      },
-      {
-        "id": 4,
-        "eventText": "Justinian codifies Roman law",
-        "year": 534,
-        "description": "The foundation of most European legal systems",
-        "category": "Politics",
-        "era": "Medieval",
-        "geography": "Europe"
-      },
-      {
-        "id": 5,
-        "eventText": "The Treaty of Westphalia is signed",
-        "year": 1648,
-        "description": "Established the modern concept of state sovereignty",
-        "category": "Politics",
-        "era": "Early Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 6,
-        "eventText": "The Napoleonic Code is enacted",
-        "year": 1804,
-        "description": "Influenced legal systems across Europe and Latin America",
-        "category": "Politics",
-        "era": "Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 7,
-        "eventText": "The League of Nations holds its first session",
-        "year": 1920,
-        "description": "Failed to prevent war but paved the way for the UN",
-        "category": "Politics",
-        "era": "Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 8,
-        "eventText": "The United Nations is founded in San Francisco",
-        "year": 1945,
-        "description": "51 countries signed the charter",
-        "category": "Politics",
-        "era": "Contemporary",
-        "geography": "North America"
-      },
-      {
-        "id": 9,
-        "eventText": "The European Union is formally created",
-        "year": 1993,
-        "description": "The Maastricht Treaty took effect on 1 November",
-        "category": "Politics",
-        "era": "Contemporary",
-        "geography": "Europe"
-      },
-      {
-        "id": 10,
-        "eventText": "The ICC holds its first trial at The Hague",
-        "year": 2009,
-        "description": "Tried a Congolese warlord for using child soldiers",
-        "category": "Politics",
-        "era": "Contemporary",
-        "geography": "Europe"
-      }
-    ]
-  },
-  {
-    "puzzleDate": "2026-04-10",
-    "puzzleNumber": 25,
-    "events": [
-      {
-        "id": 1,
-        "eventText": "Windmills are first used in Persia",
-        "year": 644,
-        "description": "Vertical-axis mills ground grain and pumped water",
-        "category": "Technology",
-        "era": "Medieval",
-        "geography": "Middle East"
-      },
-      {
-        "id": 2,
-        "eventText": "Coal mining begins at scale in England",
-        "year": 1575,
-        "description": "London's air was already notoriously smoky",
-        "category": "Economics",
-        "era": "Early Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 3,
-        "eventText": "James Watt patents an improved steam engine",
-        "year": 1769,
-        "description": "Made steam power efficient enough for factories",
-        "category": "Technology",
-        "era": "Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 4,
-        "eventText": "Edwin Drake drills the first oil well",
-        "year": 1859,
-        "description": "Launched the petroleum age in Pennsylvania",
-        "category": "Economics",
-        "era": "Modern",
-        "geography": "North America"
-      },
-      {
-        "id": 5,
-        "eventText": "Edison opens the first power station",
-        "year": 1882,
-        "description": "Lit up a square mile of lower Manhattan",
-        "category": "Technology",
-        "era": "Modern",
-        "geography": "North America"
-      },
-      {
-        "id": 6,
-        "eventText": "Fermi achieves a nuclear chain reaction",
-        "year": 1942,
-        "description": "Under the stands of a Chicago football stadium",
-        "category": "Science",
-        "era": "Modern",
-        "geography": "North America"
-      },
-      {
-        "id": 7,
-        "eventText": "OPEC imposes an oil embargo on the West",
-        "year": 1973,
-        "description": "Quadrupled oil prices and caused global recession",
-        "category": "Economics",
-        "era": "Contemporary",
-        "geography": "Middle East"
-      },
-      {
-        "id": 8,
-        "eventText": "The Three Gorges Dam begins generating power",
-        "year": 2003,
-        "description": "The world's largest power station by installed capacity",
-        "category": "Technology",
-        "era": "Contemporary",
-        "geography": "East Asia"
-      },
-      {
-        "id": 9,
-        "eventText": "Fukushima's reactors melt down after a tsunami",
-        "year": 2011,
-        "description": "The worst nuclear disaster since Chernobyl",
-        "category": "Disaster",
-        "era": "Contemporary",
-        "geography": "East Asia"
-      },
-      {
-        "id": 10,
-        "eventText": "A fusion reactor produces net energy gain",
-        "year": 2022,
-        "description": "Achieved at the US National Ignition Facility",
-        "category": "Science",
-        "era": "Contemporary",
-        "geography": "North America"
-      }
-    ]
-  },
-  {
-    "puzzleDate": "2026-04-11",
-    "puzzleNumber": 26,
-    "events": [
-      {
-        "id": 1,
-        "eventText": "The ancient Olympic Games are first held",
-        "year": -776,
-        "description": "Just a single footrace for the first 13 games",
-        "category": "Sport",
-        "era": "Ancient",
-        "geography": "Europe"
-      },
-      {
-        "id": 2,
-        "eventText": "The rules of golf are written in Scotland",
-        "year": 1744,
-        "description": "Just 13 rules covered the entire game",
-        "category": "Sport",
-        "era": "Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 3,
-        "eventText": "The first modern Olympics are held in Athens",
-        "year": 1896,
-        "description": "Just 241 athletes from 14 nations competed",
-        "category": "Sport",
-        "era": "Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 4,
-        "eventText": "The first football World Cup kicks off",
-        "year": 1930,
-        "description": "Several European teams refused to make the journey",
-        "category": "Sport",
-        "era": "Modern",
-        "geography": "South America"
-      },
-      {
-        "id": 5,
-        "eventText": "Jesse Owens wins four golds in Berlin",
-        "year": 1936,
-        "description": "Defied Hitler's vision of Aryan supremacy",
-        "category": "Sport",
-        "era": "Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 6,
-        "eventText": "Roger Bannister runs a sub-four-minute mile",
-        "year": 1954,
-        "description": "His record lasted just 46 days",
-        "category": "Sport",
-        "era": "Contemporary",
-        "geography": "Europe"
-      },
-      {
-        "id": 7,
-        "eventText": "Ali defeats Foreman in the Rumble in the Jungle",
-        "year": 1974,
-        "description": "Watched by 60,000 fans in Kinshasa",
-        "category": "Sport",
-        "era": "Contemporary",
         "geography": "Africa"
       },
       {
-        "id": 8,
-        "eventText": "Usain Bolt sets the 100m world record",
-        "year": 2009,
-        "description": "9.58 seconds — a record that still stands",
-        "category": "Sport",
-        "era": "Contemporary",
-        "geography": "Europe"
-      },
-      {
-        "id": 9,
-        "eventText": "Leicester City win the Premier League",
-        "year": 2016,
-        "description": "Defied 5,000-to-1 odds to become champions",
-        "category": "Sport",
-        "era": "Contemporary",
-        "geography": "Europe"
-      },
-      {
-        "id": 10,
-        "eventText": "Messi wins the World Cup with Argentina",
-        "year": 2022,
-        "description": "Considered the final piece of his legacy",
-        "category": "Sport",
-        "era": "Contemporary",
-        "geography": "Middle East"
-      }
-    ]
-  },
-  {
-    "puzzleDate": "2026-04-12",
-    "puzzleNumber": 27,
-    "events": [
-      {
-        "id": 1,
-        "eventText": "The Epic of Gilgamesh is inscribed on tablets",
-        "year": -2100,
-        "description": "The oldest known work of literature",
-        "category": "Culture",
-        "era": "Ancient",
-        "geography": "Middle East"
-      },
-      {
-        "id": 2,
-        "eventText": "Nebuchadnezzar II builds the Ishtar Gate",
-        "year": -575,
-        "description": "Decorated with 575 glazed-brick dragons and bulls",
-        "category": "Culture",
-        "era": "Ancient",
-        "geography": "Middle East"
-      },
-      {
-        "id": 3,
-        "eventText": "The House of Wisdom opens in Baghdad",
-        "year": 825,
-        "description": "Translated Greek, Persian, and Indian texts",
+        "id": "3",
+        "eventText": "Hippocrates establishes a medical school on Kos",
+        "year": -400,
+        "description": "Separated medicine from superstition in ancient Greece",
         "category": "Science",
-        "era": "Medieval",
-        "geography": "Middle East"
-      },
-      {
-        "id": 4,
-        "eventText": "Crusaders storm Jerusalem",
-        "year": 1099,
-        "description": "The First Crusade ended with a brutal sack of the city",
-        "category": "War",
-        "era": "Medieval",
-        "geography": "Middle East"
-      },
-      {
-        "id": 5,
-        "eventText": "Suleiman the Magnificent takes power",
-        "year": 1520,
-        "description": "Expanded the Ottoman Empire to its greatest extent",
-        "category": "Politics",
-        "era": "Early Modern",
-        "geography": "Middle East"
-      },
-      {
-        "id": 6,
-        "eventText": "The Suez Canal opens to shipping",
-        "year": 1869,
-        "description": "Reduced the London-to-Mumbai route by 7,000 km",
-        "category": "Technology",
-        "era": "Modern",
-        "geography": "Middle East"
-      },
-      {
-        "id": 7,
-        "eventText": "Oil is discovered at Dammam in Saudi Arabia",
-        "year": 1938,
-        "description": "Transformed the kingdom from poor to rich",
-        "category": "Economics",
-        "era": "Modern",
-        "geography": "Middle East"
-      },
-      {
-        "id": 8,
-        "eventText": "Israel declares independence",
-        "year": 1948,
-        "description": "Recognised by the US within 11 minutes",
-        "category": "Politics",
-        "era": "Contemporary",
-        "geography": "Middle East"
-      },
-      {
-        "id": 9,
-        "eventText": "The Camp David Accords are signed",
-        "year": 1978,
-        "description": "First peace treaty between Israel and an Arab state",
-        "category": "Politics",
-        "era": "Contemporary",
-        "geography": "Middle East"
-      },
-      {
-        "id": 10,
-        "eventText": "The Burj Khalifa opens",
-        "year": 2010,
-        "description": "At 828 metres tall, visible from 95 km away",
-        "category": "Culture",
-        "era": "Contemporary",
-        "geography": "Middle East"
-      }
-    ]
-  },
-  {
-    "puzzleDate": "2026-04-13",
-    "puzzleNumber": 28,
-    "events": [
-      {
-        "id": 1,
-        "eventText": "The Plague of Athens strikes the city",
-        "year": -430,
-        "description": "Killed up to a quarter of the Athenian army",
-        "category": "Disaster",
         "era": "Ancient",
         "geography": "Europe"
       },
       {
-        "id": 2,
-        "eventText": "Plague of Justinian reaches Constantinople",
-        "year": 541,
-        "description": "The first recorded pandemic of bubonic plague",
-        "category": "Disaster",
-        "era": "Medieval",
-        "geography": "Europe"
+        "id": "4",
+        "eventText": "The Maurya Empire unifies most of India",
+        "year": -322,
+        "description": "Emperor Ashoka later renounced violence and embraced Buddhism",
+        "category": "Politics",
+        "era": "Ancient",
+        "geography": "South Asia"
       },
       {
-        "id": 3,
-        "eventText": "Black Death arrives in Sicily on trading ships",
-        "year": 1347,
-        "description": "Killed 30-60% of Europe's population in five years",
-        "category": "Disaster",
-        "era": "Medieval",
-        "geography": "Europe"
-      },
-      {
-        "id": 4,
-        "eventText": "Smallpox devastates the Aztec capital",
-        "year": 1520,
-        "description": "Killed millions and enabled the Spanish conquest",
-        "category": "Disaster",
-        "era": "Early Modern",
-        "geography": "North America"
-      },
-      {
-        "id": 5,
-        "eventText": "The Great Plague kills 68,000 in London",
-        "year": 1665,
-        "description": "Bills of mortality tracked the weekly death toll",
-        "category": "Disaster",
-        "era": "Early Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 6,
-        "eventText": "John Snow traces cholera to a Soho water pump",
-        "year": 1854,
-        "description": "Founded the science of epidemiology",
-        "category": "Science",
-        "era": "Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 7,
-        "eventText": "Spanish Flu kills 50-100 million worldwide",
-        "year": 1918,
-        "description": "More deadly than the entire First World War",
-        "category": "Disaster",
-        "era": "Modern",
-        "geography": "Global"
-      },
-      {
-        "id": 8,
-        "eventText": "The first cases of HIV/AIDS are identified",
-        "year": 1981,
-        "description": "Has since killed over 40 million people",
-        "category": "Disaster",
-        "era": "Contemporary",
-        "geography": "North America"
-      },
-      {
-        "id": 9,
-        "eventText": "SARS spreads from Guangdong to 29 countries",
-        "year": 2003,
-        "description": "Contained within months through aggressive quarantine",
-        "category": "Disaster",
-        "era": "Contemporary",
-        "geography": "East Asia"
-      },
-      {
-        "id": 10,
-        "eventText": "The WHO declares COVID-19 a global pandemic",
-        "year": 2020,
-        "description": "Led to the fastest vaccine development ever",
-        "category": "Disaster",
-        "era": "Contemporary",
-        "geography": "Global"
-      }
-    ]
-  },
-  {
-    "puzzleDate": "2026-04-14",
-    "puzzleNumber": 29,
-    "events": [
-      {
-        "id": 1,
+        "id": "5",
         "eventText": "Julius Caesar uses a substitution cipher",
         "year": -50,
         "description": "Shifted each letter three places in the alphabet",
@@ -2701,26 +2257,305 @@
         "geography": "Europe"
       },
       {
-        "id": 2,
-        "eventText": "Walsingham uncovers the Babington Plot",
-        "year": 1586,
-        "description": "Intercepted coded letters condemning Mary Queen of Scots",
-        "category": "Politics",
-        "era": "Early Modern",
+        "id": "6",
+        "eventText": "Julius Caesar crosses the Rubicon river",
+        "year": -49,
+        "description": "Triggered a civil war with the words the die is cast",
+        "category": "War",
+        "era": "Ancient",
         "geography": "Europe"
       },
       {
-        "id": 3,
-        "eventText": "Nathan Hale is hanged as an American spy",
-        "year": 1776,
-        "description": "I only regret that I have but one life to lose",
+        "id": "7",
+        "eventText": "Baghdad's first public hospital opens",
+        "year": 805,
+        "description": "Had separate wards for different diseases",
+        "category": "Science",
+        "era": "Medieval",
+        "geography": "Middle East"
+      },
+      {
+        "id": "8",
+        "eventText": "The Mongols fail to invade Japan (typhoon)",
+        "year": 1281,
+        "description": "A typhoon destroyed the fleet — later called kamikaze",
         "category": "War",
+        "era": "Medieval",
+        "geography": "East Asia"
+      },
+      {
+        "id": "9",
+        "eventText": "Norman Borlaug releases high-yield wheat varieties",
+        "year": 1968,
+        "description": "His Green Revolution is credited with saving a billion lives",
+        "category": "Science",
+        "era": "Contemporary",
+        "geography": "South Asia"
+      },
+      {
+        "id": "10",
+        "eventText": "The International Space Station receives its first crew",
+        "year": 2000,
+        "description": "Has been continuously occupied ever since",
+        "category": "Exploration",
+        "era": "Contemporary",
+        "geography": "Global"
+      }
+    ]
+  },
+  {
+    "puzzleDate": "2026-04-10",
+    "puzzleNumber": 25,
+    "events": [
+      {
+        "id": "1",
+        "eventText": "The Romans complete the Appian Way",
+        "year": -312,
+        "description": "Sections of the original road are still walkable today",
+        "category": "Technology",
+        "era": "Ancient",
+        "geography": "Europe"
+      },
+      {
+        "id": "2",
+        "eventText": "Thomas Aquinas completes Summa Theologica",
+        "year": 1274,
+        "description": "Attempted to reconcile faith with Aristotelian reason",
+        "category": "Religion",
+        "era": "Medieval",
+        "geography": "Europe"
+      },
+      {
+        "id": "3",
+        "eventText": "Bartolomeu Dias rounds the Cape of Good Hope",
+        "year": 1488,
+        "description": "First European to sail around the southern tip of Africa",
+        "category": "Exploration",
+        "era": "Early Modern",
+        "geography": "Africa"
+      },
+      {
+        "id": "4",
+        "eventText": "The Columbian Exchange begins",
+        "year": 1493,
+        "description": "Tomatoes, potatoes, and chocolate all crossed the Atlantic",
+        "category": "Exploration",
+        "era": "Early Modern",
+        "geography": "Global"
+      },
+      {
+        "id": "5",
+        "eventText": "Nicolas Appert invents canned food preservation",
+        "year": 1810,
+        "description": "Developed to feed Napoleon's army on long campaigns",
+        "category": "Technology",
+        "era": "Modern",
+        "geography": "Europe"
+      },
+      {
+        "id": "6",
+        "eventText": "Edwin Drake drills the first oil well in Pennsylvania",
+        "year": 1859,
+        "description": "Launched the petroleum age that still dominates today",
+        "category": "Economics",
         "era": "Modern",
         "geography": "North America"
       },
       {
-        "id": 4,
-        "eventText": "Mata Hari is executed by firing squad",
+        "id": "7",
+        "eventText": "The first genetically modified food goes on sale",
+        "year": 1994,
+        "description": "The Flavr Savr tomato lasted longer on shelves",
+        "category": "Science",
+        "era": "Contemporary",
+        "geography": "North America"
+      },
+      {
+        "eventText": "The Kyoto Protocol is adopted",
+        "year": 1997,
+        "description": "First binding international treaty to reduce greenhouse gases",
+        "category": "Politics",
+        "era": "Contemporary",
+        "geography": "Global",
+        "id": "8"
+      },
+      {
+        "eventText": "The James Webb Space Telescope launches",
+        "year": 2021,
+        "description": "Can see galaxies formed just after the Big Bang",
+        "category": "Science",
+        "era": "Contemporary",
+        "geography": "Global",
+        "id": "9"
+      },
+      {
+        "id": "10",
+        "eventText": "The first lab-grown burger is eaten in London",
+        "year": 2013,
+        "description": "Cost £215,000 to produce a single patty",
+        "category": "Science",
+        "era": "Contemporary",
+        "geography": "Europe"
+      }
+    ]
+  },
+  {
+    "puzzleDate": "2026-04-11",
+    "puzzleNumber": 26,
+    "events": [
+      {
+        "id": "1",
+        "eventText": "Stonehenge is constructed",
+        "year": -3000,
+        "description": "Some stones were transported 240 km from Wales",
+        "category": "Culture",
+        "era": "Ancient",
+        "geography": "Europe"
+      },
+      {
+        "id": "2",
+        "eventText": "Chinese astronomers record a supernova visible by day",
+        "year": 1054,
+        "description": "The remnant is now the Crab Nebula",
+        "category": "Science",
+        "era": "Medieval",
+        "geography": "East Asia"
+      },
+      {
+        "id": "3",
+        "eventText": "The Leaning Tower of Pisa begins to tilt",
+        "year": 1178,
+        "description": "Started leaning during construction due to soft ground",
+        "category": "Culture",
+        "era": "Medieval",
+        "geography": "Europe"
+      },
+      {
+        "id": "4",
+        "eventText": "Oil is discovered in Saudi Arabia",
+        "year": 1938,
+        "description": "Transformed one of the poorest kingdoms into the richest",
+        "category": "Economics",
+        "era": "Modern",
+        "geography": "Middle East"
+      },
+      {
+        "id": "5",
+        "eventText": "NATO is established by 12 Western nations",
+        "year": 1949,
+        "description": "Created a mutual defence pact against Soviet expansion",
+        "category": "Politics",
+        "era": "Contemporary",
+        "geography": "Europe"
+      },
+      {
+        "id": "6",
+        "eventText": "The Berlin Wall is erected overnight",
+        "year": 1961,
+        "description": "Families woke up separated by barbed wire",
+        "category": "Politics",
+        "era": "Contemporary",
+        "geography": "Europe"
+      },
+      {
+        "id": "7",
+        "eventText": "Rachel Carson publishes Silent Spring",
+        "year": 1962,
+        "description": "Launched the modern environmental movement",
+        "category": "Science",
+        "era": "Contemporary",
+        "geography": "North America"
+      },
+      {
+        "id": "8",
+        "eventText": "John F. Kennedy is assassinated in Dallas",
+        "year": 1963,
+        "description": "Shot while riding in an open motorcade",
+        "category": "Politics",
+        "era": "Contemporary",
+        "geography": "North America"
+      },
+      {
+        "eventText": "China detonates its first nuclear weapon",
+        "year": 1964,
+        "description": "Became the fifth nuclear-armed state",
+        "category": "War",
+        "era": "Contemporary",
+        "geography": "East Asia",
+        "id": "9"
+      },
+      {
+        "id": "10",
+        "eventText": "ARPANET sends its first message",
+        "year": 1969,
+        "description": "The system crashed after transmitting just two letters: LO",
+        "category": "Technology",
+        "era": "Contemporary",
+        "geography": "North America"
+      }
+    ]
+  },
+  {
+    "puzzleDate": "2026-04-12",
+    "puzzleNumber": 27,
+    "events": [
+      {
+        "id": "1",
+        "eventText": "Galen writes his medical treatises in Rome",
+        "year": 160,
+        "description": "His ideas went unchallenged for over 1,300 years",
+        "category": "Science",
+        "era": "Ancient",
+        "geography": "Europe"
+      },
+      {
+        "id": "2",
+        "eventText": "The Antonine Plague reaches Rome",
+        "year": 165,
+        "description": "May have killed 5 million people across the empire",
+        "category": "Disaster",
+        "era": "Ancient",
+        "geography": "Europe"
+      },
+      {
+        "id": "3",
+        "eventText": "Justinian publishes his Codex of Roman law",
+        "year": 534,
+        "description": "Became the foundation of most European legal systems",
+        "category": "Politics",
+        "era": "Medieval",
+        "geography": "Europe"
+      },
+      {
+        "id": "4",
+        "eventText": "Crawford Long uses ether as a surgical anaesthetic",
+        "year": 1842,
+        "description": "The patient felt nothing during tumour removal",
+        "category": "Science",
+        "era": "Modern",
+        "geography": "North America"
+      },
+      {
+        "id": "5",
+        "eventText": "John Snow traces cholera to a Soho water pump",
+        "year": 1854,
+        "description": "Founded the science of epidemiology",
+        "category": "Science",
+        "era": "Modern",
+        "geography": "Europe"
+      },
+      {
+        "id": "6",
+        "eventText": "Joseph Lister pioneers antiseptic surgery",
+        "year": 1867,
+        "description": "Used carbolic acid to sterilise surgical instruments",
+        "category": "Science",
+        "era": "Modern",
+        "geography": "Europe"
+      },
+      {
+        "id": "7",
+        "eventText": "Mata Hari is executed by firing squad in Paris",
         "year": 1917,
         "description": "Whether she was actually a spy remains debated",
         "category": "War",
@@ -2728,34 +2563,16 @@
         "geography": "Europe"
       },
       {
-        "id": 5,
-        "eventText": "Turing's team cracks the Enigma code",
-        "year": 1941,
-        "description": "Estimated to have shortened the war by two years",
-        "category": "Technology",
+        "id": "8",
+        "eventText": "Penicillin is first mass-produced for Allied troops",
+        "year": 1943,
+        "description": "Saved countless lives on the D-Day battlefields",
+        "category": "Science",
         "era": "Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 6,
-        "eventText": "The CIA is formally established",
-        "year": 1947,
-        "description": "Grew out of the wartime Office of Strategic Services",
-        "category": "Politics",
-        "era": "Contemporary",
         "geography": "North America"
       },
       {
-        "id": 7,
-        "eventText": "Gary Powers' U-2 spy plane is shot down",
-        "year": 1960,
-        "description": "He survived and was exchanged for a Soviet spy",
-        "category": "Politics",
-        "era": "Contemporary",
-        "geography": "Europe"
-      },
-      {
-        "id": 8,
+        "id": "9",
         "eventText": "The Watergate break-in is discovered",
         "year": 1972,
         "description": "Led to the only resignation of a US president",
@@ -2764,20 +2581,203 @@
         "geography": "North America"
       },
       {
-        "id": 9,
-        "eventText": "The Mitrokhin Archive of KGB files is revealed",
-        "year": 1992,
-        "description": "A defector smuggled 25,000 pages out of Moscow",
+        "id": "10",
+        "eventText": "Edward Snowden leaks NSA surveillance documents",
+        "year": 2013,
+        "description": "Revealed mass surveillance of millions of citizens",
+        "category": "Politics",
+        "era": "Contemporary",
+        "geography": "North America"
+      }
+    ]
+  },
+  {
+    "puzzleDate": "2026-04-13",
+    "puzzleNumber": 28,
+    "events": [
+      {
+        "id": "1",
+        "eventText": "Aristarchus proposes the Sun is the centre",
+        "year": -270,
+        "description": "Correct about the heliocentric model, ignored for 1,800 years",
+        "category": "Science",
+        "era": "Ancient",
+        "geography": "Europe"
+      },
+      {
+        "eventText": "Arkwright patents the water frame spinning machine",
+        "year": 1769,
+        "description": "Kick-started factory-based manufacturing in Britain",
+        "category": "Technology",
+        "era": "Modern",
+        "geography": "Europe",
+        "id": "2"
+      },
+      {
+        "id": "3",
+        "eventText": "Amundsen reaches the South Pole",
+        "year": 1911,
+        "description": "Beat Robert Scott's team by 34 days",
+        "category": "Exploration",
+        "era": "Modern",
+        "geography": "Global"
+      },
+      {
+        "id": "4",
+        "eventText": "Einstein publishes general relativity",
+        "year": 1915,
+        "description": "Predicted that gravity bends light — confirmed in 1919",
+        "category": "Science",
+        "era": "Modern",
+        "geography": "Europe"
+      },
+      {
+        "id": "5",
+        "eventText": "Laika the dog is launched into orbit",
+        "year": 1957,
+        "description": "First animal to orbit Earth, aboard Sputnik 2",
+        "category": "Exploration",
+        "era": "Contemporary",
+        "geography": "Europe"
+      },
+      {
+        "id": "6",
+        "eventText": "Hillary and Tenzing summit Everest",
+        "year": 1953,
+        "description": "News reached London on the morning of the coronation",
+        "category": "Exploration",
+        "era": "Contemporary",
+        "geography": "South Asia"
+      },
+      {
+        "id": "7",
+        "eventText": "Nirvana releases Nevermind",
+        "year": 1991,
+        "description": "Knocked Michael Jackson off the top of the US charts",
+        "category": "Culture",
+        "era": "Contemporary",
+        "geography": "North America"
+      },
+      {
+        "id": "8",
+        "eventText": "The first human genome sequence is published",
+        "year": 2003,
+        "description": "Mapped roughly 3 billion base pairs of DNA",
+        "category": "Science",
+        "era": "Contemporary",
+        "geography": "Global"
+      },
+      {
+        "id": "9",
+        "eventText": "Voyager 1 enters interstellar space",
+        "year": 2012,
+        "description": "Still transmitting data from over 24 billion km away",
+        "category": "Exploration",
+        "era": "Contemporary",
+        "geography": "Global"
+      },
+      {
+        "id": "10",
+        "eventText": "A fusion reactor produces net energy at the NIF",
+        "year": 2022,
+        "description": "Achieved using 192 high-powered lasers",
+        "category": "Science",
+        "era": "Contemporary",
+        "geography": "North America"
+      }
+    ]
+  },
+  {
+    "puzzleDate": "2026-04-14",
+    "puzzleNumber": 29,
+    "events": [
+      {
+        "id": "1",
+        "eventText": "The Silk Road trade network flourishes",
+        "year": 130,
+        "description": "Stretched over 6,400 km from China to Rome",
+        "category": "Economics",
+        "era": "Ancient",
+        "geography": "East Asia"
+      },
+      {
+        "id": "2",
+        "eventText": "The Great Plague of London kills 68,000",
+        "year": 1665,
+        "description": "Bodies collected nightly by carts",
+        "category": "Disaster",
+        "era": "Early Modern",
+        "geography": "Europe"
+      },
+      {
+        "eventText": "The Glorious Revolution deposes James II",
+        "year": 1688,
+        "description": "William of Orange took the English throne without a battle",
+        "category": "Politics",
+        "era": "Early Modern",
+        "geography": "Europe",
+        "id": "3"
+      },
+      {
+        "id": "4",
+        "eventText": "Karl Marx publishes Das Kapital Volume 1",
+        "year": 1867,
+        "description": "Wrote most of it in the British Museum reading room",
+        "category": "Politics",
+        "era": "Modern",
+        "geography": "Europe"
+      },
+      {
+        "id": "5",
+        "eventText": "The first regular television broadcasts begin",
+        "year": 1936,
+        "description": "The BBC launched from Alexandra Palace in London",
+        "category": "Technology",
+        "era": "Modern",
+        "geography": "Europe"
+      },
+      {
+        "id": "6",
+        "eventText": "Israel and Egypt sign the Camp David Accords",
+        "year": 1978,
+        "description": "First peace treaty between Israel and an Arab state",
+        "category": "Politics",
+        "era": "Contemporary",
+        "geography": "Middle East"
+      },
+      {
+        "id": "7",
+        "eventText": "Live Aid concerts raise money for Ethiopian famine",
+        "year": 1985,
+        "description": "Broadcast to 1.9 billion people across 150 countries",
+        "category": "Culture",
+        "era": "Contemporary",
+        "geography": "Global"
+      },
+      {
+        "id": "8",
+        "eventText": "The Soviet Union formally dissolves",
+        "year": 1991,
+        "description": "Gorbachev resigned on Christmas Day",
         "category": "Politics",
         "era": "Contemporary",
         "geography": "Europe"
       },
       {
-        "id": 10,
-        "eventText": "Edward Snowden leaks NSA documents",
-        "year": 2013,
-        "description": "Revealed mass surveillance of millions of citizens",
-        "category": "Politics",
+        "id": "9",
+        "eventText": "Diego Maradona scores the Hand of God goal",
+        "year": 1986,
+        "description": "Also scored the Goal of the Century in the same match",
+        "category": "Sport",
+        "era": "Contemporary",
+        "geography": "North America"
+      },
+      {
+        "id": "10",
+        "eventText": "Apple launches the iTunes Store",
+        "year": 2003,
+        "description": "Sold one million songs in the first five days",
+        "category": "Technology",
         "era": "Contemporary",
         "geography": "North America"
       }
@@ -2788,53 +2788,53 @@
     "puzzleNumber": 30,
     "events": [
       {
-        "id": 1,
-        "eventText": "Gutenberg builds his printing press",
-        "year": 1450,
-        "description": "Within 50 years, 20 million volumes had been printed",
+        "id": "1",
+        "eventText": "Rice paddy farming begins in the Yangtze Delta",
+        "year": -5000,
+        "description": "Now feeds more than half the world's population",
+        "category": "Science",
+        "era": "Ancient",
+        "geography": "East Asia"
+      },
+      {
+        "id": "2",
+        "eventText": "Watermills appear across the Roman Empire",
+        "year": 25,
+        "description": "Automated the grinding of grain for the first time",
         "category": "Technology",
-        "era": "Medieval",
+        "era": "Ancient",
         "geography": "Europe"
       },
       {
-        "id": 2,
-        "eventText": "Copernicus publishes his heliocentric model",
-        "year": 1543,
-        "description": "Published the same year as Vesalius's anatomy book",
-        "category": "Science",
+        "id": "3",
+        "eventText": "Smallpox devastates the Aztec capital Tenochtitlan",
+        "year": 1520,
+        "description": "Killed millions and enabled the Spanish conquest",
+        "category": "Disaster",
         "era": "Early Modern",
-        "geography": "Europe"
+        "geography": "North America"
       },
       {
-        "id": 3,
-        "eventText": "Newcomen builds the first practical steam engine",
-        "year": 1712,
-        "description": "Used to pump water out of coal mines",
-        "category": "Technology",
+        "id": "4",
+        "eventText": "Nathan Hale is hanged as an American spy",
+        "year": 1776,
+        "description": "Reportedly said: I regret that I have but one life to give",
+        "category": "War",
+        "era": "Modern",
+        "geography": "North America"
+      },
+      {
+        "id": "5",
+        "eventText": "Pierre de Coubertin founds the IOC",
+        "year": 1894,
+        "description": "Revived the Olympic Games after a 1,500-year gap",
+        "category": "Sport",
         "era": "Modern",
         "geography": "Europe"
       },
       {
-        "id": 4,
-        "eventText": "Niepce captures the first photograph",
-        "year": 1826,
-        "description": "Required an eight-hour exposure",
-        "category": "Technology",
-        "era": "Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 5,
-        "eventText": "Einstein publishes general relativity",
-        "year": 1915,
-        "description": "Predicted gravity bends light — confirmed four years later",
-        "category": "Science",
-        "era": "Modern",
-        "geography": "Europe"
-      },
-      {
-        "id": 6,
-        "eventText": "Colossus, the first programmable computer, runs",
+        "id": "6",
+        "eventText": "Colossus, the first programmable computer, is built",
         "year": 1943,
         "description": "Built at Bletchley Park to break German codes",
         "category": "Technology",
@@ -2842,38 +2842,38 @@
         "geography": "Europe"
       },
       {
-        "id": 7,
-        "eventText": "The transistor is invented at Bell Labs",
-        "year": 1947,
-        "description": "The tiny switch behind all modern electronics",
-        "category": "Technology",
+        "id": "7",
+        "eventText": "The European Economic Community is founded",
+        "year": 1957,
+        "description": "Six nations signed the Treaty of Rome",
+        "category": "Politics",
         "era": "Contemporary",
-        "geography": "North America"
+        "geography": "Europe"
       },
       {
-        "id": 8,
-        "eventText": "ARPANET sends its first message",
-        "year": 1969,
-        "description": "The system crashed after transmitting just LO",
-        "category": "Technology",
-        "era": "Contemporary",
-        "geography": "North America"
-      },
-      {
-        "id": 9,
-        "eventText": "The Human Genome Project is completed",
-        "year": 2003,
-        "description": "Mapped roughly 3 billion base pairs of DNA",
-        "category": "Science",
+        "id": "8",
+        "eventText": "The International Criminal Court opens in The Hague",
+        "year": 2002,
+        "description": "First permanent court for war crimes and genocide",
+        "category": "Politics",
         "era": "Contemporary",
         "geography": "Global"
       },
       {
-        "id": 10,
-        "eventText": "AlphaGo defeats world champion Lee Sedol",
-        "year": 2016,
-        "description": "Go was considered too complex for computers",
-        "category": "Technology",
+        "id": "9",
+        "eventText": "The Indian Mars Orbiter Mission succeeds",
+        "year": 2014,
+        "description": "India became the first country to reach Mars on its first attempt",
+        "category": "Science",
+        "era": "Contemporary",
+        "geography": "South Asia"
+      },
+      {
+        "id": "10",
+        "eventText": "Japan hosts the 2020 Tokyo Olympics (delayed to 2021)",
+        "year": 2021,
+        "description": "Held without spectators due to the pandemic",
+        "category": "Sport",
         "era": "Contemporary",
         "geography": "East Asia"
       }
