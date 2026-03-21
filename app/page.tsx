@@ -47,9 +47,7 @@ function loadProgress(date: string): SavedProgress | null {
 }
 
 function deleteProgress(date: string) {
-  try {
-    localStorage.removeItem(progressKey(date));
-  } catch { /* ignore */ }
+  try { localStorage.removeItem(progressKey(date)); } catch { /* ignore */ }
 }
 
 function cleanOldProgress(currentDate: string) {
@@ -59,7 +57,24 @@ function cleanOldProgress(currentDate: string) {
         localStorage.removeItem(key);
       }
     }
-  } catch { /* localStorage may be unavailable */ }
+  } catch { /* unavailable */ }
+}
+
+// ── Shared dark header ────────────────────────────────────────────────────────
+
+function PageHeader({ subtitle }: { subtitle?: string }) {
+  return (
+    <div className="bg-[#2C2C2A] px-5 pt-3 pb-3 flex-shrink-0">
+      <h1 className="text-center text-[20px] font-serif text-[#F1EFE8] leading-none">
+        Chronology Daily
+      </h1>
+      {subtitle && (
+        <p className="text-center text-[12px] text-[#B4B2A9] mt-1 leading-none">
+          {subtitle}
+        </p>
+      )}
+    </div>
+  );
 }
 
 // ── Component ─────────────────────────────────────────────────────────────────
@@ -90,7 +105,6 @@ export default function Home() {
           return;
         }
         setPuzzle(puzzleData);
-
         cleanOldProgress(puzzleData.puzzleDate);
 
         try {
@@ -100,24 +114,14 @@ export default function Home() {
             setPhase("results");
             return;
           }
-        } catch {
-          // Can't verify — let them play
-        }
+        } catch { /* let them play */ }
 
         const saved = loadProgress(puzzleData.puzzleDate);
         if (saved && saved.shuffledIds.length === puzzleData.events.length) {
           const byId = Object.fromEntries(puzzleData.events.map((e) => [e.id, e]));
-          const restoredShuffled = saved.shuffledIds
-            .map((id) => byId[id])
-            .filter(Boolean) as HistoricalEvent[];
-          const restoredTimeline = saved.timelineIds
-            .map((id) => byId[id])
-            .filter(Boolean) as HistoricalEvent[];
-
-          if (
-            restoredShuffled.length === puzzleData.events.length &&
-            restoredTimeline.length > 0
-          ) {
+          const restoredShuffled = saved.shuffledIds.map((id) => byId[id]).filter(Boolean) as HistoricalEvent[];
+          const restoredTimeline = saved.timelineIds.map((id) => byId[id]).filter(Boolean) as HistoricalEvent[];
+          if (restoredShuffled.length === puzzleData.events.length && restoredTimeline.length > 0) {
             setShuffledEvents(restoredShuffled);
             setInitialTimeline(restoredTimeline);
             setInitialNextIndex(saved.nextIndex);
@@ -133,7 +137,6 @@ export default function Home() {
         setLoading(false);
       }
     }
-
     init();
   }, []);
 
@@ -154,19 +157,12 @@ export default function Home() {
 
   async function handleSubmit(orderedEvents: HistoricalEvent[]) {
     if (!puzzle || !userId) return;
-
-    const newPositions = puzzle.events.map(
-      (event, i) => orderedEvents[i]?.id === event.id
-    );
+    const newPositions = puzzle.events.map((event, i) => orderedEvents[i]?.id === event.id);
     const score = newPositions.filter(Boolean).length;
-    const timeToComplete = Math.round(
-      (Date.now() - gameStartTime.current) / 1000
-    );
-
+    const timeToComplete = Math.round((Date.now() - gameStartTime.current) / 1000);
     setPositions(newPositions);
     setPhase("results");
     deleteProgress(puzzle.puzzleDate);
-
     saveResult({
       puzzleDate: puzzle.puzzleDate,
       puzzleNumber: puzzle.puzzleNumber,
@@ -179,30 +175,28 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-white flex flex-col">
-      {/* ── Title bar ─────────────────────────────────────────────────── */}
-      <div className="px-5 pt-3 pb-0">
-        <h1 className="text-xl font-medium text-center text-[#111] tracking-[0.01em]">
-          Chronology Daily
-        </h1>
-        <div className="mt-2.5 h-[2px] bg-[#111]" />
-      </div>
+      <main className="flex-1 flex flex-col min-h-0">
 
-      {/* ── Main content ──────────────────────────────────────────────── */}
-      <main className="flex-1 flex flex-col px-5 min-h-0">
         {/* Loading */}
         {loading && (
-          <div className="flex-1 flex flex-col items-center justify-center gap-3">
-            <div className="w-7 h-7 border-2 border-[#ddd] border-t-[#111] rounded-full animate-spin" />
-            <p className="text-[12px] text-[#888]">Loading today&apos;s puzzle…</p>
-          </div>
+          <>
+            <PageHeader />
+            <div className="flex-1 flex flex-col items-center justify-center gap-2">
+              <div className="w-6 h-6 border-2 border-[#D3D1C7] border-t-[#854F0B] rounded-full animate-spin" />
+              <p className="text-[12px] text-[#B4B2A9]">Loading today&apos;s puzzle…</p>
+            </div>
+          </>
         )}
 
         {/* Error */}
         {!loading && fetchError && (
-          <div className="flex-1 flex flex-col items-center justify-center text-center">
-            <p className="text-4xl mb-3">📅</p>
-            <p className="text-sm text-[#444]">{fetchError}</p>
-          </div>
+          <>
+            <PageHeader />
+            <div className="flex-1 flex flex-col items-center justify-center text-center px-6">
+              <p className="text-4xl mb-3">📅</p>
+              <p className="text-sm text-[#2C2C2A]">{fetchError}</p>
+            </div>
+          </>
         )}
 
         {/* Game */}
@@ -226,11 +220,11 @@ export default function Home() {
             puzzleDate={puzzle.puzzleDate}
           />
         )}
+
       </main>
 
-      {/* ── Footer ────────────────────────────────────────────────────── */}
       {!loading && (
-        <footer className="text-center py-2.5 text-[11px] text-[#888]">
+        <footer className="text-center py-2.5 text-[11px] text-[#B4B2A9] flex-shrink-0">
           A new puzzle every day
         </footer>
       )}
