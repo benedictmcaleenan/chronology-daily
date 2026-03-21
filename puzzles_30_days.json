@@ -205,15 +205,6 @@
         "geography": "Europe"
       },
       {
-        "id": "2",
-        "eventText": "Haitian slaves defeat Napoleon's army",
-        "year": 1803,
-        "description": "Led to the only successful large-scale slave revolt",
-        "category": "War",
-        "era": "Modern",
-        "geography": "North America"
-      },
-      {
         "id": "3",
         "eventText": "The US Declaration of Independence is signed",
         "year": 1776,
@@ -221,6 +212,15 @@
         "category": "Politics",
         "era": "Modern",
         "geography": "North America"
+      },
+      {
+        "id": "5",
+        "eventText": "Edward Jenner tests the smallpox vaccine",
+        "year": 1796,
+        "description": "Used cowpox pus from a milkmaid's hand",
+        "category": "Science",
+        "era": "Modern",
+        "geography": "Europe"
       },
       {
         "id": "4",
@@ -232,13 +232,13 @@
         "geography": "Europe"
       },
       {
-        "id": "5",
-        "eventText": "Edward Jenner tests the smallpox vaccine",
-        "year": 1796,
-        "description": "Used cowpox pus from a milkmaid's hand",
-        "category": "Science",
+        "id": "2",
+        "eventText": "Haitian slaves defeat Napoleon's army",
+        "year": 1803,
+        "description": "Led to the only successful large-scale slave revolt",
+        "category": "War",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "North America"
       },
       {
         "id": "6",
@@ -433,15 +433,6 @@
         "geography": "Europe"
       },
       {
-        "id": "6",
-        "eventText": "The Wall Street Crash triggers panic selling",
-        "year": 1929,
-        "description": "The Dow didn't recover its pre-crash high until 1954",
-        "category": "Economics",
-        "era": "Modern",
-        "geography": "North America"
-      },
-      {
         "id": "7",
         "eventText": "Alexander Fleming discovers penicillin",
         "year": 1928,
@@ -449,6 +440,15 @@
         "category": "Science",
         "era": "Modern",
         "geography": "Europe"
+      },
+      {
+        "id": "6",
+        "eventText": "The Wall Street Crash triggers panic selling",
+        "year": 1929,
+        "description": "The Dow didn't recover its pre-crash high until 1954",
+        "category": "Economics",
+        "era": "Modern",
+        "geography": "North America"
       },
       {
         "id": "8",
@@ -721,15 +721,6 @@
         "geography": "Europe"
       },
       {
-        "id": "6",
-        "eventText": "Karl Benz patents the first petrol automobile",
-        "year": 1886,
-        "description": "Had three wheels and a top speed of 16 km/h",
-        "category": "Technology",
-        "era": "Modern",
-        "geography": "Europe"
-      },
-      {
         "id": "7",
         "eventText": "Gregor Mendel publishes his laws of inheritance",
         "year": 1866,
@@ -746,6 +737,15 @@
         "era": "Modern",
         "geography": "North America",
         "id": "8"
+      },
+      {
+        "id": "6",
+        "eventText": "Karl Benz patents the first petrol automobile",
+        "year": 1886,
+        "description": "Had three wheels and a top speed of 16 km/h",
+        "category": "Technology",
+        "era": "Modern",
+        "geography": "Europe"
       },
       {
         "id": "9",
@@ -1297,15 +1297,6 @@
         "geography": "East Asia"
       },
       {
-        "id": "6",
-        "eventText": "George Orwell publishes Nineteen Eighty-Four",
-        "year": 1949,
-        "description": "Coined terms like Big Brother and thoughtcrime",
-        "category": "Culture",
-        "era": "Contemporary",
-        "geography": "Europe"
-      },
-      {
         "id": "7",
         "eventText": "The Partition of India creates Pakistan",
         "year": 1947,
@@ -1320,6 +1311,15 @@
         "year": 1948,
         "description": "Free healthcare for all, funded by taxation",
         "category": "Politics",
+        "era": "Contemporary",
+        "geography": "Europe"
+      },
+      {
+        "id": "6",
+        "eventText": "George Orwell publishes Nineteen Eighty-Four",
+        "year": 1949,
+        "description": "Coined terms like Big Brother and thoughtcrime",
+        "category": "Culture",
         "era": "Contemporary",
         "geography": "Europe"
       },
@@ -1828,15 +1828,6 @@
     "puzzleNumber": 20,
     "events": [
       {
-        "id": "1",
-        "eventText": "Sun Tzu writes The Art of War",
-        "year": -500,
-        "description": "Still studied at military academies and business schools",
-        "category": "War",
-        "era": "Ancient",
-        "geography": "East Asia"
-      },
-      {
         "id": "2",
         "eventText": "The Kingdom of Kush conquers Egypt",
         "year": -750,
@@ -1844,6 +1835,15 @@
         "category": "War",
         "era": "Ancient",
         "geography": "Africa"
+      },
+      {
+        "id": "1",
+        "eventText": "Sun Tzu writes The Art of War",
+        "year": -500,
+        "description": "Still studied at military academies and business schools",
+        "category": "War",
+        "era": "Ancient",
+        "geography": "East Asia"
       },
       {
         "id": "3",
@@ -1951,31 +1951,13 @@
         "geography": "Middle East"
       },
       {
-        "id": "4",
-        "eventText": "Deng Xiaoping launches Chinese economic reforms",
-        "year": 1978,
-        "description": "Lifted more people out of poverty than any policy in history",
-        "category": "Economics",
+        "id": "8",
+        "eventText": "Ali defeats Foreman in the Rumble in the Jungle",
+        "year": 1974,
+        "description": "Used the rope-a-dope strategy in Kinshasa",
+        "category": "Sport",
         "era": "Contemporary",
-        "geography": "East Asia"
-      },
-      {
-        "id": "5",
-        "eventText": "Concorde makes its first commercial flight",
-        "year": 1976,
-        "description": "Crossed the Atlantic in under 3.5 hours",
-        "category": "Technology",
-        "era": "Contemporary",
-        "geography": "Europe"
-      },
-      {
-        "id": "6",
-        "eventText": "Margaret Thatcher becomes UK Prime Minister",
-        "year": 1979,
-        "description": "First woman to hold the office, served 11 years",
-        "category": "Politics",
-        "era": "Contemporary",
-        "geography": "Europe"
+        "geography": "Africa"
       },
       {
         "id": "7",
@@ -1987,13 +1969,31 @@
         "geography": "Southeast Asia"
       },
       {
-        "id": "8",
-        "eventText": "Ali defeats Foreman in the Rumble in the Jungle",
-        "year": 1974,
-        "description": "Used the rope-a-dope strategy in Kinshasa",
-        "category": "Sport",
+        "id": "5",
+        "eventText": "Concorde makes its first commercial flight",
+        "year": 1976,
+        "description": "Crossed the Atlantic in under 3.5 hours",
+        "category": "Technology",
         "era": "Contemporary",
-        "geography": "Africa"
+        "geography": "Europe"
+      },
+      {
+        "id": "4",
+        "eventText": "Deng Xiaoping launches Chinese economic reforms",
+        "year": 1978,
+        "description": "Lifted more people out of poverty than any policy in history",
+        "category": "Economics",
+        "era": "Contemporary",
+        "geography": "East Asia"
+      },
+      {
+        "id": "6",
+        "eventText": "Margaret Thatcher becomes UK Prime Minister",
+        "year": 1979,
+        "description": "First woman to hold the office, served 11 years",
+        "category": "Politics",
+        "era": "Contemporary",
+        "geography": "Europe"
       },
       {
         "id": "9",
@@ -2212,24 +2212,6 @@
     "puzzleNumber": 24,
     "events": [
       {
-        "id": "1",
-        "eventText": "Rome defeats Carthage in the Punic Wars",
-        "year": -146,
-        "description": "Carthage was razed to the ground",
-        "category": "War",
-        "era": "Ancient",
-        "geography": "Europe"
-      },
-      {
-        "id": "2",
-        "eventText": "Rome defeats Hannibal at the Battle of Zama",
-        "year": -202,
-        "description": "Ended the Second Punic War and Carthage's threat to Rome",
-        "category": "War",
-        "era": "Ancient",
-        "geography": "Africa"
-      },
-      {
         "id": "3",
         "eventText": "Hippocrates establishes a medical school on Kos",
         "year": -400,
@@ -2246,6 +2228,24 @@
         "category": "Politics",
         "era": "Ancient",
         "geography": "South Asia"
+      },
+      {
+        "id": "2",
+        "eventText": "Rome defeats Hannibal at the Battle of Zama",
+        "year": -202,
+        "description": "Ended the Second Punic War and Carthage's threat to Rome",
+        "category": "War",
+        "era": "Ancient",
+        "geography": "Africa"
+      },
+      {
+        "id": "1",
+        "eventText": "Rome defeats Carthage in the Punic Wars",
+        "year": -146,
+        "description": "Carthage was razed to the ground",
+        "category": "War",
+        "era": "Ancient",
+        "geography": "Europe"
       },
       {
         "id": "5",
@@ -2380,15 +2380,6 @@
         "id": "8"
       },
       {
-        "eventText": "The James Webb Space Telescope launches",
-        "year": 2021,
-        "description": "Can see galaxies formed just after the Big Bang",
-        "category": "Science",
-        "era": "Contemporary",
-        "geography": "Global",
-        "id": "9"
-      },
-      {
         "id": "10",
         "eventText": "The first lab-grown burger is eaten in London",
         "year": 2013,
@@ -2396,6 +2387,15 @@
         "category": "Science",
         "era": "Contemporary",
         "geography": "Europe"
+      },
+      {
+        "eventText": "The James Webb Space Telescope launches",
+        "year": 2021,
+        "description": "Can see galaxies formed just after the Big Bang",
+        "category": "Science",
+        "era": "Contemporary",
+        "geography": "Global",
+        "id": "9"
       }
     ]
   },
@@ -2632,15 +2632,6 @@
         "geography": "Europe"
       },
       {
-        "id": "5",
-        "eventText": "Laika the dog is launched into orbit",
-        "year": 1957,
-        "description": "First animal to orbit Earth, aboard Sputnik 2",
-        "category": "Exploration",
-        "era": "Contemporary",
-        "geography": "Europe"
-      },
-      {
         "id": "6",
         "eventText": "Hillary and Tenzing summit Everest",
         "year": 1953,
@@ -2648,6 +2639,15 @@
         "category": "Exploration",
         "era": "Contemporary",
         "geography": "South Asia"
+      },
+      {
+        "id": "5",
+        "eventText": "Laika the dog is launched into orbit",
+        "year": 1957,
+        "description": "First animal to orbit Earth, aboard Sputnik 2",
+        "category": "Exploration",
+        "era": "Contemporary",
+        "geography": "Europe"
       },
       {
         "id": "7",
@@ -2755,15 +2755,6 @@
         "geography": "Global"
       },
       {
-        "id": "8",
-        "eventText": "The Soviet Union formally dissolves",
-        "year": 1991,
-        "description": "Gorbachev resigned on Christmas Day",
-        "category": "Politics",
-        "era": "Contemporary",
-        "geography": "Europe"
-      },
-      {
         "id": "9",
         "eventText": "Diego Maradona scores the Hand of God goal",
         "year": 1986,
@@ -2771,6 +2762,15 @@
         "category": "Sport",
         "era": "Contemporary",
         "geography": "North America"
+      },
+      {
+        "id": "8",
+        "eventText": "The Soviet Union formally dissolves",
+        "year": 1991,
+        "description": "Gorbachev resigned on Christmas Day",
+        "category": "Politics",
+        "era": "Contemporary",
+        "geography": "Europe"
       },
       {
         "id": "10",

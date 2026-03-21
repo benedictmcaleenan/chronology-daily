@@ -41,13 +41,12 @@ const raw = JSON.parse(readFileSync("./puzzles_30_days.json", "utf-8")) as Array
   events: Array<Omit<PuzzleEvent, "id"> & { id: string | number }>;
 }>;
 
-// Normalise: ensure all event ids are strings
+// Normalise: ensure all event ids are strings and events are sorted by year
 const PUZZLES: Puzzle[] = raw.map((puzzle) => ({
   ...puzzle,
-  events: puzzle.events.map((event) => ({
-    ...event,
-    id: String(event.id),
-  })),
+  events: puzzle.events
+    .map((event) => ({ ...event, id: String(event.id) }))
+    .sort((a, b) => a.year - b.year),
 }));
 
 // ---------------------------------------------------------------------------
