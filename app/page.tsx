@@ -11,7 +11,7 @@ import {
 import GameBoard, { HistoricalEvent } from "@/components/GameBoard";
 import ResultsView from "@/components/ResultsView";
 
-// ── Helpers ──────────────────────────────────────────────────────────────────
+// ── Helpers ───────────────────────────────────────────────────────────────────
 
 function shuffleArray<T>(array: T[]): T[] {
   const arr = [...array];
@@ -20,15 +20,6 @@ function shuffleArray<T>(array: T[]): T[] {
     [arr[i], arr[j]] = [arr[j], arr[i]];
   }
   return arr;
-}
-
-function formatDate(dateStr: string): string {
-  const [year, month, day] = dateStr.split("-").map(Number);
-  return new Date(year, month - 1, day).toLocaleDateString("en-US", {
-    month: "long",
-    day: "numeric",
-    year: "numeric",
-  });
 }
 
 // ── localStorage progress ─────────────────────────────────────────────────────
@@ -81,9 +72,7 @@ export default function Home() {
   const [positions, setPositions] = useState<boolean[] | null>(null);
   const [userId, setUserId] = useState<string | null>(null);
 
-  // Shuffled event order — either restored from localStorage or freshly shuffled
   const [shuffledEvents, setShuffledEvents] = useState<HistoricalEvent[]>([]);
-  // Restored mid-game state (undefined = start fresh)
   const [initialTimeline, setInitialTimeline] = useState<HistoricalEvent[] | undefined>(undefined);
   const [initialNextIndex, setInitialNextIndex] = useState<number | undefined>(undefined);
 
@@ -102,10 +91,8 @@ export default function Home() {
         }
         setPuzzle(puzzleData);
 
-        // Clean up localStorage entries for previous dates
         cleanOldProgress(puzzleData.puzzleDate);
 
-        // Check if already completed today
         try {
           const existing = await fetchTodaysResult(uid, puzzleData.puzzleDate);
           if (existing) {
@@ -117,7 +104,6 @@ export default function Home() {
           // Can't verify — let them play
         }
 
-        // Check for in-progress save
         const saved = loadProgress(puzzleData.puzzleDate);
         if (saved && saved.shuffledIds.length === puzzleData.events.length) {
           const byId = Object.fromEntries(puzzleData.events.map((e) => [e.id, e]));
@@ -128,7 +114,6 @@ export default function Home() {
             .map((id) => byId[id])
             .filter(Boolean) as HistoricalEvent[];
 
-          // Only restore if all IDs resolved (guards against stale saves after a puzzle update)
           if (
             restoredShuffled.length === puzzleData.events.length &&
             restoredTimeline.length > 0
@@ -141,7 +126,6 @@ export default function Home() {
           }
         }
 
-        // Fresh game
         setShuffledEvents(shuffleArray(puzzleData.events));
       } catch {
         setFetchError("Failed to load. Please refresh.");
@@ -165,7 +149,7 @@ export default function Home() {
           gameStartTime: gameStartTime.current,
         } satisfies SavedProgress)
       );
-    } catch { /* localStorage full or unavailable — fail silently */ }
+    } catch { /* fail silently */ }
   }
 
   async function handleSubmit(orderedEvents: HistoricalEvent[]) {
@@ -181,8 +165,6 @@ export default function Home() {
 
     setPositions(newPositions);
     setPhase("results");
-
-    // Progress is no longer needed once the game is complete
     deleteProgress(puzzle.puzzleDate);
 
     saveResult({
@@ -195,41 +177,39 @@ export default function Home() {
     }).catch(console.error);
   }
 
-  const headerLine2 = puzzle
-    ? phase === "playing"
-      ? "Arrange 10 events from oldest to newest"
-      : `Puzzle #${puzzle.puzzleNumber} · ${formatDate(puzzle.puzzleDate)}`
-    : "A new puzzle every day";
-
   return (
-    <div className="min-h-screen bg-slate-50 flex flex-col">
-      <header className="bg-slate-900 text-white">
-        <div className="max-w-lg mx-auto px-4 py-4 text-center">
-          <h1 className="text-2xl font-black tracking-tight leading-none">
-            Chronology Daily
-          </h1>
-          <p className="text-slate-400 text-sm mt-1">{headerLine2}</p>
-        </div>
-      </header>
+    <div className="min-h-screen bg-white flex flex-col">
+      {/* ── Title bar ─────────────────────────────────────────────────── */}
+      <div className="px-5 pt-3 pb-0">
+        <h1 className="text-xl font-medium text-center text-[#111] tracking-[0.01em]">
+          Chronology Daily
+        </h1>
+        <div className="mt-2.5 h-[2px] bg-[#111]" />
+      </div>
 
-      <main className="flex-1 max-w-lg mx-auto w-full px-4 py-5">
+      {/* ── Main content ──────────────────────────────────────────────── */}
+      <main className="flex-1 flex flex-col px-5 min-h-0">
+        {/* Loading */}
         {loading && (
-          <div className="flex flex-col items-center justify-center py-24 gap-3">
-            <div className="w-9 h-9 border-4 border-slate-200 border-t-slate-600 rounded-full animate-spin" />
-            <p className="text-sm text-slate-400">Loading today&apos;s puzzle…</p>
+          <div className="flex-1 flex flex-col items-center justify-center gap-3">
+            <div className="w-7 h-7 border-2 border-[#ddd] border-t-[#111] rounded-full animate-spin" />
+            <p className="text-[12px] text-[#888]">Loading today&apos;s puzzle…</p>
           </div>
         )}
 
+        {/* Error */}
         {!loading && fetchError && (
-          <div className="text-center py-20">
-            <p className="text-5xl mb-4">📅</p>
-            <p className="text-slate-700 font-medium">{fetchError}</p>
+          <div className="flex-1 flex flex-col items-center justify-center text-center">
+            <p className="text-4xl mb-3">📅</p>
+            <p className="text-sm text-[#444]">{fetchError}</p>
           </div>
         )}
 
+        {/* Game */}
         {!loading && puzzle && phase === "playing" && shuffledEvents.length > 0 && (
           <GameBoard
             events={shuffledEvents}
+            puzzleNumber={puzzle.puzzleNumber}
             onSubmit={handleSubmit}
             onProgress={handleProgress}
             initialTimeline={initialTimeline}
@@ -237,6 +217,7 @@ export default function Home() {
           />
         )}
 
+        {/* Results */}
         {!loading && puzzle && phase === "results" && positions && (
           <ResultsView
             correctOrder={puzzle.events}
@@ -247,8 +228,9 @@ export default function Home() {
         )}
       </main>
 
+      {/* ── Footer ────────────────────────────────────────────────────── */}
       {!loading && (
-        <footer className="text-center py-4 text-slate-400 text-xs border-t border-slate-100">
+        <footer className="text-center py-2.5 text-[11px] text-[#888]">
           A new puzzle every day
         </footer>
       )}

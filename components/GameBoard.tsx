@@ -19,15 +19,35 @@ export interface HistoricalEvent {
 }
 
 interface GameBoardProps {
-  events: HistoricalEvent[]; // shuffled array, length 10
+  events: HistoricalEvent[];
+  puzzleNumber: number;
   onSubmit: (orderedEvents: HistoricalEvent[]) => void;
   onProgress: (timeline: HistoricalEvent[], nextIndex: number) => void;
   initialTimeline?: HistoricalEvent[];
   initialNextIndex?: number;
 }
 
+/** Decorative 3-line hamburger — whole card is the actual drag handle */
+function GripIcon() {
+  return (
+    <svg
+      width="14"
+      height="10"
+      viewBox="0 0 14 10"
+      fill="#ccc"
+      aria-hidden="true"
+      focusable="false"
+    >
+      <rect x="0" y="0"    width="14" height="1.5" rx="0.75" />
+      <rect x="0" y="4.25" width="14" height="1.5" rx="0.75" />
+      <rect x="0" y="8.5"  width="14" height="1.5" rx="0.75" />
+    </svg>
+  );
+}
+
 export default function GameBoard({
   events,
+  puzzleNumber,
   onSubmit,
   onProgress,
   initialTimeline,
@@ -73,50 +93,39 @@ export default function GameBoard({
   }
 
   return (
-    <div className={isDone ? "pb-28" : ""}>
-      {/* Progress */}
-      <div className="mb-5">
-        <div className="flex items-center justify-between mb-2">
-          <span className="text-sm font-bold text-slate-700">
-            {timeline.length}{" "}
-            <span className="font-normal text-slate-400">of {total} placed</span>
-          </span>
-          {incoming ? (
-            <span className="text-xs text-slate-400">
-              card {nextIndex + 1} of {total}
-            </span>
-          ) : (
-            <span className="text-xs font-semibold text-amber-600">
-              All placed — ready to submit!
-            </span>
-          )}
-        </div>
-        <div className="flex gap-1">
-          {Array.from({ length: total }).map((_, i) => (
-            <div
-              key={i}
-              className={`h-1.5 flex-1 rounded-full transition-all duration-300 ${
-                i < timeline.length ? "bg-slate-700" : "bg-slate-200"
-              }`}
-            />
-          ))}
-        </div>
+    <div className="flex flex-col pt-0 pb-2">
+      {/* ── Info line: puzzle number + progress count ─────────────────── */}
+      <div className="flex justify-between items-center py-2">
+        <span className="text-[12px] text-[#888]">No.&nbsp;{puzzleNumber}</span>
+        <span className="text-[12px] text-[#888]">{timeline.length}&nbsp;/&nbsp;{total}</span>
+      </div>
+
+      {/* ── Progress bar: 10 thin segments ───────────────────────────── */}
+      <div className="flex gap-[2px] mb-3">
+        {Array.from({ length: total }).map((_, i) => (
+          <div
+            key={i}
+            className={`h-[2px] flex-1 transition-colors duration-200 ${
+              i < timeline.length ? "bg-[#111]" : "bg-[#ddd]"
+            }`}
+          />
+        ))}
       </div>
 
       <DragDropContext onDragEnd={handleDragEnd}>
-        {/* Timeline */}
+        {/* ── Timeline: table-of-contents rows ─────────────────────── */}
         <Droppable droppableId="timeline">
           {(provided, snapshot) => (
             <div
               ref={provided.innerRef}
               {...provided.droppableProps}
-              className={`space-y-2 rounded-2xl transition-colors min-h-16 ${
-                snapshot.isDraggingOver ? "bg-slate-100" : ""
+              className={`transition-colors ${
+                snapshot.isDraggingOver ? "bg-[#fafafa]" : ""
               }`}
             >
               {timeline.length === 0 && !snapshot.isDraggingOver && (
-                <div className="flex items-center justify-center h-16 rounded-2xl border-2 border-dashed border-slate-200 text-slate-400 text-sm">
-                  Drag the card below to start
+                <div className="min-h-[44px] flex items-center text-[12px] text-[#aaa] border-t border-[#eee]">
+                  Drag the card below into position
                 </div>
               )}
               {timeline.map((event, index) => (
@@ -131,18 +140,25 @@ export default function GameBoard({
                       {...provided.draggableProps}
                       {...provided.dragHandleProps}
                       style={provided.draggableProps.style}
-                      className={`flex items-center gap-3 px-4 py-3 rounded-xl border bg-white select-none transition-shadow cursor-grab active:cursor-grabbing touch-none ${
+                      aria-label={`Position ${index + 1}: ${event.eventText}. Drag to reorder.`}
+                      className={`flex items-center min-h-[44px] border-t border-[#eee] select-none touch-none cursor-grab active:cursor-grabbing ${
                         snapshot.isDragging
-                          ? "border-slate-400 shadow-xl rotate-1"
-                          : "border-slate-200 shadow-sm"
+                          ? "bg-white shadow-md opacity-95"
+                          : "bg-white"
                       }`}
                     >
-                      <span className="flex-shrink-0 w-7 h-7 flex items-center justify-center rounded-full bg-slate-800 text-white text-xs font-bold">
+                      {/* Position number */}
+                      <span className="w-6 flex-shrink-0 text-[12px] text-[#aaa] leading-none">
                         {index + 1}
                       </span>
-                      <p className="flex-1 text-sm font-medium text-slate-800 leading-snug">
+                      {/* Event text */}
+                      <p className="flex-1 text-[14px] text-[#111] leading-snug px-2 py-2">
                         {event.eventText}
                       </p>
+                      {/* Decorative grip */}
+                      <span className="flex-shrink-0 w-[44px] h-[44px] flex items-center justify-center">
+                        <GripIcon />
+                      </span>
                     </div>
                   )}
                 </Draggable>
@@ -152,38 +168,34 @@ export default function GameBoard({
           )}
         </Droppable>
 
-        {/* Incoming card */}
+        {/* ── Incoming card ─────────────────────────────────────────── */}
         {incoming && (
-          <div className="mt-5">
-            <div className="flex items-center gap-3 mb-3">
-              <div className="flex-1 h-px bg-slate-200" />
-              <p className="text-xs text-slate-400 font-medium uppercase tracking-widest whitespace-nowrap">
-                drag up to place
-              </p>
-              <div className="flex-1 h-px bg-slate-200" />
-            </div>
+          <div className="mt-4">
+            {/* Dashed separator */}
+            <div className="border-t border-dashed border-[#ccc] mb-3" />
+
+            <p className="text-[11px] text-[#888] tracking-[0.08em] mb-2 uppercase">
+              Place next
+            </p>
 
             <Droppable droppableId="incoming" isDropDisabled>
               {(provided) => (
                 <div ref={provided.innerRef} {...provided.droppableProps}>
-                  <Draggable
-                    key={incoming.id}
-                    draggableId={incoming.id}
-                    index={0}
-                  >
+                  <Draggable draggableId={incoming.id} index={0}>
                     {(provided, snapshot) => (
                       <div
                         ref={provided.innerRef}
                         {...provided.draggableProps}
                         {...provided.dragHandleProps}
                         style={provided.draggableProps.style}
-                        className={`p-4 rounded-xl border-2 select-none transition-all cursor-grab active:cursor-grabbing ${
+                        aria-label={`Incoming card: ${incoming.eventText}. Drag into position above.`}
+                        className={`px-3 py-2.5 rounded-[4px] select-none cursor-grab active:cursor-grabbing touch-none transition-colors ${
                           snapshot.isDragging
-                            ? "bg-amber-100 border-amber-400 shadow-xl"
-                            : "bg-amber-50 border-amber-300 animate-glow-pulse"
+                            ? "bg-amber-50 border-[1.5px] border-[#d97706] shadow-sm"
+                            : "bg-white border-[1.5px] border-[#d97706]"
                         }`}
                       >
-                        <p className="text-sm font-semibold text-amber-900 leading-snug">
+                        <p className="text-[14px] text-[#111] leading-snug">
                           {incoming.eventText}
                         </p>
                       </div>
@@ -193,22 +205,22 @@ export default function GameBoard({
                 </div>
               )}
             </Droppable>
+
+            <p className="text-[12px] text-[#888] mt-2">
+              Drag into position above
+            </p>
           </div>
         )}
       </DragDropContext>
 
-      {/* Submit — fixed at bottom */}
+      {/* ── Submit button — inline, appears when all placed ──────────── */}
       {isDone && (
-        <div className="fixed bottom-0 left-0 right-0 px-4 py-4 bg-slate-50/95 backdrop-blur-sm border-t border-slate-200">
-          <div className="max-w-lg mx-auto">
-            <button
-              onClick={() => onSubmit(timeline)}
-              className="w-full py-4 bg-green-600 hover:bg-green-700 active:bg-green-800 active:scale-[0.98] text-white font-bold text-base rounded-2xl transition-all shadow-lg shadow-green-200"
-            >
-              Submit Order →
-            </button>
-          </div>
-        </div>
+        <button
+          onClick={() => onSubmit(timeline)}
+          className="mt-4 w-full py-3 border border-[#111] text-[14px] text-[#111] bg-white transition-colors hover:bg-[#111] hover:text-white active:bg-[#111] active:text-white"
+        >
+          Submit Order
+        </button>
       )}
     </div>
   );
