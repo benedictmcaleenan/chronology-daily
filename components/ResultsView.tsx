@@ -165,17 +165,19 @@ export default function ResultsView({
                   </div>
 
                   {/* Wikipedia info icon — 44×44 touch target, 20×20 visual */}
-                  <a
-                    href={`https://en.wikipedia.org/w/index.php?search=${encodeURIComponent(result.event.eventText)}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={`Learn more about ${result.event.eventText} on Wikipedia`}
-                    className="flex-shrink-0 -mr-1 w-[44px] h-[44px] flex items-center justify-center"
-                  >
-                    <span className="w-[20px] h-[20px] flex items-center justify-center rounded-full border border-[#B4B2A9] text-[10px] text-[#B4B2A9] font-medium leading-none select-none">
-                      i
-                    </span>
-                  </a>
+                  {result.event.wikiUrl && (
+                    <a
+                      href={result.event.wikiUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={`Learn more about ${result.event.eventText} on Wikipedia`}
+                      className="flex-shrink-0 -mr-1 w-[44px] h-[44px] flex items-center justify-center"
+                    >
+                      <span className="w-[20px] h-[20px] flex items-center justify-center rounded-full border border-[#B4B2A9] text-[10px] text-[#B4B2A9] font-medium leading-none select-none">
+                        i
+                      </span>
+                    </a>
+                  )}
                 </div>
               </div>
             </div>

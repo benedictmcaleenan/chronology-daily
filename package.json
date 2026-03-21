@@ -7,7 +7,8 @@
     "build": "next build --webpack",
     "start": "next start",
     "lint": "eslint",
-    "upload": "tsx scripts/uploadPuzzles.ts"
+    "upload": "tsx scripts/uploadPuzzles.ts",
+    "add-wiki-urls": "tsx scripts/addWikiUrls.ts"
   },
   "dependencies": {
     "@hello-pangea/dnd": "^18.0.1",

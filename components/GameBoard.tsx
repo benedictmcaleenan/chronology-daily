@@ -16,6 +16,7 @@ export interface HistoricalEvent {
   category: string;
   era: string;
   geography: string;
+  wikiUrl?: string | null;
 }
 
 interface GameBoardProps {

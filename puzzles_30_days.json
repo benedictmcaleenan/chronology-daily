@@ -10,7 +10,8 @@
         "description": "Only event was a 192m footrace called the stadion",
         "category": "Sport",
         "era": "Ancient",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Ancient_Olympic_Games"
       },
       {
         "id": "2",
@@ -19,7 +20,8 @@
         "description": "Stabbed 23 times on the Ides of March",
         "category": "Politics",
         "era": "Ancient",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Assassination_of_Julius_Caesar"
       },
       {
         "id": "3",
@@ -28,7 +30,8 @@
         "description": "Movable type launched a revolution in knowledge",
         "category": "Technology",
         "era": "Medieval",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Gutenberg_Bible"
       },
       {
         "id": "4",
@@ -37,7 +40,8 @@
         "description": "Magellan himself was killed in the Philippines",
         "category": "Exploration",
         "era": "Early Modern",
-        "geography": "Global"
+        "geography": "Global",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Magellan_expedition"
       },
       {
         "id": "5",
@@ -46,7 +50,8 @@
         "description": "Laid the foundation for classical mechanics",
         "category": "Science",
         "era": "Early Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Philosophi%C3%A6_Naturalis_Principia_Mathematica"
       },
       {
         "id": "6",
@@ -55,7 +60,8 @@
         "description": "Became the defining symbol of the French Revolution",
         "category": "Politics",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Storming_of_the_Bastille"
       },
       {
         "id": "7",
@@ -64,7 +70,8 @@
         "description": "Sold out its first print run in a single day",
         "category": "Science",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/On_the_Origin_of_Species"
       },
       {
         "id": "8",
@@ -73,7 +80,8 @@
         "description": "Over 1,500 died in the freezing North Atlantic",
         "category": "Disaster",
         "era": "Modern",
-        "geography": "Global"
+        "geography": "Global",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Sinking_of_the_Titanic"
       },
       {
         "id": "9",
@@ -82,7 +90,8 @@
         "description": "The mission computer had less power than a calculator",
         "category": "Exploration",
         "era": "Contemporary",
-        "geography": "Global"
+        "geography": "Global",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Neil_Armstrong"
       },
       {
         "id": "10",
@@ -91,7 +100,8 @@
         "description": "East Germans flooded through after a confused press conference",
         "category": "Politics",
         "era": "Contemporary",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall"
       }
     ]
   },
@@ -106,7 +116,8 @@
         "description": "Founded the scientific method through experiments with light",
         "category": "Science",
         "era": "Medieval",
-        "geography": "Middle East"
+        "geography": "Middle East",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Book_of_Optics"
       },
       {
         "id": "2",
@@ -115,7 +126,8 @@
         "description": "Ended over 1,000 years of the Byzantine Empire",
         "category": "War",
         "era": "Medieval",
-        "geography": "Middle East"
+        "geography": "Middle East",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Fall_of_Constantinople"
       },
       {
         "id": "3",
@@ -124,7 +136,8 @@
         "description": "Sparked the Protestant Reformation across Europe",
         "category": "Religion",
         "era": "Early Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Martin_Luther"
       },
       {
         "id": "4",
@@ -133,7 +146,8 @@
         "description": "Storms did as much damage as the English fleet",
         "category": "War",
         "era": "Early Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Defeat_of_the_Spanish_Armada"
       },
       {
         "id": "5",
@@ -142,7 +156,8 @@
         "description": "The longest of his plays at over 4,000 lines",
         "category": "Culture",
         "era": "Early Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Hamlet"
       },
       {
         "id": "6",
@@ -151,7 +166,8 @@
         "description": "Proved not everything orbits the Earth",
         "category": "Science",
         "era": "Early Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Galilean_moons"
       },
       {
         "id": "7",
@@ -160,7 +176,8 @@
         "description": "Took 47 scholars seven years to complete",
         "category": "Religion",
         "era": "Early Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/King_James_Version"
       },
       {
         "id": "8",
@@ -169,7 +186,8 @@
         "description": "Built by 20,000 workers as a memorial to a beloved wife",
         "category": "Culture",
         "era": "Early Modern",
-        "geography": "South Asia"
+        "geography": "South Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Taj_Mahal"
       },
       {
         "id": "9",
@@ -178,7 +196,8 @@
         "description": "Beat a rival application by just two hours",
         "category": "Technology",
         "era": "Modern",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/History_of_the_telephone"
       },
       {
         "id": "10",
@@ -187,7 +206,8 @@
         "description": "Now has over 600 million users worldwide",
         "category": "Technology",
         "era": "Contemporary",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Spotify"
       }
     ]
   },
@@ -202,7 +222,8 @@
         "description": "Killed roughly a third of Europe's population within 5 years",
         "category": "Disaster",
         "era": "Medieval",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Black_Death"
       },
       {
         "id": "3",
@@ -211,7 +232,8 @@
         "description": "Most delegates actually signed it on 2 August",
         "category": "Politics",
         "era": "Modern",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Signing_of_the_United_States_Declaration_of_Independence"
       },
       {
         "id": "5",
@@ -220,7 +242,8 @@
         "description": "Used cowpox pus from a milkmaid's hand",
         "category": "Science",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Smallpox_vaccine"
       },
       {
         "id": "4",
@@ -229,7 +252,8 @@
         "description": "Replaced hundreds of local measurement systems",
         "category": "Science",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Metric_system"
       },
       {
         "id": "2",
@@ -238,7 +262,8 @@
         "description": "Led to the only successful large-scale slave revolt",
         "category": "War",
         "era": "Modern",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Haitian_Revolution"
       },
       {
         "id": "6",
@@ -247,7 +272,8 @@
         "description": "His final battle lasted less than a day",
         "category": "War",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo"
       },
       {
         "id": "7",
@@ -256,7 +282,8 @@
         "description": "Sent from Washington to Baltimore",
         "category": "Technology",
         "era": "Modern",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Telegraphy"
       },
       {
         "id": "8",
@@ -265,7 +292,8 @@
         "description": "Brought the United States into World War II",
         "category": "War",
         "era": "Modern",
-        "geography": "East Asia"
+        "geography": "East Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor"
       },
       {
         "id": "9",
@@ -274,7 +302,8 @@
         "description": "The only human disease ever completely wiped out",
         "category": "Science",
         "era": "Contemporary",
-        "geography": "Global"
+        "geography": "Global",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Smallpox"
       },
       {
         "id": "10",
@@ -283,7 +312,8 @@
         "description": "Largest bankruptcy in US history at the time",
         "category": "Economics",
         "era": "Contemporary",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers"
       }
     ]
   },
@@ -298,7 +328,8 @@
         "description": "Made from a gold-silver alloy called electrum",
         "category": "Economics",
         "era": "Ancient",
-        "geography": "Middle East"
+        "geography": "Middle East",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Coin"
       },
       {
         "id": "2",
@@ -307,7 +338,8 @@
         "description": "Founder of Buddhism, raised as a prince in Nepal",
         "category": "Religion",
         "era": "Ancient",
-        "geography": "South Asia"
+        "geography": "South Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/The_Buddha"
       },
       {
         "id": "3",
@@ -316,7 +348,8 @@
         "description": "Citizens voted directly on laws — no representatives",
         "category": "Politics",
         "era": "Ancient",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Cleisthenes"
       },
       {
         "id": "4",
@@ -325,7 +358,8 @@
         "description": "A Greek runner allegedly died delivering news of the victory",
         "category": "War",
         "era": "Ancient",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Battle_of_Marathon"
       },
       {
         "id": "5",
@@ -334,7 +368,8 @@
         "description": "Built without mortar — precision-cut marble held it together",
         "category": "Culture",
         "era": "Ancient",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Parthenon_(Nashville)"
       },
       {
         "id": "6",
@@ -343,7 +378,8 @@
         "description": "Named at least 20 cities after himself",
         "category": "Politics",
         "era": "Ancient",
-        "geography": "Africa"
+        "geography": "Africa",
+        "wikiUrl": "https://en.wikipedia.org/wiki/List_of_cities_founded_by_Alexander_the_Great"
       },
       {
         "id": "7",
@@ -352,7 +388,8 @@
         "description": "Preserved the city so well that bread was found in ovens",
         "category": "Disaster",
         "era": "Ancient",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Mount_Vesuvius"
       },
       {
         "id": "8",
@@ -361,7 +398,8 @@
         "description": "United most of Western Europe for the first time since Rome",
         "category": "Politics",
         "era": "Medieval",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Holy_Roman_Emperor"
       },
       {
         "id": "9",
@@ -370,7 +408,8 @@
         "description": "Sparked the 381-day Montgomery bus boycott",
         "category": "Politics",
         "era": "Contemporary",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Rosa_Parks"
       },
       {
         "id": "10",
@@ -379,7 +418,8 @@
         "description": "Developed in under a year — a record for any vaccine",
         "category": "Science",
         "era": "Contemporary",
-        "geography": "Global"
+        "geography": "Global",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Moderna_COVID-19_vaccine"
       }
     ]
   },
@@ -394,7 +434,8 @@
         "description": "Could seat 50,000 and had a retractable awning",
         "category": "Culture",
         "era": "Ancient",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Colosseum"
       },
       {
         "id": "2",
@@ -403,7 +444,8 @@
         "description": "Went on to build the largest contiguous land empire",
         "category": "Politics",
         "era": "Medieval",
-        "geography": "Central Asia"
+        "geography": "Central Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Genghis_Khan"
       },
       {
         "id": "3",
@@ -412,7 +454,8 @@
         "description": "Originally planned to be dismantled after 20 years",
         "category": "Culture",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Eiffel_Tower"
       },
       {
         "id": "4",
@@ -421,7 +464,8 @@
         "description": "The first powered flight lasted just 12 seconds",
         "category": "Technology",
         "era": "Modern",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Wright_Flyer"
       },
       {
         "id": "5",
@@ -430,7 +474,8 @@
         "description": "Nearly 20,000 British soldiers died on the first day alone",
         "category": "War",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Battle_of_the_Somme"
       },
       {
         "id": "7",
@@ -439,7 +484,8 @@
         "description": "Found by accident when mould contaminated a petri dish",
         "category": "Science",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Alexander_Fleming"
       },
       {
         "id": "6",
@@ -448,7 +494,8 @@
         "description": "The Dow didn't recover its pre-crash high until 1954",
         "category": "Economics",
         "era": "Modern",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Stock_market_crash"
       },
       {
         "id": "8",
@@ -457,7 +504,8 @@
         "description": "Over 150,000 Allied troops crossed the English Channel",
         "category": "War",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Normandy_landings"
       },
       {
         "id": "9",
@@ -466,7 +514,8 @@
         "description": "The most famous part was improvised on the spot",
         "category": "Politics",
         "era": "Contemporary",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/I_Have_a_Dream"
       },
       {
         "id": "10",
@@ -475,7 +524,8 @@
         "description": "Voted in the country's first fully democratic election",
         "category": "Politics",
         "era": "Contemporary",
-        "geography": "Africa"
+        "geography": "Africa",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Nelson_Mandela"
       }
     ]
   },
@@ -490,7 +540,8 @@
         "description": "Forced King John to accept limits on royal power",
         "category": "Politics",
         "era": "Medieval",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Runnymede"
       },
       {
         "id": "2",
@@ -499,7 +550,8 @@
         "description": "Believed he had reached Asia until his death",
         "category": "Exploration",
         "era": "Early Modern",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Christopher_Columbus"
       },
       {
         "id": "3",
@@ -508,7 +560,8 @@
         "description": "Took the crown from the Pope and placed it on his own head",
         "category": "Politics",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Crown_of_Napoleon"
       },
       {
         "id": "4",
@@ -517,7 +570,8 @@
         "description": "Cut the London-to-Mumbai sea route by 7,000 km",
         "category": "Technology",
         "era": "Modern",
-        "geography": "Middle East"
+        "geography": "Middle East",
+        "wikiUrl": "https://en.wikipedia.org/wiki/2021_Suez_Canal_obstruction"
       },
       {
         "id": "5",
@@ -526,7 +580,8 @@
         "description": "Her notebooks are still too radioactive to handle",
         "category": "Science",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Radium"
       },
       {
         "id": "6",
@@ -535,7 +590,8 @@
         "description": "Abdicated in a railway carriage near Pskov",
         "category": "Politics",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Abdication_of_Nicholas_II"
       },
       {
         "id": "7",
@@ -544,7 +600,8 @@
         "description": "Completed the crossing in under 15 hours",
         "category": "Exploration",
         "era": "Modern",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Amelia_(film)"
       },
       {
         "id": "8",
@@ -553,7 +610,8 @@
         "description": "Created in response to the bombing of a Basque town",
         "category": "Culture",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Timeline_of_art"
       },
       {
         "id": "9",
@@ -562,7 +620,8 @@
         "description": "Built on crucial X-ray work by Rosalind Franklin",
         "category": "Science",
         "era": "Contemporary",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Nucleic_acid_double_helix"
       },
       {
         "id": "10",
@@ -571,7 +630,8 @@
         "description": "Triggered uprisings across the Middle East",
         "category": "Politics",
         "era": "Contemporary",
-        "geography": "Middle East"
+        "geography": "Middle East",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Arab_Spring_concurrent_incidents"
       }
     ]
   },
@@ -586,7 +646,8 @@
         "description": "One of the earliest written legal codes with 282 laws",
         "category": "Politics",
         "era": "Ancient",
-        "geography": "Middle East"
+        "geography": "Middle East",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Hammurabi"
       },
       {
         "id": "2",
@@ -595,7 +656,8 @@
         "description": "Replaced bamboo strips and silk as a writing surface",
         "category": "Technology",
         "era": "Ancient",
-        "geography": "East Asia"
+        "geography": "East Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Chinese_paper_cutting"
       },
       {
         "id": "3",
@@ -604,7 +666,8 @@
         "description": "Within 50 years, 20 million volumes had been printed",
         "category": "Technology",
         "era": "Medieval",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Early_modern_Europe"
       },
       {
         "id": "4",
@@ -613,7 +676,8 @@
         "description": "First detailed illustrations of life under a microscope",
         "category": "Science",
         "era": "Early Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Micrographia"
       },
       {
         "id": "5",
@@ -622,7 +686,8 @@
         "description": "Aboriginal Australians had lived there for 65,000 years",
         "category": "Exploration",
         "era": "Modern",
-        "geography": "Oceania"
+        "geography": "Oceania",
+        "wikiUrl": "https://en.wikipedia.org/wiki/James_Cook"
       },
       {
         "id": "6",
@@ -631,7 +696,8 @@
         "description": "Originally designed to save the French wine industry",
         "category": "Science",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Pasteurization"
       },
       {
         "id": "7",
@@ -640,7 +706,8 @@
         "description": "Lit up a square mile of lower Manhattan",
         "category": "Technology",
         "era": "Modern",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Thomas_Edison"
       },
       {
         "id": "8",
@@ -649,7 +716,8 @@
         "description": "Cut the New York-to-San Francisco journey by 12,000 km",
         "category": "Technology",
         "era": "Modern",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Panama_Canal"
       },
       {
         "id": "9",
@@ -658,7 +726,8 @@
         "description": "His entire flight lasted just 108 minutes",
         "category": "Exploration",
         "era": "Contemporary",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Yuri_Gagarin"
       },
       {
         "id": "10",
@@ -667,7 +736,8 @@
         "description": "The page explained what the World Wide Web was for",
         "category": "Technology",
         "era": "Contemporary",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Tim_Berners-Lee"
       }
     ]
   },
@@ -682,7 +752,8 @@
         "description": "Spent 17 years in the Mongol Empire",
         "category": "Exploration",
         "era": "Medieval",
-        "geography": "East Asia"
+        "geography": "East Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Kublai_Khan"
       },
       {
         "id": "2",
@@ -691,7 +762,8 @@
         "description": "Smallpox killed far more Aztecs than Spanish weapons",
         "category": "War",
         "era": "Early Modern",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Tenochtitlan"
       },
       {
         "id": "3",
@@ -700,7 +772,8 @@
         "description": "Conducted while almost completely deaf",
         "category": "Culture",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Symphony_No._9_(Beethoven)"
       },
       {
         "id": "4",
@@ -709,7 +782,8 @@
         "description": "Freed over 800,000 enslaved people",
         "category": "Politics",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Timeline_of_abolition_of_slavery_and_serfdom"
       },
       {
         "id": "5",
@@ -718,7 +792,8 @@
         "description": "Ireland's population has still never recovered",
         "category": "Disaster",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Potato"
       },
       {
         "id": "7",
@@ -727,7 +802,8 @@
         "description": "Experimented with 28,000 pea plants in a monastery garden",
         "category": "Science",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Mendelian_inheritance"
       },
       {
         "eventText": "The Statue of Liberty is unveiled in New York",
@@ -736,7 +812,8 @@
         "category": "Culture",
         "era": "Modern",
         "geography": "North America",
-        "id": "8"
+        "id": "8",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Statue_of_Liberty"
       },
       {
         "id": "6",
@@ -745,7 +822,8 @@
         "description": "Had three wheels and a top speed of 16 km/h",
         "category": "Technology",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Bertha_Benz"
       },
       {
         "id": "9",
@@ -754,7 +832,8 @@
         "description": "Its beeps could be picked up by amateur radio worldwide",
         "category": "Technology",
         "era": "Contemporary",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Sputnik_3"
       },
       {
         "id": "10",
@@ -763,7 +842,8 @@
         "description": "Led to the fastest vaccine development in history",
         "category": "Disaster",
         "era": "Contemporary",
-        "geography": "Global"
+        "geography": "Global",
+        "wikiUrl": "https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Japan"
       }
     ]
   },
@@ -778,7 +858,8 @@
         "description": "Aimed to contain a copy of every book in the world",
         "category": "Culture",
         "era": "Ancient",
-        "geography": "Africa"
+        "geography": "Africa",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Library_of_Alexandria"
       },
       {
         "id": "2",
@@ -787,7 +868,8 @@
         "description": "Year one of the Islamic calendar",
         "category": "Religion",
         "era": "Medieval",
-        "geography": "Middle East"
+        "geography": "Middle East",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Umar"
       },
       {
         "id": "3",
@@ -796,7 +878,8 @@
         "description": "Became the most powerful corporation in history",
         "category": "Economics",
         "era": "Early Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/East_India_Company"
       },
       {
         "id": "4",
@@ -805,7 +888,8 @@
         "description": "Audiences reportedly fled from an oncoming train",
         "category": "Culture",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/The_Sisters_Brothers_(film)"
       },
       {
         "id": "5",
@@ -814,7 +898,8 @@
         "description": "Ended 2,000 years of imperial rule",
         "category": "Politics",
         "era": "Modern",
-        "geography": "East Asia"
+        "geography": "East Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Proclamation_of_the_People's_Republic_of_China"
       },
       {
         "id": "6",
@@ -823,7 +908,8 @@
         "description": "The pandemic went on to kill 50-100 million worldwide",
         "category": "Disaster",
         "era": "Modern",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Spanish_flu"
       },
       {
         "id": "7",
@@ -832,7 +918,8 @@
         "description": "Walked 390 km to protest the British salt monopoly",
         "category": "Politics",
         "era": "Modern",
-        "geography": "South Asia"
+        "geography": "South Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Salt_March"
       },
       {
         "id": "8",
@@ -841,7 +928,8 @@
         "description": "Declared from the Gate of Heavenly Peace in Beijing",
         "category": "Politics",
         "era": "Contemporary",
-        "geography": "East Asia"
+        "geography": "East Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Proclamation_of_the_People's_Republic_of_China"
       },
       {
         "id": "9",
@@ -850,7 +938,8 @@
         "description": "Watched by 73 million Americans — a record at the time",
         "category": "Culture",
         "era": "Contemporary",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/The_Beatles_on_The_Ed_Sullivan_Show"
       },
       {
         "id": "10",
@@ -859,7 +948,8 @@
         "description": "Had one million users within its first year",
         "category": "Technology",
         "era": "Contemporary",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Facebook"
       }
     ]
   },
@@ -874,7 +964,8 @@
         "description": "Created the first charter of human rights",
         "category": "Politics",
         "era": "Ancient",
-        "geography": "Middle East"
+        "geography": "Middle East",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Fall_of_Babylon"
       },
       {
         "id": "2",
@@ -883,7 +974,8 @@
         "description": "Beat Columbus by nearly 500 years",
         "category": "Exploration",
         "era": "Medieval",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Leif_Erikson"
       },
       {
         "id": "3",
@@ -892,7 +984,8 @@
         "description": "Built on a lake island where Mexico City now stands",
         "category": "Culture",
         "era": "Medieval",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Aztec_Empire"
       },
       {
         "id": "4",
@@ -901,7 +994,8 @@
         "description": "Opened the spice trade route around Africa",
         "category": "Exploration",
         "era": "Early Modern",
-        "geography": "South Asia"
+        "geography": "South Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Vasco_da_Gama%2C_Goa"
       },
       {
         "id": "5",
@@ -910,7 +1004,8 @@
         "description": "Established the modern concept of state sovereignty",
         "category": "Politics",
         "era": "Early Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Peace_of_Westphalia"
       },
       {
         "id": "6",
@@ -919,7 +1014,8 @@
         "description": "Oldest written national constitution still in use",
         "category": "Politics",
         "era": "Modern",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Timeline_of_drafting_and_ratification_of_the_United_States_Constitution"
       },
       {
         "id": "7",
@@ -928,7 +1024,8 @@
         "description": "Known as El Libertador across South America",
         "category": "War",
         "era": "Modern",
-        "geography": "South America"
+        "geography": "South America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Sim%C3%B3n_Bol%C3%ADvar"
       },
       {
         "id": "8",
@@ -937,7 +1034,8 @@
         "description": "Not a single African leader was invited",
         "category": "Politics",
         "era": "Modern",
-        "geography": "Africa"
+        "geography": "Africa",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Berlin_Conference"
       },
       {
         "id": "9",
@@ -946,7 +1044,8 @@
         "description": "Midnight transfer of power to avoid an astrologically bad date",
         "category": "Politics",
         "era": "Contemporary",
-        "geography": "South Asia"
+        "geography": "South Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Independence_Day_(India)"
       },
       {
         "id": "10",
@@ -955,7 +1054,8 @@
         "description": "Nearly 3,000 people killed in the deadliest terror attack in history",
         "category": "Disaster",
         "era": "Contemporary",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/September_11_attacks"
       }
     ]
   },
@@ -970,7 +1070,8 @@
         "description": "Gave its name to China's largest ethnic group",
         "category": "Politics",
         "era": "Ancient",
-        "geography": "East Asia"
+        "geography": "East Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Han_Chinese"
       },
       {
         "id": "2",
@@ -979,7 +1080,8 @@
         "description": "Wrote in Italian instead of Latin, shocking the literary world",
         "category": "Culture",
         "era": "Medieval",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Divine_Comedy_in_popular_culture"
       },
       {
         "id": "3",
@@ -988,7 +1090,8 @@
         "description": "Carried it with him for years, endlessly refining it",
         "category": "Culture",
         "era": "Early Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Mona_Lisa_Smile"
       },
       {
         "id": "4",
@@ -997,7 +1100,8 @@
         "description": "Published on his deathbed to avoid controversy",
         "category": "Science",
         "era": "Early Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/De_revolutionibus_orbium_coelestium"
       },
       {
         "id": "5",
@@ -1006,7 +1110,8 @@
         "description": "The first company to sell public stock",
         "category": "Economics",
         "era": "Early Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Dutch_East_India_Company"
       },
       {
         "id": "6",
@@ -1015,7 +1120,8 @@
         "description": "A savage satire on optimism, banned across Europe",
         "category": "Culture",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Candide"
       },
       {
         "id": "7",
@@ -1024,7 +1130,8 @@
         "description": "Made steam power efficient enough for factories",
         "category": "Technology",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Watt_steam_engine"
       },
       {
         "id": "8",
@@ -1033,7 +1140,8 @@
         "description": "Influenced legal systems across Europe and Latin America",
         "category": "Politics",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Napoleonic_Code"
       },
       {
         "id": "9",
@@ -1042,7 +1150,8 @@
         "description": "Created a 2,600 km² exclusion zone that still exists",
         "category": "Disaster",
         "era": "Contemporary",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Chernobyl_(miniseries)"
       },
       {
         "id": "10",
@@ -1051,7 +1160,8 @@
         "description": "Reached 100 million users faster than any app in history",
         "category": "Technology",
         "era": "Contemporary",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Chatbot"
       }
     ]
   },
@@ -1066,7 +1176,8 @@
         "description": "Ordered construction of the first Great Wall sections",
         "category": "Politics",
         "era": "Ancient",
-        "geography": "East Asia"
+        "geography": "East Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Qin_Shi_Huang"
       },
       {
         "id": "2",
@@ -1075,7 +1186,8 @@
         "description": "One of the first states in the world to do so",
         "category": "Religion",
         "era": "Ancient",
-        "geography": "Africa"
+        "geography": "Africa",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Kingdom_of_Aksum"
       },
       {
         "id": "3",
@@ -1084,7 +1196,8 @@
         "description": "A descendant of both Genghis Khan and Tamerlane",
         "category": "War",
         "era": "Early Modern",
-        "geography": "South Asia"
+        "geography": "South Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Babur"
       },
       {
         "id": "4",
@@ -1093,7 +1206,8 @@
         "description": "Could magnify objects roughly 8 times",
         "category": "Technology",
         "era": "Early Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Galileo_Galilei"
       },
       {
         "id": "5",
@@ -1102,7 +1216,8 @@
         "description": "Proved blood is pumped by the heart in a closed loop",
         "category": "Science",
         "era": "Early Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/William_Harvey"
       },
       {
         "id": "6",
@@ -1111,7 +1226,8 @@
         "description": "Initially thought it was a comet",
         "category": "Science",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/William_Herschel"
       },
       {
         "id": "7",
@@ -1120,7 +1236,8 @@
         "description": "The British Empire then covered a quarter of the globe",
         "category": "Politics",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Emperor_of_India"
       },
       {
         "id": "8",
@@ -1129,7 +1246,8 @@
         "description": "Weighed 30 tonnes and filled an entire room",
         "category": "Technology",
         "era": "Modern",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/ENIAC"
       },
       {
         "id": "9",
@@ -1138,7 +1256,8 @@
         "description": "Named after Dolly Parton",
         "category": "Science",
         "era": "Contemporary",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Dolly_(sheep)"
       },
       {
         "id": "10",
@@ -1147,7 +1266,8 @@
         "description": "Confirmed a theory proposed nearly 50 years earlier",
         "category": "Science",
         "era": "Contemporary",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Higgs_boson"
       }
     ]
   },
@@ -1162,7 +1282,8 @@
         "description": "Lost nearly half his army to the mountain crossing",
         "category": "War",
         "era": "Ancient",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Hannibal"
       },
       {
         "id": "2",
@@ -1171,7 +1292,8 @@
         "description": "Created while searching for an elixir of immortality",
         "category": "Technology",
         "era": "Medieval",
-        "geography": "East Asia"
+        "geography": "East Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Gunpowder"
       },
       {
         "id": "3",
@@ -1180,7 +1302,8 @@
         "description": "Harold II reportedly killed by an arrow to the eye",
         "category": "War",
         "era": "Medieval",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/The_Normans_(TV_series)"
       },
       {
         "id": "4",
@@ -1189,7 +1312,8 @@
         "description": "Financed the Renaissance through banking innovation",
         "category": "Economics",
         "era": "Medieval",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Medici_Bank"
       },
       {
         "id": "5",
@@ -1198,7 +1322,8 @@
         "description": "Corrected centuries of anatomical errors from Galen",
         "category": "Science",
         "era": "Early Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/De_Humani_Corporis_Fabrica_Libri_Septem"
       },
       {
         "id": "6",
@@ -1207,7 +1332,8 @@
         "description": "Destroyed 13,200 houses but officially killed only six",
         "category": "Disaster",
         "era": "Early Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Great_Fire_of_London"
       },
       {
         "id": "7",
@@ -1216,7 +1342,8 @@
         "description": "Turning point of the American Civil War with 50,000 casualties",
         "category": "War",
         "era": "Modern",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Battle_of_Gettysburg"
       },
       {
         "id": "8",
@@ -1225,7 +1352,8 @@
         "description": "Sent the letter S in Morse code from Cornwall to Newfoundland",
         "category": "Technology",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Invention_of_radio"
       },
       {
         "id": "9",
@@ -1234,7 +1362,8 @@
         "description": "For 13 days, nuclear war seemed imminent",
         "category": "Politics",
         "era": "Contemporary",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis"
       },
       {
         "id": "10",
@@ -1243,7 +1372,8 @@
         "description": "Introduced it as three products in one",
         "category": "Technology",
         "era": "Contemporary",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/IPhone_(1st_generation)"
       }
     ]
   },
@@ -1258,7 +1388,8 @@
         "description": "Largest religious monument ever built",
         "category": "Culture",
         "era": "Medieval",
-        "geography": "Southeast Asia"
+        "geography": "Southeast Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Viraat_Ramayan_Mandir"
       },
       {
         "id": "2",
@@ -1267,7 +1398,8 @@
         "description": "Gave away so much gold he crashed Egypt's economy for a decade",
         "category": "Economics",
         "era": "Medieval",
-        "geography": "Africa"
+        "geography": "Africa",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Mansa_Musa"
       },
       {
         "id": "3",
@@ -1276,7 +1408,8 @@
         "description": "Only about half the passengers survived the first winter",
         "category": "Exploration",
         "era": "Early Modern",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Mayflower_II"
       },
       {
         "id": "4",
@@ -1285,7 +1418,8 @@
         "description": "Triggered a tsunami and fires that levelled the city",
         "category": "Disaster",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Lisbon"
       },
       {
         "id": "5",
@@ -1294,7 +1428,8 @@
         "description": "The bomber crew saw the flash from 600 km away",
         "category": "War",
         "era": "Modern",
-        "geography": "East Asia"
+        "geography": "East Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki"
       },
       {
         "id": "7",
@@ -1303,7 +1438,8 @@
         "description": "Triggered one of the largest mass migrations in history",
         "category": "Politics",
         "era": "Contemporary",
-        "geography": "South Asia"
+        "geography": "South Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Partition_of_India"
       },
       {
         "id": "8",
@@ -1312,7 +1448,8 @@
         "description": "Free healthcare for all, funded by taxation",
         "category": "Politics",
         "era": "Contemporary",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/National_Health_Service_(England)"
       },
       {
         "id": "6",
@@ -1321,7 +1458,8 @@
         "description": "Coined terms like Big Brother and thoughtcrime",
         "category": "Culture",
         "era": "Contemporary",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four"
       },
       {
         "id": "9",
@@ -1330,7 +1468,8 @@
         "description": "Was just 32 years old when he seized power",
         "category": "Politics",
         "era": "Contemporary",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Triumph_of_the_Revolution"
       },
       {
         "id": "10",
@@ -1339,7 +1478,8 @@
         "description": "Messi's last World Cup, decided on penalties",
         "category": "Sport",
         "era": "Contemporary",
-        "geography": "Middle East"
+        "geography": "Middle East",
+        "wikiUrl": "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_final"
       }
     ]
   },
@@ -1354,7 +1494,8 @@
         "description": "His ideas shaped East Asian culture for 2,500 years",
         "category": "Culture",
         "era": "Ancient",
-        "geography": "East Asia"
+        "geography": "East Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Confucius"
       },
       {
         "id": "2",
@@ -1363,7 +1504,8 @@
         "description": "Launched what became the world's largest religion",
         "category": "Religion",
         "era": "Ancient",
-        "geography": "Middle East"
+        "geography": "Middle East",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Crucifixion_of_Jesus"
       },
       {
         "id": "3",
@@ -1372,7 +1514,8 @@
         "description": "Translated and preserved Greek, Persian, and Indian texts",
         "category": "Science",
         "era": "Medieval",
-        "geography": "Middle East"
+        "geography": "Middle East",
+        "wikiUrl": "https://en.wikipedia.org/wiki/House_of_Wisdom"
       },
       {
         "id": "4",
@@ -1381,7 +1524,8 @@
         "description": "His fleet of 300 ships dwarfed anything in Europe",
         "category": "Exploration",
         "era": "Medieval",
-        "geography": "East Asia"
+        "geography": "East Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Ming_treasure_voyages"
       },
       {
         "id": "5",
@@ -1390,7 +1534,8 @@
         "description": "Even Isaac Newton lost a fortune in the crash",
         "category": "Economics",
         "era": "Early Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/South_Sea_Company"
       },
       {
         "id": "6",
@@ -1399,7 +1544,8 @@
         "description": "Went on to write over 600 works before dying at 35",
         "category": "Culture",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Symphony_No._1_(Mozart)"
       },
       {
         "id": "7",
@@ -1408,7 +1554,8 @@
         "description": "Declared that men are born and remain free and equal",
         "category": "Politics",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Rights_of_Man"
       },
       {
         "id": "8",
@@ -1417,7 +1564,8 @@
         "description": "Reduced the death rate from 42% to 2%",
         "category": "Science",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Florence_Nightingale"
       },
       {
         "id": "9",
@@ -1426,7 +1574,8 @@
         "description": "Just 241 athletes from 14 nations competed",
         "category": "Sport",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Summer_Olympic_Games"
       },
       {
         "id": "10",
@@ -1435,7 +1584,8 @@
         "description": "Carried a helicopter that flew on another planet",
         "category": "Exploration",
         "era": "Contemporary",
-        "geography": "Global"
+        "geography": "Global",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Mars_rover"
       }
     ]
   },
@@ -1450,7 +1600,8 @@
         "description": "Written in three scripts, it became the key to hieroglyphs",
         "category": "Culture",
         "era": "Ancient",
-        "geography": "Africa"
+        "geography": "Africa",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Rosetta_Stone"
       },
       {
         "id": "2",
@@ -1459,7 +1610,8 @@
         "description": "Captured Chinese craftsmen taught the technique",
         "category": "Technology",
         "era": "Medieval",
-        "geography": "Central Asia"
+        "geography": "Central Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/History_of_paper"
       },
       {
         "id": "3",
@@ -1468,7 +1620,8 @@
         "description": "Called Relation, it covered news from across Europe",
         "category": "Culture",
         "era": "Early Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Newspaper"
       },
       {
         "id": "4",
@@ -1477,7 +1630,8 @@
         "description": "A politician was killed by a train at the opening ceremony",
         "category": "Technology",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Liverpool_and_Manchester_Railway"
       },
       {
         "id": "5",
@@ -1486,7 +1640,8 @@
         "description": "The first recording was Mary Had a Little Lamb",
         "category": "Technology",
         "era": "Modern",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Edison_patents"
       },
       {
         "id": "6",
@@ -1495,7 +1650,8 @@
         "description": "X-rayed his wife's hand — she said she had seen her death",
         "category": "Science",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Wilhelm_R%C3%B6ntgen"
       },
       {
         "id": "7",
@@ -1504,7 +1660,8 @@
         "description": "Transmitted from Alexandra Palace in London",
         "category": "Technology",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/BBC"
       },
       {
         "id": "8",
@@ -1513,7 +1670,8 @@
         "description": "Called his rival at Bell Labs to gloat",
         "category": "Technology",
         "era": "Contemporary",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Advanced_Mobile_Phone_System"
       },
       {
         "id": "9",
@@ -1522,7 +1680,8 @@
         "description": "Neil Papworth texted Merry Christmas from a computer",
         "category": "Technology",
         "era": "Contemporary",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Text_messaging"
       },
       {
         "id": "10",
@@ -1531,7 +1690,8 @@
         "description": "The first decentralised cryptocurrency",
         "category": "Technology",
         "era": "Contemporary",
-        "geography": "Global"
+        "geography": "Global",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Satoshi_Nakamoto"
       }
     ]
   },
@@ -1546,7 +1706,8 @@
         "description": "Sometimes called the first declaration of human rights",
         "category": "Politics",
         "era": "Ancient",
-        "geography": "Middle East"
+        "geography": "Middle East",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Cyrus_Cylinder"
       },
       {
         "id": "2",
@@ -1555,7 +1716,8 @@
         "description": "Displayed publicly so all citizens could read them",
         "category": "Politics",
         "era": "Ancient",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Twelve_Tables"
       },
       {
         "id": "3",
@@ -1564,7 +1726,8 @@
         "description": "Its dome was the world's largest for nearly 1,000 years",
         "category": "Culture",
         "era": "Medieval",
-        "geography": "Middle East"
+        "geography": "Middle East",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Little_Hagia_Sophia"
       },
       {
         "id": "4",
@@ -1573,7 +1736,8 @@
         "description": "Established parliamentary supremacy over the crown",
         "category": "Politics",
         "era": "Early Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Bill_of_Rights_1689"
       },
       {
         "id": "5",
@@ -1582,7 +1746,8 @@
         "description": "First country to do so, after a 32,000-signature petition",
         "category": "Politics",
         "era": "Modern",
-        "geography": "Oceania"
+        "geography": "Oceania",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Women's_suffrage_in_New_Zealand"
       },
       {
         "id": "6",
@@ -1591,7 +1756,8 @@
         "description": "Built in just 410 days during the Great Depression",
         "category": "Culture",
         "era": "Modern",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Empire_State_Building"
       },
       {
         "id": "7",
@@ -1600,7 +1766,8 @@
         "description": "Drafted by a committee chaired by Eleanor Roosevelt",
         "category": "Politics",
         "era": "Contemporary",
-        "geography": "Global"
+        "geography": "Global",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Drafting_of_the_Universal_Declaration_of_Human_Rights"
       },
       {
         "id": "8",
@@ -1609,7 +1776,8 @@
         "description": "Outlawed discrimination based on race, colour, religion, or sex",
         "category": "Politics",
         "era": "Contemporary",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1964"
       },
       {
         "id": "9",
@@ -1618,7 +1786,8 @@
         "description": "First country to do so by popular vote",
         "category": "Politics",
         "era": "Contemporary",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Same-sex_marriage_in_the_United_Kingdom"
       },
       {
         "id": "10",
@@ -1627,7 +1796,8 @@
         "description": "196 nations agreed to limit global warming",
         "category": "Politics",
         "era": "Contemporary",
-        "geography": "Global"
+        "geography": "Global",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Paris_Agreement"
       }
     ]
   },
@@ -1642,7 +1812,8 @@
         "description": "Killed up to a quarter of the Athenian army",
         "category": "Disaster",
         "era": "Ancient",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Plague_of_Athens"
       },
       {
         "eventText": "The Pantheon is completed in Rome",
@@ -1651,7 +1822,8 @@
         "category": "Culture",
         "era": "Ancient",
         "geography": "Europe",
-        "id": "2"
+        "id": "2",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Pantheon%2C_Rome"
       },
       {
         "id": "3",
@@ -1660,7 +1832,8 @@
         "description": "Reduced the cost of books by roughly 80%",
         "category": "Technology",
         "era": "Medieval",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Letterpress_printing"
       },
       {
         "id": "4",
@@ -1669,7 +1842,8 @@
         "description": "The Royal Navy didn't adopt his advice for 42 years",
         "category": "Science",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Scurvy"
       },
       {
         "id": "5",
@@ -1678,7 +1852,8 @@
         "description": "The passengers were a sheep, a duck, and a rooster",
         "category": "Technology",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Hot_air_balloon"
       },
       {
         "id": "6",
@@ -1687,7 +1862,8 @@
         "description": "The rocket flew for just 2.5 seconds",
         "category": "Technology",
         "era": "Modern",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Liquid-propellant_rocket"
       },
       {
         "id": "7",
@@ -1696,7 +1872,8 @@
         "description": "Estimated to have shortened the war by two years",
         "category": "Technology",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Cryptanalysis_of_the_Enigma"
       },
       {
         "id": "8",
@@ -1705,7 +1882,8 @@
         "description": "Armstrong and Aldrin spent 2.5 hours on the surface",
         "category": "Exploration",
         "era": "Contemporary",
-        "geography": "Global"
+        "geography": "Global",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Apollo_program"
       },
       {
         "id": "9",
@@ -1714,7 +1892,8 @@
         "description": "Waves reached 30 metres high and hit 14 countries",
         "category": "Disaster",
         "era": "Contemporary",
-        "geography": "South Asia"
+        "geography": "South Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/2004_Indian_Ocean_earthquake_and_tsunami"
       },
       {
         "id": "10",
@@ -1723,7 +1902,8 @@
         "description": "Triggered by a magnitude 9.0 earthquake and tsunami",
         "category": "Disaster",
         "era": "Contemporary",
-        "geography": "East Asia"
+        "geography": "East Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Fukushima_nuclear_accident"
       }
     ]
   },
@@ -1738,7 +1918,8 @@
         "description": "Spoke nine languages and was first Ptolemy to learn Egyptian",
         "category": "Politics",
         "era": "Ancient",
-        "geography": "Africa"
+        "geography": "Africa",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Cleopatra"
       },
       {
         "id": "2",
@@ -1747,7 +1928,8 @@
         "description": "Only woman to hold the title of Empress regnant",
         "category": "Politics",
         "era": "Medieval",
-        "geography": "East Asia"
+        "geography": "East Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Princess_Taiping"
       },
       {
         "id": "3",
@@ -1756,7 +1938,8 @@
         "description": "Was just 17 years old when she turned the tide of the war",
         "category": "War",
         "era": "Medieval",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Siege_of_Orl%C3%A9ans_(1428%E2%80%931429)"
       },
       {
         "id": "4",
@@ -1765,7 +1948,8 @@
         "description": "Transformed Japan from feudal state to industrial power",
         "category": "Politics",
         "era": "Modern",
-        "geography": "East Asia"
+        "geography": "East Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Emperor_Meiji"
       },
       {
         "id": "5",
@@ -1774,7 +1958,8 @@
         "description": "First woman to win a Nobel, and later first person to win two",
         "category": "Science",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Marie_Curie"
       },
       {
         "id": "6",
@@ -1783,7 +1968,8 @@
         "description": "First woman in space, completing 48 orbits in 3 days",
         "category": "Exploration",
         "era": "Contemporary",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Valentina_Tereshkova"
       },
       {
         "id": "7",
@@ -1792,7 +1978,8 @@
         "description": "Quadrupled oil prices and caused a global energy crisis",
         "category": "Economics",
         "era": "Contemporary",
-        "geography": "Middle East"
+        "geography": "Middle East",
+        "wikiUrl": "https://en.wikipedia.org/wiki/1973_oil_crisis"
       },
       {
         "id": "8",
@@ -1801,7 +1988,8 @@
         "description": "Served 27 years, mostly on Robben Island",
         "category": "Politics",
         "era": "Contemporary",
-        "geography": "Africa"
+        "geography": "Africa",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Winnie_Mandela"
       },
       {
         "id": "9",
@@ -1810,7 +1998,8 @@
         "description": "At 17, the youngest Nobel laureate in history",
         "category": "Politics",
         "era": "Contemporary",
-        "geography": "South Asia"
+        "geography": "South Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Malala_Yousafzai"
       },
       {
         "id": "10",
@@ -1819,7 +2008,8 @@
         "description": "Sang primarily in Korean",
         "category": "Culture",
         "era": "Contemporary",
-        "geography": "East Asia"
+        "geography": "East Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Wings_(BTS_album)"
       }
     ]
   },
@@ -1834,7 +2024,8 @@
         "description": "Nubian pharaohs ruled Egypt for nearly a century",
         "category": "War",
         "era": "Ancient",
-        "geography": "Africa"
+        "geography": "Africa",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Kingdom_of_Kush"
       },
       {
         "id": "1",
@@ -1843,7 +2034,8 @@
         "description": "Still studied at military academies and business schools",
         "category": "War",
         "era": "Ancient",
-        "geography": "East Asia"
+        "geography": "East Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Sun_Tzu"
       },
       {
         "id": "3",
@@ -1852,7 +2044,8 @@
         "description": "Legend says a goatherd noticed his goats dancing after eating berries",
         "category": "Culture",
         "era": "Medieval",
-        "geography": "Africa"
+        "geography": "Africa",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Coffee_ceremony_of_Ethiopia_and_Eritrea"
       },
       {
         "id": "4",
@@ -1861,7 +2054,8 @@
         "description": "Stone walls without mortar housed up to 18,000 people",
         "category": "Culture",
         "era": "Medieval",
-        "geography": "Africa"
+        "geography": "Africa",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Great_Zimbabwe"
       },
       {
         "eventText": "Niépce captures the first photograph",
@@ -1870,7 +2064,8 @@
         "category": "Technology",
         "era": "Modern",
         "geography": "Europe",
-        "id": "5"
+        "id": "5",
+        "wikiUrl": "https://en.wikipedia.org/wiki/View_from_the_Window_at_Le_Gras"
       },
       {
         "id": "6",
@@ -1879,7 +2074,8 @@
         "description": "44 nations pegged their currencies to the US dollar",
         "category": "Economics",
         "era": "Modern",
-        "geography": "Global"
+        "geography": "Global",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Bretton_Woods_system"
       },
       {
         "id": "7",
@@ -1888,7 +2084,8 @@
         "description": "Emperor Hirohito broadcast the surrender by radio",
         "category": "War",
         "era": "Modern",
-        "geography": "East Asia"
+        "geography": "East Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Japanese_Instrument_of_Surrender"
       },
       {
         "id": "8",
@@ -1897,7 +2094,8 @@
         "description": "Led by Kwame Nkrumah, it inspired movements across Africa",
         "category": "Politics",
         "era": "Contemporary",
-        "geography": "Africa"
+        "geography": "Africa",
+        "wikiUrl": "https://en.wikipedia.org/wiki/List_of_countries_that_have_gained_independence_from_the_United_Kingdom"
       },
       {
         "id": "9",
@@ -1906,7 +2104,8 @@
         "description": "The iconic Tank Man photo was seen worldwide",
         "category": "Politics",
         "era": "Contemporary",
-        "geography": "East Asia"
+        "geography": "East Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre"
       },
       {
         "id": "10",
@@ -1915,7 +2114,8 @@
         "description": "First African American to hold the office",
         "category": "Politics",
         "era": "Contemporary",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/First_inauguration_of_Barack_Obama"
       }
     ]
   },
@@ -1930,7 +2130,8 @@
         "description": "The oldest known work of literature",
         "category": "Culture",
         "era": "Ancient",
-        "geography": "Middle East"
+        "geography": "Middle East",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh"
       },
       {
         "id": "2",
@@ -1939,7 +2140,8 @@
         "description": "Poetry, art, and Silk Road trade flourished",
         "category": "Politics",
         "era": "Medieval",
-        "geography": "East Asia"
+        "geography": "East Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Later_Tang"
       },
       {
         "id": "3",
@@ -1948,7 +2150,8 @@
         "description": "The First Crusade ended with a brutal sack of the city",
         "category": "War",
         "era": "Medieval",
-        "geography": "Middle East"
+        "geography": "Middle East",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Siege_of_Jerusalem_(1099)"
       },
       {
         "id": "8",
@@ -1957,7 +2160,8 @@
         "description": "Used the rope-a-dope strategy in Kinshasa",
         "category": "Sport",
         "era": "Contemporary",
-        "geography": "Africa"
+        "geography": "Africa",
+        "wikiUrl": "https://en.wikipedia.org/wiki/The_Rumble_in_the_Jungle"
       },
       {
         "id": "7",
@@ -1966,7 +2170,8 @@
         "description": "Helicopters evacuated people from the US Embassy roof",
         "category": "War",
         "era": "Contemporary",
-        "geography": "Southeast Asia"
+        "geography": "Southeast Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Miss_Saigon"
       },
       {
         "id": "5",
@@ -1975,7 +2180,8 @@
         "description": "Crossed the Atlantic in under 3.5 hours",
         "category": "Technology",
         "era": "Contemporary",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Concorde"
       },
       {
         "id": "4",
@@ -1984,7 +2190,8 @@
         "description": "Lifted more people out of poverty than any policy in history",
         "category": "Economics",
         "era": "Contemporary",
-        "geography": "East Asia"
+        "geography": "East Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Deng_Xiaoping"
       },
       {
         "id": "6",
@@ -1993,7 +2200,8 @@
         "description": "First woman to hold the office, served 11 years",
         "category": "Politics",
         "era": "Contemporary",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Premiership_of_Margaret_Thatcher"
       },
       {
         "id": "9",
@@ -2002,7 +2210,8 @@
         "description": "Has since killed over 40 million people globally",
         "category": "Disaster",
         "era": "Contemporary",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/HIV%2FAIDS_research"
       },
       {
         "id": "10",
@@ -2011,7 +2220,8 @@
         "description": "Replaced the Organisation of African Unity",
         "category": "Politics",
         "era": "Contemporary",
-        "geography": "Africa"
+        "geography": "Africa",
+        "wikiUrl": "https://en.wikipedia.org/wiki/African_Union"
       }
     ]
   },
@@ -2026,7 +2236,8 @@
         "description": "A city hidden in a desert canyon in modern Jordan",
         "category": "Culture",
         "era": "Ancient",
-        "geography": "Middle East"
+        "geography": "Middle East",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Petra"
       },
       {
         "id": "2",
@@ -2035,7 +2246,8 @@
         "description": "First known pandemic of bubonic plague",
         "category": "Disaster",
         "era": "Medieval",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Plague_of_Justinian"
       },
       {
         "id": "3",
@@ -2044,7 +2256,8 @@
         "description": "Intercepted coded letters leading to Mary Queen of Scots' execution",
         "category": "Politics",
         "era": "Early Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Mary%2C_Queen_of_Scots"
       },
       {
         "id": "4",
@@ -2053,7 +2266,8 @@
         "description": "Most of the music has since been lost",
         "category": "Culture",
         "era": "Early Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Dafne"
       },
       {
         "id": "5",
@@ -2062,7 +2276,8 @@
         "description": "Had to post guards on royal potato fields to create demand",
         "category": "Politics",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Prussia"
       },
       {
         "id": "6",
@@ -2071,7 +2286,8 @@
         "description": "Argued women were not naturally inferior, just less educated",
         "category": "Politics",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/A_Vindication_of_the_Rights_of_Woman"
       },
       {
         "id": "7",
@@ -2080,7 +2296,8 @@
         "description": "Revolutionised warfare with the short stabbing spear",
         "category": "War",
         "era": "Modern",
-        "geography": "Africa"
+        "geography": "Africa",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Zulu_Kingdom"
       },
       {
         "id": "8",
@@ -2089,7 +2306,8 @@
         "description": "Freed over 700,000 enslaved people — last in the Western Hemisphere",
         "category": "Politics",
         "era": "Modern",
-        "geography": "South America"
+        "geography": "South America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Timeline_of_abolition_of_slavery_and_serfdom"
       },
       {
         "id": "9",
@@ -2098,7 +2316,8 @@
         "description": "His record lasted just 46 days before being broken",
         "category": "Sport",
         "era": "Contemporary",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Four-minute_mile"
       },
       {
         "id": "10",
@@ -2107,7 +2326,8 @@
         "description": "A record that still stands",
         "category": "Sport",
         "era": "Contemporary",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Zharnel_Hughes"
       }
     ]
   },
@@ -2122,7 +2342,8 @@
         "description": "Connected by 40,000 km of roads without using the wheel",
         "category": "Politics",
         "era": "Early Modern",
-        "geography": "South America"
+        "geography": "South America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Inca_Empire"
       },
       {
         "eventText": "Alcock and Brown fly nonstop across the Atlantic",
@@ -2131,7 +2352,8 @@
         "category": "Technology",
         "era": "Modern",
         "geography": "Europe",
-        "id": "2"
+        "id": "2",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Transatlantic_flight_of_Alcock_and_Brown"
       },
       {
         "id": "3",
@@ -2140,7 +2362,8 @@
         "description": "Only 13 teams entered — several Europeans refused to travel",
         "category": "Sport",
         "era": "Modern",
-        "geography": "South America"
+        "geography": "South America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_hosts"
       },
       {
         "id": "4",
@@ -2149,7 +2372,8 @@
         "description": "Defied Hitler's vision of Aryan supremacy",
         "category": "Sport",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Jesse_Owens"
       },
       {
         "id": "5",
@@ -2158,7 +2382,8 @@
         "description": "Crashed in 37 seconds, ending the era of passenger airships",
         "category": "Disaster",
         "era": "Modern",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Hindenburg_disaster"
       },
       {
         "id": "6",
@@ -2167,7 +2392,8 @@
         "description": "Built under the stands of a university football stadium",
         "category": "Science",
         "era": "Modern",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Chicago_Pile-1"
       },
       {
         "id": "7",
@@ -2176,7 +2402,8 @@
         "description": "The deadliest battle in history with 2 million casualties",
         "category": "War",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Battle_of_Stalingrad"
       },
       {
         "id": "8",
@@ -2185,7 +2412,8 @@
         "description": "The peninsula remains divided to this day",
         "category": "War",
         "era": "Contemporary",
-        "geography": "East Asia"
+        "geography": "East Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Korean_War"
       },
       {
         "id": "9",
@@ -2194,7 +2422,8 @@
         "description": "Its main mirror was initially ground to the wrong shape",
         "category": "Science",
         "era": "Contemporary",
-        "geography": "Global"
+        "geography": "Global",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Hubble_Space_Telescope"
       },
       {
         "id": "10",
@@ -2203,7 +2432,8 @@
         "description": "All 33 miners survived the longest underground entrapment",
         "category": "Disaster",
         "era": "Contemporary",
-        "geography": "South America"
+        "geography": "South America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/2010_Copiap%C3%B3_mining_accident"
       }
     ]
   },
@@ -2218,7 +2448,8 @@
         "description": "Separated medicine from superstition in ancient Greece",
         "category": "Science",
         "era": "Ancient",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Hippocrates"
       },
       {
         "id": "4",
@@ -2227,7 +2458,8 @@
         "description": "Emperor Ashoka later renounced violence and embraced Buddhism",
         "category": "Politics",
         "era": "Ancient",
-        "geography": "South Asia"
+        "geography": "South Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Maurya_Empire"
       },
       {
         "id": "2",
@@ -2236,7 +2468,8 @@
         "description": "Ended the Second Punic War and Carthage's threat to Rome",
         "category": "War",
         "era": "Ancient",
-        "geography": "Africa"
+        "geography": "Africa",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Battle_of_Zama"
       },
       {
         "id": "1",
@@ -2245,7 +2478,8 @@
         "description": "Carthage was razed to the ground",
         "category": "War",
         "era": "Ancient",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Punic_Wars"
       },
       {
         "id": "5",
@@ -2254,7 +2488,8 @@
         "description": "Shifted each letter three places in the alphabet",
         "category": "Technology",
         "era": "Ancient",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Caesar_cipher"
       },
       {
         "id": "6",
@@ -2263,7 +2498,8 @@
         "description": "Triggered a civil war with the words the die is cast",
         "category": "War",
         "era": "Ancient",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Rubicon"
       },
       {
         "id": "7",
@@ -2272,7 +2508,8 @@
         "description": "Had separate wards for different diseases",
         "category": "Science",
         "era": "Medieval",
-        "geography": "Middle East"
+        "geography": "Middle East",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Battle_of_Baghdad_(2003)"
       },
       {
         "id": "8",
@@ -2281,7 +2518,8 @@
         "description": "A typhoon destroyed the fleet — later called kamikaze",
         "category": "War",
         "era": "Medieval",
-        "geography": "East Asia"
+        "geography": "East Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Mongol_invasions_of_Japan"
       },
       {
         "id": "9",
@@ -2290,7 +2528,8 @@
         "description": "His Green Revolution is credited with saving a billion lives",
         "category": "Science",
         "era": "Contemporary",
-        "geography": "South Asia"
+        "geography": "South Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Norman_Borlaug"
       },
       {
         "id": "10",
@@ -2299,7 +2538,8 @@
         "description": "Has been continuously occupied ever since",
         "category": "Exploration",
         "era": "Contemporary",
-        "geography": "Global"
+        "geography": "Global",
+        "wikiUrl": "https://en.wikipedia.org/wiki/International_Space_Station"
       }
     ]
   },
@@ -2314,7 +2554,8 @@
         "description": "Sections of the original road are still walkable today",
         "category": "Technology",
         "era": "Ancient",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Appian_Way"
       },
       {
         "id": "2",
@@ -2323,7 +2564,8 @@
         "description": "Attempted to reconcile faith with Aristotelian reason",
         "category": "Religion",
         "era": "Medieval",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Summa_Theologica"
       },
       {
         "id": "3",
@@ -2332,7 +2574,8 @@
         "description": "First European to sail around the southern tip of Africa",
         "category": "Exploration",
         "era": "Early Modern",
-        "geography": "Africa"
+        "geography": "Africa",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Timeline_of_the_Republic_of_Venice"
       },
       {
         "id": "4",
@@ -2341,7 +2584,8 @@
         "description": "Tomatoes, potatoes, and chocolate all crossed the Atlantic",
         "category": "Exploration",
         "era": "Early Modern",
-        "geography": "Global"
+        "geography": "Global",
+        "wikiUrl": "https://en.wikipedia.org/wiki/The_Columbian_Exchange"
       },
       {
         "id": "5",
@@ -2350,7 +2594,8 @@
         "description": "Developed to feed Napoleon's army on long campaigns",
         "category": "Technology",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Nicolas_Appert"
       },
       {
         "id": "6",
@@ -2359,7 +2604,8 @@
         "description": "Launched the petroleum age that still dominates today",
         "category": "Economics",
         "era": "Modern",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Edwin_Drake"
       },
       {
         "id": "7",
@@ -2368,7 +2614,8 @@
         "description": "The Flavr Savr tomato lasted longer on shelves",
         "category": "Science",
         "era": "Contemporary",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Genetically_modified_food"
       },
       {
         "eventText": "The Kyoto Protocol is adopted",
@@ -2377,7 +2624,8 @@
         "category": "Politics",
         "era": "Contemporary",
         "geography": "Global",
-        "id": "8"
+        "id": "8",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Kyoto_Protocol"
       },
       {
         "id": "10",
@@ -2386,7 +2634,8 @@
         "description": "Cost £215,000 to produce a single patty",
         "category": "Science",
         "era": "Contemporary",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Cultured_meat"
       },
       {
         "eventText": "The James Webb Space Telescope launches",
@@ -2395,7 +2644,8 @@
         "category": "Science",
         "era": "Contemporary",
         "geography": "Global",
-        "id": "9"
+        "id": "9",
+        "wikiUrl": "https://en.wikipedia.org/wiki/James_Webb_Space_Telescope"
       }
     ]
   },
@@ -2410,7 +2660,8 @@
         "description": "Some stones were transported 240 km from Wales",
         "category": "Culture",
         "era": "Ancient",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Stonehenge"
       },
       {
         "id": "2",
@@ -2419,7 +2670,8 @@
         "description": "The remnant is now the Crab Nebula",
         "category": "Science",
         "era": "Medieval",
-        "geography": "East Asia"
+        "geography": "East Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Kepler's_Supernova"
       },
       {
         "id": "3",
@@ -2428,7 +2680,8 @@
         "description": "Started leaning during construction due to soft ground",
         "category": "Culture",
         "era": "Medieval",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Pisa_Baptistery"
       },
       {
         "id": "4",
@@ -2437,7 +2690,8 @@
         "description": "Transformed one of the poorest kingdoms into the richest",
         "category": "Economics",
         "era": "Modern",
-        "geography": "Middle East"
+        "geography": "Middle East",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Saudi_Aramco"
       },
       {
         "id": "5",
@@ -2446,7 +2700,8 @@
         "description": "Created a mutual defence pact against Soviet expansion",
         "category": "Politics",
         "era": "Contemporary",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/2021_Russian_ultimatum_to_NATO"
       },
       {
         "id": "6",
@@ -2455,7 +2710,8 @@
         "description": "Families woke up separated by barbed wire",
         "category": "Politics",
         "era": "Contemporary",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Berlin_border_crossings"
       },
       {
         "id": "7",
@@ -2464,7 +2720,8 @@
         "description": "Launched the modern environmental movement",
         "category": "Science",
         "era": "Contemporary",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Silent_Spring"
       },
       {
         "id": "8",
@@ -2473,7 +2730,8 @@
         "description": "Shot while riding in an open motorcade",
         "category": "Politics",
         "era": "Contemporary",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Assassination_of_John_F._Kennedy"
       },
       {
         "eventText": "China detonates its first nuclear weapon",
@@ -2482,7 +2740,8 @@
         "category": "War",
         "era": "Contemporary",
         "geography": "East Asia",
-        "id": "9"
+        "id": "9",
+        "wikiUrl": "https://en.wikipedia.org/wiki/List_of_states_with_nuclear_weapons"
       },
       {
         "id": "10",
@@ -2491,7 +2750,8 @@
         "description": "The system crashed after transmitting just two letters: LO",
         "category": "Technology",
         "era": "Contemporary",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/ARPANET"
       }
     ]
   },
@@ -2506,7 +2766,8 @@
         "description": "His ideas went unchallenged for over 1,300 years",
         "category": "Science",
         "era": "Ancient",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Galen"
       },
       {
         "id": "2",
@@ -2515,7 +2776,8 @@
         "description": "May have killed 5 million people across the empire",
         "category": "Disaster",
         "era": "Ancient",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Antonine_Plague"
       },
       {
         "id": "3",
@@ -2524,7 +2786,8 @@
         "description": "Became the foundation of most European legal systems",
         "category": "Politics",
         "era": "Medieval",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Code_of_Justinian"
       },
       {
         "id": "4",
@@ -2533,7 +2796,8 @@
         "description": "The patient felt nothing during tumour removal",
         "category": "Science",
         "era": "Modern",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Crawford_Long"
       },
       {
         "id": "5",
@@ -2542,7 +2806,8 @@
         "description": "Founded the science of epidemiology",
         "category": "Science",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Soho"
       },
       {
         "id": "6",
@@ -2551,7 +2816,8 @@
         "description": "Used carbolic acid to sterilise surgical instruments",
         "category": "Science",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Joseph_Lister"
       },
       {
         "id": "7",
@@ -2560,7 +2826,8 @@
         "description": "Whether she was actually a spy remains debated",
         "category": "War",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Mata_Hari"
       },
       {
         "id": "8",
@@ -2569,7 +2836,8 @@
         "description": "Saved countless lives on the D-Day battlefields",
         "category": "Science",
         "era": "Modern",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Penicillin"
       },
       {
         "id": "9",
@@ -2578,7 +2846,8 @@
         "description": "Led to the only resignation of a US president",
         "category": "Politics",
         "era": "Contemporary",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Watergate_scandal"
       },
       {
         "id": "10",
@@ -2587,7 +2856,8 @@
         "description": "Revealed mass surveillance of millions of citizens",
         "category": "Politics",
         "era": "Contemporary",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Snowden_disclosures"
       }
     ]
   },
@@ -2602,7 +2872,8 @@
         "description": "Correct about the heliocentric model, ignored for 1,800 years",
         "category": "Science",
         "era": "Ancient",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Aristarchus_of_Samos"
       },
       {
         "eventText": "Arkwright patents the water frame spinning machine",
@@ -2611,7 +2882,8 @@
         "category": "Technology",
         "era": "Modern",
         "geography": "Europe",
-        "id": "2"
+        "id": "2",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Water_frame"
       },
       {
         "id": "3",
@@ -2620,7 +2892,8 @@
         "description": "Beat Robert Scott's team by 34 days",
         "category": "Exploration",
         "era": "Modern",
-        "geography": "Global"
+        "geography": "Global",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Amundsen%E2%80%93Scott_South_Pole_Station"
       },
       {
         "id": "4",
@@ -2629,7 +2902,8 @@
         "description": "Predicted that gravity bends light — confirmed in 1919",
         "category": "Science",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/General_relativity"
       },
       {
         "id": "6",
@@ -2638,7 +2912,8 @@
         "description": "News reached London on the morning of the coronation",
         "category": "Exploration",
         "era": "Contemporary",
-        "geography": "South Asia"
+        "geography": "South Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Tenzing_Norgay"
       },
       {
         "id": "5",
@@ -2647,7 +2922,8 @@
         "description": "First animal to orbit Earth, aboard Sputnik 2",
         "category": "Exploration",
         "era": "Contemporary",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Laika"
       },
       {
         "id": "7",
@@ -2656,7 +2932,8 @@
         "description": "Knocked Michael Jackson off the top of the US charts",
         "category": "Culture",
         "era": "Contemporary",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Nevermind"
       },
       {
         "id": "8",
@@ -2665,7 +2942,8 @@
         "description": "Mapped roughly 3 billion base pairs of DNA",
         "category": "Science",
         "era": "Contemporary",
-        "geography": "Global"
+        "geography": "Global",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Human_genome"
       },
       {
         "id": "9",
@@ -2674,7 +2952,8 @@
         "description": "Still transmitting data from over 24 billion km away",
         "category": "Exploration",
         "era": "Contemporary",
-        "geography": "Global"
+        "geography": "Global",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Voyager_1"
       },
       {
         "id": "10",
@@ -2683,7 +2962,8 @@
         "description": "Achieved using 192 high-powered lasers",
         "category": "Science",
         "era": "Contemporary",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Fusion_power"
       }
     ]
   },
@@ -2698,7 +2978,8 @@
         "description": "Stretched over 6,400 km from China to Rome",
         "category": "Economics",
         "era": "Ancient",
-        "geography": "East Asia"
+        "geography": "East Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Silk_Road"
       },
       {
         "id": "2",
@@ -2707,7 +2988,8 @@
         "description": "Bodies collected nightly by carts",
         "category": "Disaster",
         "era": "Early Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/1665"
       },
       {
         "eventText": "The Glorious Revolution deposes James II",
@@ -2716,7 +2998,8 @@
         "category": "Politics",
         "era": "Early Modern",
         "geography": "Europe",
-        "id": "3"
+        "id": "3",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Glorious_Revolution"
       },
       {
         "id": "4",
@@ -2725,7 +3008,8 @@
         "description": "Wrote most of it in the British Museum reading room",
         "category": "Politics",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Das_Kapital"
       },
       {
         "id": "5",
@@ -2734,7 +3018,8 @@
         "description": "The BBC launched from Alexandra Palace in London",
         "category": "Technology",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Timeline_of_the_introduction_of_color_television_in_countries_and_territories"
       },
       {
         "id": "6",
@@ -2743,7 +3028,8 @@
         "description": "First peace treaty between Israel and an Arab state",
         "category": "Politics",
         "era": "Contemporary",
-        "geography": "Middle East"
+        "geography": "Middle East",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Camp_David_Accords"
       },
       {
         "id": "7",
@@ -2752,7 +3038,8 @@
         "description": "Broadcast to 1.9 billion people across 150 countries",
         "category": "Culture",
         "era": "Contemporary",
-        "geography": "Global"
+        "geography": "Global",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Live_Aid"
       },
       {
         "id": "9",
@@ -2761,7 +3048,8 @@
         "description": "Also scored the Goal of the Century in the same match",
         "category": "Sport",
         "era": "Contemporary",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/The_hand_of_God"
       },
       {
         "id": "8",
@@ -2770,7 +3058,8 @@
         "description": "Gorbachev resigned on Christmas Day",
         "category": "Politics",
         "era": "Contemporary",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union"
       },
       {
         "id": "10",
@@ -2779,7 +3068,8 @@
         "description": "Sold one million songs in the first five days",
         "category": "Technology",
         "era": "Contemporary",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/History_of_iTunes"
       }
     ]
   },
@@ -2794,7 +3084,8 @@
         "description": "Now feeds more than half the world's population",
         "category": "Science",
         "era": "Ancient",
-        "geography": "East Asia"
+        "geography": "East Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Paddy_field"
       },
       {
         "id": "2",
@@ -2803,7 +3094,8 @@
         "description": "Automated the grinding of grain for the first time",
         "category": "Technology",
         "era": "Ancient",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Watermill"
       },
       {
         "id": "3",
@@ -2812,7 +3104,8 @@
         "description": "Killed millions and enabled the Spanish conquest",
         "category": "Disaster",
         "era": "Early Modern",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Fall_of_Tenochtitlan"
       },
       {
         "id": "4",
@@ -2821,7 +3114,8 @@
         "description": "Reportedly said: I regret that I have but one life to give",
         "category": "War",
         "era": "Modern",
-        "geography": "North America"
+        "geography": "North America",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Nathan_Hale"
       },
       {
         "id": "5",
@@ -2830,7 +3124,8 @@
         "description": "Revived the Olympic Games after a 1,500-year gap",
         "category": "Sport",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Pierre_de_Coubertin"
       },
       {
         "id": "6",
@@ -2839,7 +3134,8 @@
         "description": "Built at Bletchley Park to break German codes",
         "category": "Technology",
         "era": "Modern",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Colossus_computer"
       },
       {
         "id": "7",
@@ -2848,7 +3144,8 @@
         "description": "Six nations signed the Treaty of Rome",
         "category": "Politics",
         "era": "Contemporary",
-        "geography": "Europe"
+        "geography": "Europe",
+        "wikiUrl": "https://en.wikipedia.org/wiki/European_Economic_Community"
       },
       {
         "id": "8",
@@ -2857,7 +3154,8 @@
         "description": "First permanent court for war crimes and genocide",
         "category": "Politics",
         "era": "Contemporary",
-        "geography": "Global"
+        "geography": "Global",
+        "wikiUrl": "https://en.wikipedia.org/wiki/International_Criminal_Court"
       },
       {
         "id": "9",
@@ -2866,7 +3164,8 @@
         "description": "India became the first country to reach Mars on its first attempt",
         "category": "Science",
         "era": "Contemporary",
-        "geography": "South Asia"
+        "geography": "South Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Mars_Orbiter_Mission"
       },
       {
         "id": "10",
@@ -2875,7 +3174,8 @@
         "description": "Held without spectators due to the pandemic",
         "category": "Sport",
         "era": "Contemporary",
-        "geography": "East Asia"
+        "geography": "East Asia",
+        "wikiUrl": "https://en.wikipedia.org/wiki/2020_Summer_Olympics"
       }
     ]
   }
