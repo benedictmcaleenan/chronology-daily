@@ -112,7 +112,7 @@ export default function GameBoard({
         ))}
       </div>
 
-      <DragDropContext onDragEnd={handleDragEnd}>
+      <DragDropContext key={nextIndex} onDragEnd={handleDragEnd}>
         {/* ── Timeline: table-of-contents rows ─────────────────────── */}
         <Droppable droppableId="timeline">
           {(provided, snapshot) => (
