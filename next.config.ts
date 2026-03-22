@@ -13,6 +13,7 @@ const withPWA = require("next-pwa")({
 
 const nextConfig: NextConfig = {
   turbopack: {},
+  serverExternalPackages: ["firebase-admin"],
 };
 
 export default withPWA(nextConfig);
