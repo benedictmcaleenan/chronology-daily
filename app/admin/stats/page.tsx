@@ -2,17 +2,19 @@ export const dynamic = "force-dynamic";
 
 import { initializeApp, cert, getApps } from "firebase-admin/app";
 import { getFirestore } from "firebase-admin/firestore";
-import { readFileSync } from "fs";
-import { join } from "path";
 
 // ── Firebase Admin (singleton) ─────────────────────────────────────────────
 
 function getAdminDb() {
   if (!getApps().length) {
-    const serviceAccount = JSON.parse(
-      readFileSync(join(process.cwd(), "serviceAccountKey.json"), "utf-8")
-    );
-    initializeApp({ credential: cert(serviceAccount) });
+    initializeApp({
+      credential: cert({
+        projectId: process.env.FIREBASE_ADMIN_PROJECT_ID!,
+        clientEmail: process.env.FIREBASE_ADMIN_CLIENT_EMAIL!,
+        // Vercel stores the private key with literal \n — replace them back to newlines
+        privateKey: process.env.FIREBASE_ADMIN_PRIVATE_KEY!.replace(/\\n/g, "\n"),
+      }),
+    });
   }
   return getFirestore();
 }
