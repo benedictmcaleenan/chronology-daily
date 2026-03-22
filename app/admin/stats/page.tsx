@@ -1,11 +1,11 @@
 export const dynamic = "force-dynamic";
 
-import { initializeApp, cert, getApps } from "firebase-admin/app";
-import { getFirestore } from "firebase-admin/firestore";
+// ── Firebase Admin (singleton, dynamic import so it never loads at build time) ─
 
-// ── Firebase Admin (singleton) ─────────────────────────────────────────────
+async function getAdminDb() {
+  const { initializeApp, cert, getApps } = await import("firebase-admin/app");
+  const { getFirestore } = await import("firebase-admin/firestore");
 
-function getAdminDb() {
   if (!getApps().length) {
     const privateKey = process.env.FIREBASE_ADMIN_PRIVATE_KEY;
     if (!privateKey) throw new Error("Missing env var: FIREBASE_ADMIN_PRIVATE_KEY");
@@ -36,7 +36,7 @@ interface ResultDoc {
 // ── Data fetching ──────────────────────────────────────────────────────────
 
 async function fetchStats() {
-  const db = getAdminDb();
+  const db = await getAdminDb();
   const snap = await db.collection("results").get();
   const docs = snap.docs.map((d) => d.data() as ResultDoc);
 
