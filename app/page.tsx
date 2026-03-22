@@ -157,8 +157,24 @@ export default function Home() {
 
   async function handleSubmit(orderedEvents: HistoricalEvent[]) {
     if (!puzzle || !userId) return;
-    const newPositions = puzzle.events.map((event, i) => orderedEvents[i]?.id === event.id);
+
+    // originalEvents is the correct chronological order from Firestore,
+    // untouched by shuffling. Compare by eventText — unique per event,
+    // immune to ID type coercion and ordering of the source JSON.
+    const originalEvents = puzzle.events;
+
+    const newPositions = originalEvents.map((correctEvent, i) => {
+      const playerEvent = orderedEvents[i];
+      const match = playerEvent?.eventText === correctEvent.eventText;
+      console.log(
+        `[Position ${i + 1}] Player: "${playerEvent?.eventText}" | Correct: "${correctEvent.eventText}" | ${match ? "✓ CORRECT" : "✗ WRONG"}`
+      );
+      return match;
+    });
+
     const score = newPositions.filter(Boolean).length;
+    console.log(`[Score] ${score}/${originalEvents.length}`);
+
     const timeToComplete = Math.round((Date.now() - gameStartTime.current) / 1000);
     setPositions(newPositions);
     setPhase("results");
