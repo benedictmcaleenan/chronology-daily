@@ -118,6 +118,8 @@ export default function ResultsView({
         {/* Divider */}
         <div className="mt-3 mb-2 h-px bg-[#D3D1C7]" />
 
+        <p className="text-[12px] text-[#B4B2A9] mb-2">The correct order was:</p>
+
         {/* ── Result rows — same timeline dot style ─────────────────── */}
         {/*
             Dot alignment (same math as GameBoard):
