@@ -2,6 +2,23 @@
 
 import { useEffect, useState } from "react";
 import { HistoricalEvent } from "./GameBoard";
+import { trackEvent } from "@/lib/analytics";
+
+const SCORE_TIERS: { range: [number, number]; rank: string }[] = [
+  { range: [0, 1], rank: "Still figuring out fire" },
+  { range: [2, 3], rank: "Wrong century, wrong continent" },
+  { range: [4, 5], rank: "Could probably bluff a pub quiz" },
+  { range: [6, 7], rank: "Starting to worry my friends" },
+  { range: [8, 9], rank: "Borderline time traveller" },
+  { range: [10, 10], rank: "I might actually be a historian" },
+];
+
+function getRank(score: number) {
+  return (
+    SCORE_TIERS.find((t) => score >= t.range[0] && score <= t.range[1])
+      ?.rank ?? ""
+  );
+}
 
 interface ResultsViewProps {
   correctOrder: HistoricalEvent[];
@@ -47,6 +64,7 @@ export default function ResultsView({
   correctOrder,
   positions,
   puzzleNumber,
+  puzzleDate,
 }: ResultsViewProps) {
   const [copied, setCopied] = useState(false);
 
@@ -57,14 +75,30 @@ export default function ResultsView({
 
   const score = results.filter((r) => r.correct).length;
   const emojiRow = results.map((r) => (r.correct ? "🟩" : "🟥")).join("");
+  const resultsString = results.map((r) => (r.correct ? "1" : "0")).join("");
+  const rank = getRank(score);
 
   async function handleShare() {
-    const text = `Chronology #${puzzleNumber}: ${score}/10\n${emojiRow}\nchronologydaily.com`;
+    const shareUrl = `https://chronologydaily.com/share?date=${puzzleDate}&score=${score}&results=${resultsString}`;
+    const shareText = `I got ${score}/10 on Chronology Daily — ${rank}. Can you beat me?`;
+
+    if (typeof navigator !== "undefined" && navigator.share) {
+      try {
+        await navigator.share({ text: shareText, url: shareUrl });
+        trackEvent("share_tapped", { score, method: "web_share" });
+        return;
+      } catch {
+        // User cancelled or share failed — fall through to clipboard
+      }
+    }
+
+    trackEvent("share_tapped", { score, method: "clipboard" });
+    const clipboardText = `${shareText}\n${shareUrl}`;
     try {
-      await navigator.clipboard.writeText(text);
+      await navigator.clipboard.writeText(clipboardText);
     } catch {
       const el = document.createElement("textarea");
-      el.value = text;
+      el.value = clipboardText;
       document.body.appendChild(el);
       el.select();
       document.execCommand("copy");

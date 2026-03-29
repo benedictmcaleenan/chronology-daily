@@ -10,6 +10,8 @@ import {
 } from "@/lib/puzzleService";
 import GameBoard, { HistoricalEvent } from "@/components/GameBoard";
 import ResultsView from "@/components/ResultsView";
+import { trackEvent } from "@/lib/analytics";
+import PwaInstallPrompt from "@/components/PwaInstallPrompt";
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -107,6 +109,21 @@ export default function Home() {
         setPuzzle(puzzleData);
         cleanOldProgress(puzzleData.puzzleDate);
 
+        // ── Analytics: app_visit with retention tracking ──
+        try {
+          const FIRST_VISIT_KEY = "first_visit_date";
+          const today = puzzleData.puzzleDate;
+          let firstVisit = localStorage.getItem(FIRST_VISIT_KEY);
+          if (!firstVisit) {
+            localStorage.setItem(FIRST_VISIT_KEY, today);
+            firstVisit = today;
+          }
+          const daysSince = Math.round(
+            (new Date(today).getTime() - new Date(firstVisit).getTime()) / 86400000
+          );
+          trackEvent("app_visit", { days_since_first_visit: daysSince });
+        } catch { /* localStorage unavailable */ }
+
         try {
           const existing = await fetchTodaysResult(uid, puzzleData.puzzleDate);
           if (existing) {
@@ -131,6 +148,7 @@ export default function Home() {
         }
 
         setShuffledEvents(shuffleArray(puzzleData.events));
+        trackEvent("puzzle_started", { date: puzzleData.puzzleDate });
       } catch {
         setFetchError("Failed to load. Please refresh.");
       } finally {
@@ -176,6 +194,13 @@ export default function Home() {
     console.log(`[Score] ${score}/${originalEvents.length}`);
 
     const timeToComplete = Math.round((Date.now() - gameStartTime.current) / 1000);
+    const resultsString = newPositions.map((p) => (p ? "1" : "0")).join("");
+    trackEvent("puzzle_completed", {
+      date: puzzle.puzzleDate,
+      score,
+      results: resultsString,
+      time_seconds: timeToComplete,
+    });
     setPositions(newPositions);
     setPhase("results");
     deleteProgress(puzzle.puzzleDate);
@@ -244,6 +269,8 @@ export default function Home() {
           A new puzzle every day
         </footer>
       )}
+
+      <PwaInstallPrompt />
     </div>
   );
 }
