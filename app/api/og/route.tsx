@@ -44,8 +44,8 @@ export async function GET(req: NextRequest) {
         {bgSrc && (
           <img
             src={bgSrc as unknown as string}
-            width={1200}
-            height={630}
+            width={600}
+            height={315}
             style={{ position: "absolute", top: 0, left: 0, objectFit: "cover" }}
           />
         )}
@@ -74,31 +74,31 @@ export async function GET(req: NextRequest) {
             display: "flex",
             flexDirection: "column",
             justifyContent: "space-between",
-            padding: "48px 48px 40px 0",
+            padding: "24px 24px 20px 0",
           }}
         >
           {/* Top content */}
           <div style={{ display: "flex", flexDirection: "column" }}>
-            <span style={{ fontSize: 12, letterSpacing: 1.5, color: "rgba(255,255,255,0.55)", marginBottom: 8 }}>
+            <span style={{ fontSize: 6, letterSpacing: 0.75, color: "rgba(255,255,255,0.55)", marginBottom: 4 }}>
               HOW GOOD&#39;S YOUR HISTORY?
             </span>
-            <span style={{ fontSize: 11, color: "rgba(255,255,255,0.4)", marginBottom: 28 }}>
+            <span style={{ fontSize: 5.5, color: "rgba(255,255,255,0.4)", marginBottom: 14 }}>
               {formattedDate}
             </span>
-            <span style={{ fontSize: 36, fontWeight: 500, color: "white", marginBottom: 10 }}>
+            <span style={{ fontSize: 18, fontWeight: 500, color: "white", marginBottom: 5 }}>
               I got {score}/10
             </span>
-            <span style={{ fontSize: 16, fontStyle: "italic", color: "rgba(255,255,255,0.8)", marginBottom: 20 }}>
+            <span style={{ fontSize: 8, fontStyle: "italic", color: "rgba(255,255,255,0.8)", marginBottom: 10 }}>
               {tier.rank}
             </span>
-            <div style={{ display: "flex", gap: 3 }}>
+            <div style={{ display: "flex", gap: 1.5 }}>
               {results.split("").map((r, i) => (
                 <div
                   key={i}
                   style={{
-                    width: 12,
-                    height: 12,
-                    borderRadius: 2,
+                    width: 6,
+                    height: 6,
+                    borderRadius: 1,
                     backgroundColor: r === "1" ? "#4CAF50" : "#E53935",
                   }}
                 />
@@ -108,10 +108,10 @@ export async function GET(req: NextRequest) {
 
           {/* Footer */}
           <div style={{ display: "flex", flexDirection: "column" }}>
-            <span style={{ fontSize: 11, fontWeight: 500, color: "rgba(255,255,255,0.45)", marginBottom: 4 }}>
+            <span style={{ fontSize: 5.5, fontWeight: 500, color: "rgba(255,255,255,0.45)", marginBottom: 2 }}>
               chronologydaily.com
             </span>
-            <span style={{ fontSize: 10, color: "rgba(255,255,255,0.3)" }}>
+            <span style={{ fontSize: 5, color: "rgba(255,255,255,0.3)" }}>
               A new history puzzle every day
             </span>
           </div>
@@ -119,8 +119,8 @@ export async function GET(req: NextRequest) {
       </div>
     ),
     {
-      width: 1200,
-      height: 630,
+      width: 600,
+      height: 315,
       headers: { "Cache-Control": "public, max-age=31536000, immutable" },
     }
   );
