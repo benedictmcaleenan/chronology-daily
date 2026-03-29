@@ -79,7 +79,7 @@ export default function ResultsView({
   const rank = getRank(score);
 
   async function handleShare() {
-    const shareUrl = `https://chronologydaily.com/share?date=${puzzleDate}&score=${score}&results=${resultsString}`;
+    const shareUrl = `https://www.chronologydaily.com/share?date=${puzzleDate}&score=${score}&results=${resultsString}`;
     const shareText = `I got ${score}/10 on Chronology Daily — ${rank}. Can you beat me?`;
 
     if (typeof navigator !== "undefined" && navigator.share) {

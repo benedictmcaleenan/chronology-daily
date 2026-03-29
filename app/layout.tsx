@@ -9,7 +9,7 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://chronologydaily.com"),
+  metadataBase: new URL("https://www.chronologydaily.com"),
   title: "Chronology Daily",
   description: "10 events. One correct order. A new puzzle every day.",
   manifest: "/manifest.json",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     description: "Put 10 historical events in the right order. A new puzzle every day. Free to play, no login needed.",
     images: [{ url: "/og/default.png", width: 1200, height: 630, alt: "Chronology Daily" }],
     type: "website",
-    url: "https://chronologydaily.com",
+    url: "https://www.chronologydaily.com",
   },
   twitter: {
     card: "summary_large_image",

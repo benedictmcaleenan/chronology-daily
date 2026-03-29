@@ -45,7 +45,7 @@ export async function generateMetadata({
 
   const title = `Chronology Daily — ${formattedDate}`;
   const description = `I got ${score}/10 — ${rank}. Can you beat me?`;
-  const ogImage = `https://chronologydaily.com/api/og?date=${date}&score=${score}&results=${results}`;
+  const ogImage = `https://www.chronologydaily.com/api/og?date=${date}&score=${score}&results=${results}`;
 
   return {
     title,
@@ -55,7 +55,7 @@ export async function generateMetadata({
       title,
       description,
       images: [{ url: ogImage, width: 1200, height: 630 }],
-      url: "https://chronologydaily.com",
+      url: "https://www.chronologydaily.com",
     },
     twitter: {
       card: "summary_large_image",
