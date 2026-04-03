@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Chronology Daily — How good's your history?",
     description: "Put 10 historical events in the right order. A new puzzle every day. Free to play, no login needed.",
-    images: [{ url: "/og/default.png", width: 1200, height: 630, alt: "Chronology Daily" }],
+    images: [{ url: "/api/og", width: 600, height: 315, alt: "Chronology Daily" }],
     type: "website",
     url: "https://www.chronologydaily.com",
   },
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Chronology Daily — How good's your history?",
     description: "Put 10 historical events in the right order. A new puzzle every day. Free to play, no login needed.",
-    images: ["/og/default.png"],
+    images: ["/api/og"],
   },
 };
 

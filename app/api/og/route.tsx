@@ -23,12 +23,13 @@ function formatDate(dateStr: string): string {
 
 export async function GET(req: NextRequest) {
   const sp = req.nextUrl.searchParams;
+  const isDefault = !sp.has("score");
   const date = sp.get("date") || "";
   const score = Math.min(10, Math.max(0, Number(sp.get("score")) || 0));
   const results = (sp.get("results") || "").padEnd(10, "0").slice(0, 10);
 
-  const tier = getTier(score);
-  const formattedDate = formatDate(date);
+  const tier = isDefault ? SCORE_TIERS[4] : getTier(score); // Commander for default
+  const formattedDate = date ? formatDate(date) : "";
 
   // Read background image
   let bgSrc: ArrayBuffer | null = null;
@@ -82,28 +83,41 @@ export async function GET(req: NextRequest) {
             <span style={{ fontSize: 6, letterSpacing: 0.75, color: "rgba(255,255,255,0.55)", marginBottom: 4 }}>
               HOW GOOD&#39;S YOUR HISTORY?
             </span>
-            <span style={{ fontSize: 5.5, color: "rgba(255,255,255,0.4)", marginBottom: 14 }}>
-              {formattedDate}
-            </span>
-            <span style={{ fontSize: 18, fontWeight: 500, color: "white", marginBottom: 5 }}>
-              I got {score}/10
-            </span>
-            <span style={{ fontSize: 8, fontStyle: "italic", color: "rgba(255,255,255,0.8)", marginBottom: 10 }}>
-              {tier.rank}
-            </span>
-            <div style={{ display: "flex", gap: 1.5 }}>
-              {results.split("").map((r, i) => (
-                <div
-                  key={i}
-                  style={{
-                    width: 6,
-                    height: 6,
-                    borderRadius: 1,
-                    backgroundColor: r === "1" ? "#4CAF50" : "#E53935",
-                  }}
-                />
-              ))}
-            </div>
+            {isDefault ? (
+              <>
+                <span style={{ fontSize: 16, fontWeight: 500, color: "white", marginTop: 10, marginBottom: 5 }}>
+                  Chronology Daily
+                </span>
+                <span style={{ fontSize: 8, fontStyle: "italic", color: "rgba(255,255,255,0.8)", marginBottom: 10 }}>
+                  Put 10 events in the right order
+                </span>
+              </>
+            ) : (
+              <>
+                <span style={{ fontSize: 5.5, color: "rgba(255,255,255,0.4)", marginBottom: 14 }}>
+                  {formattedDate}
+                </span>
+                <span style={{ fontSize: 18, fontWeight: 500, color: "white", marginBottom: 5 }}>
+                  I got {score}/10
+                </span>
+                <span style={{ fontSize: 8, fontStyle: "italic", color: "rgba(255,255,255,0.8)", marginBottom: 10 }}>
+                  {tier.rank}
+                </span>
+                <div style={{ display: "flex", gap: 1.5 }}>
+                  {results.split("").map((r, i) => (
+                    <div
+                      key={i}
+                      style={{
+                        width: 6,
+                        height: 6,
+                        borderRadius: 1,
+                        backgroundColor: r === "1" ? "#4CAF50" : "#E53935",
+                      }}
+                    />
+                  ))}
+                </div>
+              </>
+            )}
           </div>
 
           {/* Footer */}
