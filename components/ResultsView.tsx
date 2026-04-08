@@ -22,6 +22,7 @@ function getRank(score: number) {
 
 interface ResultsViewProps {
   correctOrder: HistoricalEvent[];
+  submittedOrder?: HistoricalEvent[];
   positions: boolean[];
   puzzleNumber: number;
   puzzleDate: string;
@@ -62,20 +63,35 @@ function CountdownTimer() {
 
 export default function ResultsView({
   correctOrder,
+  submittedOrder,
   positions,
   puzzleNumber,
   puzzleDate,
 }: ResultsViewProps) {
   const [copied, setCopied] = useState(false);
+  const [view, setView] = useState<"correct" | "mine">("correct");
 
-  const results = correctOrder.map((event, index) => ({
+  // positions[i] reflects whether the player's i-th submission matched the
+  // correct event at index i. So in BOTH views the colour at row i is
+  // determined by positions[i] — the rows just walk a different array.
+  const correctResults = correctOrder.map((event, index) => ({
+    event,
+    correct: positions[index] ?? false,
+  }));
+  const mineResults = (submittedOrder ?? []).map((event, index) => ({
     event,
     correct: positions[index] ?? false,
   }));
 
-  const score = results.filter((r) => r.correct).length;
-  const emojiRow = results.map((r) => (r.correct ? "🟩" : "🟥")).join("");
-  const resultsString = results.map((r) => (r.correct ? "1" : "0")).join("");
+  const showingMine = view === "mine" && submittedOrder !== undefined;
+  const results = showingMine ? mineResults : correctResults;
+
+  // Score / emoji row / share string are derived from `positions` directly so
+  // they remain stable in the canonical correct-order sequence regardless of
+  // which view is currently selected.
+  const score = positions.filter(Boolean).length;
+  const emojiRow = positions.map((p) => (p ? "🟩" : "🟥")).join("");
+  const resultsString = positions.map((p) => (p ? "1" : "0")).join("");
   const rank = getRank(score);
 
   async function handleShare() {
@@ -152,7 +168,33 @@ export default function ResultsView({
         {/* Divider */}
         <div className="mt-3 mb-2 h-px bg-[#D3D1C7]" />
 
-        <p className="text-[12px] text-[#B4B2A9] mb-2">The correct order was:</p>
+        {/* Tab switcher: Correct order / My answers */}
+        <div className="flex items-baseline justify-between gap-5 mb-2">
+          <button
+            type="button"
+            onClick={() => setView("correct")}
+            className={`text-[12px] font-medium transition-colors ${
+              !showingMine
+                ? "text-[#2C2C2A]"
+                : "text-[#B4B2A9] hover:text-[#7A7870]"
+            }`}
+          >
+            Correct order
+          </button>
+          {submittedOrder && (
+            <button
+              type="button"
+              onClick={() => setView("mine")}
+              className={`text-[12px] font-medium transition-colors ${
+                showingMine
+                  ? "text-[#2C2C2A]"
+                  : "text-[#B4B2A9] hover:text-[#7A7870]"
+              }`}
+            >
+              My answers
+            </button>
+          )}
+        </div>
 
         {/* ── Result rows — same timeline dot style ─────────────────── */}
         {/*

@@ -27,6 +27,7 @@ function shuffleArray<T>(array: T[]): T[] {
 // ── localStorage progress ─────────────────────────────────────────────────────
 
 const PROGRESS_PREFIX = "chronology_progress_";
+const SUBMISSION_PREFIX = "chronology_submission_";
 
 interface SavedProgress {
   shuffledIds: string[];
@@ -37,6 +38,25 @@ interface SavedProgress {
 
 function progressKey(date: string) {
   return `${PROGRESS_PREFIX}${date}`;
+}
+
+function submissionKey(date: string) {
+  return `${SUBMISSION_PREFIX}${date}`;
+}
+
+function loadSubmittedOrderIds(date: string): string[] | null {
+  try {
+    const raw = localStorage.getItem(submissionKey(date));
+    return raw ? (JSON.parse(raw) as string[]) : null;
+  } catch {
+    return null;
+  }
+}
+
+function saveSubmittedOrderIds(date: string, ids: string[]) {
+  try {
+    localStorage.setItem(submissionKey(date), JSON.stringify(ids));
+  } catch { /* ignore */ }
 }
 
 function loadProgress(date: string): SavedProgress | null {
@@ -55,7 +75,10 @@ function deleteProgress(date: string) {
 function cleanOldProgress(currentDate: string) {
   try {
     for (const key of Object.keys(localStorage)) {
-      if (key.startsWith(PROGRESS_PREFIX) && key !== progressKey(currentDate)) {
+      if (
+        (key.startsWith(PROGRESS_PREFIX) && key !== progressKey(currentDate)) ||
+        (key.startsWith(SUBMISSION_PREFIX) && key !== submissionKey(currentDate))
+      ) {
         localStorage.removeItem(key);
       }
     }
@@ -87,6 +110,7 @@ export default function Home() {
   const [fetchError, setFetchError] = useState<string | null>(null);
   const [phase, setPhase] = useState<"playing" | "results">("playing");
   const [positions, setPositions] = useState<boolean[] | null>(null);
+  const [submittedOrder, setSubmittedOrder] = useState<HistoricalEvent[] | null>(null);
   const [userId, setUserId] = useState<string | null>(null);
 
   const [shuffledEvents, setShuffledEvents] = useState<HistoricalEvent[]>([]);
@@ -128,6 +152,14 @@ export default function Home() {
           const existing = await fetchTodaysResult(uid, puzzleData.puzzleDate);
           if (existing) {
             setPositions(existing.positions);
+            const savedIds = loadSubmittedOrderIds(puzzleData.puzzleDate);
+            if (savedIds && savedIds.length === puzzleData.events.length) {
+              const byId = Object.fromEntries(puzzleData.events.map((e) => [e.id, e]));
+              const restored = savedIds.map((id) => byId[id]).filter(Boolean) as HistoricalEvent[];
+              if (restored.length === puzzleData.events.length) {
+                setSubmittedOrder(restored);
+              }
+            }
             setPhase("results");
             return;
           }
@@ -202,6 +234,8 @@ export default function Home() {
       time_seconds: timeToComplete,
     });
     setPositions(newPositions);
+    setSubmittedOrder(orderedEvents);
+    saveSubmittedOrderIds(puzzle.puzzleDate, orderedEvents.map((e) => e.id));
     setPhase("results");
     deleteProgress(puzzle.puzzleDate);
     saveResult({
@@ -256,6 +290,7 @@ export default function Home() {
         {!loading && puzzle && phase === "results" && positions && (
           <ResultsView
             correctOrder={puzzle.events}
+            submittedOrder={submittedOrder ?? undefined}
             positions={positions}
             puzzleNumber={puzzle.puzzleNumber}
             puzzleDate={puzzle.puzzleDate}
