@@ -247,6 +247,13 @@ export default function ResultsView({
                     <a
                       href={result.event.wikiUrl}
                       target="_blank"
+                      onClick={() =>
+                        trackEvent("wikipedia_link_click", {
+                          event_text: result.event.eventText,
+                          puzzle_date: puzzleDate,
+                          position: index + 1,
+                        })
+                      }
                       rel="noopener noreferrer"
                       aria-label={`Learn more about ${result.event.eventText} on Wikipedia`}
                       className="flex-shrink-0 -mr-1 w-[44px] h-[44px] flex items-center justify-center"
